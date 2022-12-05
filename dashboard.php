@@ -8,6 +8,6 @@
 </head>
 <body>
     <h1>dashboard</h1>
-    <?php include 'footer.php'?>
+    <?php include 'footer.php'?> <!--test -->
 </body>
 </html>
