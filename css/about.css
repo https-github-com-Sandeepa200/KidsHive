@@ -1,0 +1,86 @@
+/*landing page main part with navigation and Main banner*/
+header{
+    background-image: url("../media/about.jpg");/*Banner 1*/
+}
+
+header .headBanner p{
+    width: 43%;
+}
+
+.aboutHead{
+    text-align: center;
+    padding: 2rem;
+    margin-top: 20px;
+    font-size: 4rem;
+}
+.backgroundPart{
+    background-image: url("../media/aboutBackground.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: repeat;
+    z-index: -5;
+    
+}
+.allMembers{
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    z-index: 10;
+  
+}
+.memberRight, .memberLeft{
+    height: 300px;
+
+}
+
+.allMembers .profilePic {
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    border: 1px solid blue;
+    object-fit: cover;
+    object-position: 50% 0;
+    position: relative;
+    z-index: 100;
+}
+.allMembers .memberRight .background{
+    float: right;
+    right: 0;
+    
+}
+.allMembers .memberLeft .background{
+    float: left;
+    left: 0;
+    
+}
+.allMembers .memberRight .profilePic{
+    float: right;
+    right: 64%;
+    top: 13%;
+}
+.allMembers .memberLeft .profilePic{
+    float: left;
+    left: 64%;
+    top: 13%;
+}
+
+.allMembers .background {
+    width: 80%;
+    position: absolute;
+    z-index: 1;
+}
+.allMembers .memberRight .lableContent{
+    position: relative;
+    top: 50%;
+    width: 50%;
+    left: 40%;
+    z-index: 10;
+}
+.allMembers .memberLeft .lableContent{
+    position: relative;
+    top: 50%;
+    width: 50%;
+    right: 10%;
+    z-index: 10;
+}
