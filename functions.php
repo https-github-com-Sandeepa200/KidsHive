@@ -5,14 +5,14 @@ function check_login($con){
     if(isset($_SESSION['session_id'])){
 
         $id = $_SESSION['session_id'];
-        $query = "select * from user where session_id = '$id' limit 1";
+        global $query;
+        $query = "select * from register where session_id = '$id' limit 1";
 
         $result = mysqli_query($con, $query);
         if ($result && mysqli_num_rows($result) > 0){
 
             $user_data = mysqli_fetch_assoc($result);
             return $user_data;
-
         }
     }
     /*
@@ -39,4 +39,21 @@ function random_num($length){
 
     return $text;
 };
+
+//alert box function
+function alert($msg) {
+    echo "<script type='text/javascript'>alert('$msg');</script>";
+}
+
+//alert box function
+// function register_pageload() {
+//     echo "<style type='text/css'>
+
+//         </style>";
+//             x.style.left = "-460px",
+//             y.style.left = "50px",
+//             z.style.left = "110px",
+// ";
+// }
+
 ?>
