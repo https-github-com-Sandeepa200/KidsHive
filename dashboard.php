@@ -27,6 +27,7 @@ session_start();
 </head>
 <body>
     <h1>dashboard</h1>
+
     <h2>Hello, <?php echo $user_data['first_name'];?></h2>
     <?php include 'footer.php'?>
     
