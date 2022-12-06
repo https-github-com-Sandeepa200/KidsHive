@@ -15,11 +15,11 @@
             <div class="pages">
                 <h3>Pages</h3>
                 <ul>
-                    <li><a href="#">Home</a></li>
+                    <li><a href="index.php">Home</a></li>
                     <li><a href="#">Games</a></li>
                     <li><a href="#">Lessons</a></li>
-                    <li><a href="#">Art</a></li>
-                    <li><a href="#">About</a></li>
+                    <li><a href="art.php">Art</a></li>
+                    <li><a href="about.php">About</a></li>
                 </ul>
             </div>
             <div class="programes">
