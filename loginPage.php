@@ -34,8 +34,8 @@ session_start();
 
             //user data formate validation
             if(!preg_match("/^[a-zA-Z-' ]*$/",$fname)){
-                
                 $erro = "Only letters and white space allowed in the first name";
+                
             }else{
                 if(!preg_match("/^[a-zA-Z-' ]*$/",$lname)){
                     $erro = "Only letters and white space allowed in the last name";
@@ -79,22 +79,20 @@ session_start();
                 alert("signup successfull please login now");
             }
             else{
-                echo "";    
+                    
             }
         }
-
-        
 
         
 
         //login part
         function loginform(){
 
-            $erro = "";
-            global $erro;
+            $loginerro = "";
+            global $loginerro;
 
             $login_email = test_input($_POST["login_email"]);
-            $login_password = test_input(["login_password"]);
+            $login_password = test_input($_POST["login_password"]);
 
             //we have to do more validation here
 
@@ -115,15 +113,15 @@ session_start();
                             header("Location: dashboard.php");
                             die;
                         }else{
-                            $erro = "wrong email & password combination";
+                            $loginerro = "wrong email & password combination";
                         }
                     }else{
-                        $erro = "Please enter valid email address";
+                        $loginerro = "Please enter valid email address";
                     }
                 }
             }
             else{
-                $erro = "Please enter your email and password";
+                $loginerro = "Please enter your email and password";
             }
         }
 
@@ -190,7 +188,14 @@ session_start();
                     
                     <div class="error">
                     
-                        <?php echo $erro;?>
+                        <?php 
+                            if(!$erro == ""){
+                                echo $erro;
+                                registerloader();
+                            }elseif(!$loginerro == ""){
+                                echo $loginerro;
+                            }
+                        ?>
 
                     </div>
 
@@ -212,12 +217,10 @@ session_start();
                             <input type="text" class="input-field" placeholder="Last name"  name="lname" required>
                             <input type="email" class="input-field" placeholder="Email"   name="email" required>
                             <input type="password" class="input-field" placeholder="Enter password"  name="password" required>
-
                             <input type="password" class="input-field" placeholder="Confirm password"  name="repassword" required>
                             <input required type="checkbox" class="check-box"><span>Agree To the terms And Conditions</span>
                             <button type="submit" class="submit-btn" value="submit" name="signupbtn">Register</button>
 
-                        
                     </form>
                     
                 </div>     
@@ -243,11 +246,6 @@ session_start();
             z.style.left = "0";
         }
 
-        function submitbtn(){
-            x.style.left = "-460px";
-            y.style.left = "50px";
-            z.style.left = "110px";
-        }
 
     </script>
     
