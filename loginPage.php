@@ -4,75 +4,139 @@ session_start();
     include("connections.php");
     include("functions.php");
 
+    $erro = "";
+    global $erro;
 
-    //signup part
     if($_SERVER["REQUEST_METHOD"] == "POST"){
-        $fname = $_POST["fname"];
-        $lname = $_POST["lname"];
-        $email = $_POST["email"];
-        $password = $_POST["password"];
-        $repassword = $_POST["repassword"];
-
         //we have to do more validation here
-
-        if(!empty($fname) && !empty($lname) && !empty($email) && !empty($password) && !empty($repassword)){
-
-            $session_id = random_num(20);
-            //saving data to database
-            $query = "insert into register (first_name,last_name,email,password,session_id) values ('$fname','$lname','$email','$password','$session_id')";
-            
-            mysqli_query($con, $query);
-            /*
-            header("Location: loginPage.php");
-            die;
-            */
-            echo "register successful please login now";
+        function test_input($data){
+            $data = trim($data);
+            $data = stripslashes($data);
+            $data = htmlspecialchars($data);
+            return $data;
+        }
         
-        }
-        else{
-            echo "something went wrong please try again";
-        }
-    }
+        //signup part
+        function signupform(){
 
-    //login part
+            $valid_fname = "";
+            $valid_lname = "";
+            $valid_email = "";
+            $valid_password = "";
+            $erro = "";
+            global $erro;
 
-    if($_SERVER["REQUEST_METHOD"] == "POST"){
+            $fname = test_input($_POST["fname"]);
+            $lname = test_input($_POST["lname"]);
+            $email = test_input($_POST["email"]);
+            $password = test_input($_POST["password"]);
+            $repassword = test_input($_POST["repassword"]);
 
-        $login_email = $_POST["login_email"];
-        $login_password = $_POST["login_password"];
+            //user data formate validation
+            if(!preg_match("/^[a-zA-Z-' ]*$/",$fname)){
+                
+                $erro = "Only letters and white space allowed in the first name";
+            }else{
+                if(!preg_match("/^[a-zA-Z-' ]*$/",$lname)){
+                    $erro = "Only letters and white space allowed in the last name";
+                }else{
+                    if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+                        $erro = "Invalid email format";
+                    }else{
+                        // Validate password strength
+                        $uppercase = preg_match('@[A-Z]@', $password);
+                        $lowercase = preg_match('@[a-z]@', $password);
+                        $number    = preg_match('@[0-9]@', $password);
+                        $specialChars = preg_match('@[^\w]@', $password);
 
-        //we have to do more validation here
-
-        if(!empty($login_email) && !empty($login_password)){
-
-            
-            //reading data from database
-            $query = "select * from register where email = '$login_email' limit 1";
-            
-            $result = mysqli_query($con, $query);
-
-            if($result){
-                if ($result && mysqli_num_rows($result) > 0){
-
-                    $user_data = mysqli_fetch_assoc($result);
-                    if ($user_data['password'] === $login_password){
-
-                        $_SESSION['session_id'] = $user_data['session_id'];
-                        header("Location: dashboard.php");
-                        die;
+                        if(!$uppercase || !$lowercase || !$number || !$specialChars || strlen($password) < 8) {
+                            $erro = 'Password should be at least 8 characters in length and should include at least one upper case letter, one number, and one special character.';
+                        }else{
+                            //password validation
+                            if($password!= $repassword){
+                                $erro = "Passwords don't match";
+                            }else{
+                                $valid_fname = $fname;
+                                $valid_lname = $lname;
+                                $valid_email = $email;
+                                $valid_password = $password;
+                            }
+                        }
                     }
-        
-                } 
+                }
+                    
             }
-            
-            
-            echo "wrong email & password combination";
-        
+
+
+            if(!empty($valid_fname) && !empty($valid_lname) && !empty($valid_email) && !empty($valid_password)){
+
+                $session_id = random_num(20);
+                //saving data to database
+                $query = "insert into register (first_name,last_name,email,password,session_id) values ('$fname','$lname','$email','$password','$session_id')";
+                include("connections.php");
+                mysqli_query($con, $query);
+                
+                alert("signup successfull please login now");
+            }
+            else{
+                echo "";    
+            }
         }
-        else{
-            echo "something went wrong please try again";
+
+        
+
+        
+
+        //login part
+        function loginform(){
+
+            $erro = "";
+            global $erro;
+
+            $login_email = test_input($_POST["login_email"]);
+            $login_password = test_input(["login_password"]);
+
+            //we have to do more validation here
+
+            if(!empty($login_email) && !empty($login_password)){
+            
+                //reading data from database
+                $query = "select * from register where email = '$login_email' limit 1";
+                include("connections.php");
+                $result = mysqli_query($con, $query);
+
+                if($result){
+                    if ($result && mysqli_num_rows($result) > 0){
+
+                        $user_data = mysqli_fetch_assoc($result);
+                        if ($user_data['password'] === $login_password){
+
+                            $_SESSION['session_id'] = $user_data['session_id'];
+                            header("Location: dashboard.php");
+                            die;
+                        }else{
+                            $erro = "wrong email & password combination";
+                        }
+                    }else{
+                        $erro = "Please enter valid email address";
+                    }
+                }
+            }
+            else{
+                $erro = "Please enter your email and password";
+            }
+        }
+
+        //selectively call to the form function
+        if(array_key_exists('signupbtn', $_POST)) {
+            signupform();
+        }
+        else if(array_key_exists('loginbtn', $_POST)) {
+            loginform();
         }
     }
+
+
 ?>
 
 <!DOCTYPE html>
@@ -90,14 +154,14 @@ session_start();
     <!--main css file-->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/login.css">
-
-
+    
     <!-- font awesome cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/regular.min.css"/>
 
     <title>login & Signup</title>
 </head>
+
 <body>
     <header>
         <!--Full navigation bar-->
@@ -124,30 +188,34 @@ session_start();
                         <button type="button" class="toggle-btn" onclick="register()">Register</button>
                     </div>
                     
+                    <div class="error">
                     
+                        <?php echo $erro;?>
+
+                    </div>
 
                     <!--login form-->
-                    <form class="input-group" id="login" method="post">
+                    <form class="input-group" id="login" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
 
                             <input type="text" class="input-field" placeholder="email" required name="login_email">
                             <input type="password" class="input-field" placeholder="Enter password" required name="login_password">
                             <!--add password visible button--></br></br></br></br></br>
-                            <button type="submit" class="submit-btn" value="submit">Login</button>
+                            <button type="submit" class="submit-btn" value="submit" name="loginbtn">Login</button>
                         
                     </form>
                         
                     <!--Signup form-->
                     
-                    <form class="input-group" id="register" method="post">
+                    <form class="input-group" id="register" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
                         
-                            <input type="text" class="input-field" placeholder="First name" name="fname">
-                            <input type="text" class="input-field" placeholder="Last name"  name="lname">
-                            <input type="email" class="input-field" placeholder="Email"   name="email">
-                            <input type="password" class="input-field" placeholder="Enter password"  name="password">
+                            <input type="text" class="input-field" placeholder="First name" name="fname" required>
+                            <input type="text" class="input-field" placeholder="Last name"  name="lname" required>
+                            <input type="email" class="input-field" placeholder="Email"   name="email" required>
+                            <input type="password" class="input-field" placeholder="Enter password"  name="password" required>
 
-                            <input type="password" class="input-field" placeholder="Confirm password"  name="repassword">
+                            <input type="password" class="input-field" placeholder="Confirm password"  name="repassword" required>
                             <input required type="checkbox" class="check-box"><span>Agree To the terms And Conditions</span>
-                            <button type="submit" class="submit-btn" value="submit">Register</button>
+                            <button type="submit" class="submit-btn" value="submit" name="signupbtn">Register</button>
 
                         
                     </form>
@@ -175,9 +243,15 @@ session_start();
             z.style.left = "0";
         }
 
+        function submitbtn(){
+            x.style.left = "-460px";
+            y.style.left = "50px";
+            z.style.left = "110px";
+        }
 
     </script>
     
     <script type="text/javascript" src="js/script.js" ></script>
 </body>
 </html>
+
