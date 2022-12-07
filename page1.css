@@ -99,19 +99,20 @@ nav ul li a:hover{
 .cardpack .card-1{
     background-color: rgba(233, 47, 224, 0.5);
     width: 300px;
-    height: 300px;
+    height: 200px;
     margin: 1rem 1rem 4rem 1rem;
     border-radius: 50px;
     text-align: center;
     cursor: pointer;
     transition: 0.5s;
-    margin-top: 75px;
+    margin-top: 30px;
     justify-content: center;
+
 }
 .cardpack .card-2{
     background-color: rgba(47, 211, 233, 0.5);
     width: 300px;
-    height: 300px;
+    height: 200px;
     margin: 1rem 1rem 4rem 1rem;
     border-radius: 50px;
     text-align: center;
@@ -121,7 +122,7 @@ nav ul li a:hover{
 }.cardpack .card-3{
     background-color: rgba(106, 233, 47, 0.5);
     width: 300px;
-    height: 300px;
+    height: 200px;
     margin: 1rem 1rem 4rem 1rem;
     border-radius: 50px;
     text-align: center;
@@ -132,7 +133,7 @@ nav ul li a:hover{
 .cardpack .card-4{
     background-color: rgba(233, 199, 47, 0.5);
     width: 300px;
-    height: 300px;
+    height: 200px;
     margin: 1rem 1rem 4rem 1rem;
     border-radius: 50px;
     text-align: center;
