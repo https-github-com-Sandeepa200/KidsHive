@@ -6,6 +6,8 @@ session_start();
 
     $erro = "";
     global $erro;
+    $loginerro = "";
+    global $loginerro;
 
     if($_SERVER["REQUEST_METHOD"] == "POST"){
         //we have to do more validation here
@@ -84,7 +86,6 @@ session_start();
         }
 
         
-
         //login part
         function loginform(){
 
@@ -185,9 +186,9 @@ session_start();
                         <button type="button" class="toggle-btn" onclick="login()">Login</button>
                         <button type="button" class="toggle-btn" onclick="register()">Register</button>
                     </div>
-                    
-                    <div class="error">
-                    
+                    <!-- error display -->
+                    <div id="errormessege" style="color: red;">
+        
                         <?php 
                             if(!$erro == ""){
                                 echo $erro;
