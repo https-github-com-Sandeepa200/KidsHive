@@ -131,32 +131,32 @@ session_start();
                     <div class="Pcard-image">
                         <img src="media/Girl1.jpg" alt="image of the person">
                     </div>
-                    <h3>person1</h3>
+                    <h3>Dhanushka</h3>
                     <h4>Software Engineer</h4>
                 </div>
                 <div class="Pcard">
                     <div class="Pcard-image">
                         <img src="media/Man1.jpg" alt="image of the person">
                     </div>
-                    <h3>person2</h3>
+                    <h3>Paba</h3>
                     <h4>Software Engineer</h4>
                 </div>
                 <div class="Pcard">
                     <div class="Pcard-image">
                         <img src="media/Girl2.jpg" alt="image of the person">
                     </div>
-                    <h3>person3</h3>
+                    <h3>Sandeepa</h3>
                     <h4>Software Engineer</h4>
                 </div>
                 <div class="Pcard">
                     <div class="Pcard-image">
                         <img src="media/Man2.jpg" alt="image of the person">
                     </div>
-                    <h3>person3</h3>
+                    <h3>Thimali</h3>
                     <h4>Software Engineer</h4>
                 </div>
             </div>
-            <h3><a href="about">About Us</a></h3>
+            <h3><a href="about.php">About Us</a></h3>
         </div>
     </div>
     <?php include 'footer.php'?>
