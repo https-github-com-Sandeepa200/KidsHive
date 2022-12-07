@@ -1,0 +1,43 @@
+/*landing page main part with navigation and Main banner*/
+header{
+    background-image: url("../media/100.jpg");/*Banner 1*/
+}
+#navBar{
+    background-color: rgb(0, 119, 255);
+}
+#navBar .menu a{
+    color: white;
+}
+.container{
+    position: relative;
+    top: 5rem;
+}
+.container .shortfooter{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2rem;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+}
+.container .topic{
+    padding: 20px;
+    height:2rem;
+    align-content: space-between;
+    
+}
+.container .cardpack{
+    margin-top: 5rem;
+}
+.container .cardpack .card{
+    width: 25%;
+    margin: 1rem 1rem 4rem 1rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    background-color: rgba(55, 203, 45, 0.5);
+    padding: 1rem;
+    cursor: pointer;
+    transition: 0.5s;
+}

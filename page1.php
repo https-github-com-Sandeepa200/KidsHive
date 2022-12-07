@@ -12,6 +12,7 @@
 
     <!--main css file-->
     <link rel="stylesheet" href="page1.css">
+    <link rel="stylesheet" href="css/style.css">
 
     <!--js link-->
     <script src="script.js" ></script>
@@ -64,7 +65,6 @@
             </div>
         </div>
     </div>
-  
         <div class="baseline">Privacy Policy - kids web © 2022 - All Rights Reserved</div>
     </footer>
     <script src="script.js" ></script>

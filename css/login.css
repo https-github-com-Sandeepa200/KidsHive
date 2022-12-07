@@ -98,7 +98,7 @@ span{
     left: 370px;
 }
 
-#errormessege{
+.errormessege{
     color: red;
     font-size: 10px;
     width: 80%;
