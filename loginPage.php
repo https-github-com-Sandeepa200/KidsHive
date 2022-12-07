@@ -187,7 +187,7 @@ session_start();
                         <button type="button" class="toggle-btn" onclick="register()">Register</button>
                     </div>
                     <!-- error display -->
-                    <div id="errormessege" style="color: red;">
+                    <div class="errormessege">
         
                         <?php 
                             if(!$erro == ""){

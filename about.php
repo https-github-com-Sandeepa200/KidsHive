@@ -55,37 +55,37 @@
             <h1 class="aboutHead">Team Members</h1>
             
             <div class="memberRight">
-                <img class="profilePic" src="media/Man1.jpg" alt="profilePic">
+                <img class="profilePic" src="media/profile-pic/paba.jpg" alt="profilePic">
                 <img class="background" src="media/labels/blueLable.png" alt="background">
                 <div class="lableContent">
-                    <h2>Name</h2>
+                    <h2>Ms. Paba Waruni</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis fugiat suscipit aspernatur non
                         voluptate. Fugiat eaque tempore omnis quae illo.</p>
                 </div>
             </div>
             <div class="memberLeft">
-                <img class="profilePic" src="media/Man2.jpg" alt="profilePic">
+                <img class="profilePic" src="media/profile-pic/dhana.jpg" alt="profilePic">
                 <img class="background" src="media/labels/purpleLable.png" alt="background">
                 <div class="lableContent">
-                    <h2>Name</h2>
+                    <h2>Mr. Dhanushka Dharmasiri</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis fugiat suscipit aspernatur non
                         voluptate. Fugiat eaque tempore omnis quae illo.</p>
                 </div>
             </div>
             <div class="memberRight">
-                <img class="profilePic" src="media/Girl1.jpg" alt="profilePic">
+                <img class="profilePic" src="media/profile-pic/thimali.jpg" alt="profilePic">
                 <img class="background" src="media/labels/redLable.png" alt="background">
                 <div class="lableContent">
-                    <h2>Name</h2>
+                    <h2>Ms. Thimali Ruwanthika</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis fugiat suscipit aspernatur non
                         voluptate. Fugiat eaque tempore omnis quae illo.</p>
                 </div>
             </div>
             <div class="memberLeft">
-                <img class="profilePic" src="media/Girl2.jpg" alt="profilePic">
+                <img class="profilePic" src="media/profile-pic/sandeepa.jpg" alt="profilePic">
                 <img class="background" src="media/labels/greenLable.png" alt="background">
                 <div class="lableContent">
-                    <h2>Name</h2>
+                    <h2>Mr. Sandeepa Rambukwella</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis fugiat suscipit aspernatur non
                         voluptate. Fugiat eaque tempore omnis quae illo.</p>
                 </div>
