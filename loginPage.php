@@ -164,17 +164,7 @@ session_start();
 <body>
     <header>
         <!--Full navigation bar-->
-        <nav id="navBar">
-            <img id="logo" src="media/logo.png" alt="logo">
-            <span><i id="menuIcon" class="fa-solid fa-bars"></i></span>
-            <ul class="menu">
-                <li><a href="index.php">Home</a></li>
-                <li><a href="#">Games</a></li>
-                <li><a href="lessons.html">Lessons</a></li>
-                <li><a href="art.php">Art</a></li>
-                <li><a href="about.php">About</a></li>
-            </ul>
-        </nav>
+        <?php include 'navigation.php'?>
 
         <!--main banner part-->
         <div class="headBanner" id="headBannerSize">
