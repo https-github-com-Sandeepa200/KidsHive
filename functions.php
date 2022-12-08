@@ -1,5 +1,18 @@
 <?php
 
+//alert box function
+function alert($msg)
+{
+    echo "<script type='text/javascript'>alert('$msg');</script>";
+}
+
+//not logged user
+function notLoggedUser(){
+    alert("please login first!");
+    echo "<script>document.location = 'loginPage.php'</script>";
+    
+}
+
 function check_login($con)
 {
 
@@ -15,13 +28,13 @@ function check_login($con)
             $user_data = mysqli_fetch_assoc($result);
             return $user_data;
         }
+    }else{
+        //not logged user
+        
     }
-    /*
-    //not logged user
-    header("location: loginPage.php");
-    die;
-    //collect data for dynamic alert messages
-    */
+    
+    
+    
 }
 
 //session_id genarator
@@ -42,11 +55,6 @@ function random_num($length)
     return $text;
 };
 
-//alert box function
-function alert($msg)
-{
-    echo "<script type='text/javascript'>alert('$msg');</script>";
-}
 
 function registerloader()
 {

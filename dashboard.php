@@ -5,6 +5,9 @@ session_start();
     include("functions.php");
 
     $user_data = check_login($con);
+    if($user_data == ""){
+        notLoggedUser();
+    }
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -29,21 +32,13 @@ session_start();
 <body>
     <header>
         <!--Full navigation bar-->
-        <nav id="navBar">
-            <img class="logo" id="logo" src="media/2.remove.png" alt="logo">
-            <span><i id="menuIcon" class="fa-solid fa-bars"></i></span>
-            <ul class="menu">
-                <li><a href="index.php">Home</a></li>
-                <li><a href="">Games</a></li>
-                <li><a href="">Lessons</a></li>
-                <li><a href="art.php">Art</a></li>
-                <li><a href="about.php">About</a></li>
-            </ul>
-        </nav>
+        <?php include 'navigation.php'?>
+        
         <div class="container">
             <div class="topic">
                 <h1>dashboard</h1>
-                <h2>Hello, <?php echo $user_data['first_name'];?></h2> 
+                <h2>Hello, <?php echo $user_data['first_name'];?></h2>
+                <div><a href="logout.php">sign-out<i class="fa fa-sign-out" aria-hidden="true"></i></a></div> 
             </div>
             
             <div class="cardpack">
