@@ -62,6 +62,11 @@ nav ul li a:hover{
     color: red;
     text-decoration: underline;
 }
+
+/*style for active page*/
+.active{
+    text-decoration: underline;
+}
 /*working with js as a stickey bar*/
 .navScroll{
     background-color: white;

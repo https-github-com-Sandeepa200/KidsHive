@@ -38,7 +38,7 @@ session_start();
             <div class="topic">
                 <h1>dashboard</h1>
                 <h2>Hello, <?php echo $user_data['first_name']," ",$user_data['last_name'];?></h2>
-                <div><a href="logout.php">sign-out<i class="fa fa-sign-out" aria-hidden="true"></i></a></div> 
+                
             </div>
             
             <div class="cardpack">
