@@ -98,7 +98,7 @@ eraser.addEventListener("click" , () => {
 // hiding navigation bar when using art board
 board.addEventListener('click', function () {
             document.querySelector('#navHide').classList.add('hide');
-            console.log("btn");
+            
         });
 
 /*functions of scrolling */
@@ -107,10 +107,10 @@ window.onscroll = function(){scrollNavigation()};
 function scrollNavigation(){
     if(window.scrollY > 1){
         document.querySelector('#navHide').classList.remove('hide');
-        console.log("scroll");
+        
     }
     else{ 
         document.querySelector('#navHide').classList.remove('hide');
-        console.log("normal");
+        
     }
 };
