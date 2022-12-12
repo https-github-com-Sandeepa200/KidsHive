@@ -41,29 +41,46 @@ session_start();
             }else{
                 if(!preg_match("/^[a-zA-Z-' ]*$/",$lname)){
                     $erro = "Only letters and white space allowed in the last name";
-                }else{
+                }else{//email validation
                     if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
                         $erro = "Invalid email format";
                     }else{
-                        // Validate password strength
-                        $uppercase = preg_match('@[A-Z]@', $password);
-                        $lowercase = preg_match('@[a-z]@', $password);
-                        $number    = preg_match('@[0-9]@', $password);
-                        $specialChars = preg_match('@[^\w]@', $password);
-
-                        if(!$uppercase || !$lowercase || !$number || !$specialChars || strlen($password) < 8) {
-                            $erro = 'Password should be at least 8 characters in length and should include at least one upper case letter, one number, and one special character.';
-                        }else{
-                            //password validation
-                            if($password!= $repassword){
-                                $erro = "Passwords don't match";
-                            }else{
-                                $valid_fname = $fname;
-                                $valid_lname = $lname;
-                                $valid_email = $email;
-                                $valid_password = $password;
+                        
+                        //reading data from database
+                        $query = "select * from register where email = '$email' limit 1";
+                        include("connections.php");
+                        $result = mysqli_query($con, $query);
+                        if($result){
+                            if ($result && mysqli_num_rows($result) > 0){
+        
+                                $user_data = mysqli_fetch_assoc($result);
+                                if ($user_data['email'] === $email){
+                                    $erro = "your email is already in use";
+                                }
                             }
+                        }else{
+                            // Validate password strength
+                            $uppercase = preg_match('@[A-Z]@', $password);
+                            $lowercase = preg_match('@[a-z]@', $password);
+                            $number    = preg_match('@[0-9]@', $password);
+                            $specialChars = preg_match('@[^\w]@', $password);
+
+                            if(!$uppercase || !$lowercase || !$number || !$specialChars || strlen($password) < 8) {
+                                $erro = 'Password should be at least 8 characters in length and should include at least one upper case letter, one number, and one special character.';
+                            }else{
+                                //password validation
+                                if($password!= $repassword){
+                                    $erro = "Passwords don't match";
+                                }else{
+                                    $valid_fname = $fname;
+                                    $valid_lname = $lname;
+                                    $valid_email = $email;
+                                    $valid_password = $password;
+                                }
+                            }     
+                        
                         }
+
                     }
                 }
                     
