@@ -1,13 +1,10 @@
 
 <?php
 session_start();
-
     include("connections.php");
     include("functions.php");
 
     $user_data = check_login($con);
-    
-
 ?>
 
 <!DOCTYPE html>
@@ -25,8 +22,6 @@ session_start();
     <!--main css file-->
     <link rel="stylesheet" href="css/style.css">
   
-
-
     <!-- font awesome cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/regular.min.css"/>
@@ -36,17 +31,7 @@ session_start();
 <body>
     <header>
         <!--Full navigation bar-->
-        <nav id="navBar">
-            <img id="logo" src="media/logo.png" alt="logo">
-            <span><i id="menuIcon" class="fa-solid fa-bars"></i></span>
-            <ul class="menu">
-                <li><a href="index.php">Home</a></li>
-                <li><a href="#">Games</a></li>
-                <li><a href="lessons.html">Lessons</a></li>
-                <li><a href="art.php">Art</a></li>
-                <li><a href="about.php">About</a></li>
-            </ul>
-        </nav>
+        <?php include 'navigation.php'?>
 
         <!--main banner part-->
         <div class="headBanner" id="headBannerSize">
@@ -70,6 +55,7 @@ session_start();
             </div>
         </div>
     </div>
+
     <!--landing page part2 (programes)-->
     <div class="container">
         <div class="part2">
@@ -129,34 +115,34 @@ session_start();
             <div class="profileCards">
                 <div class="Pcard">
                     <div class="Pcard-image">
-                        <img src="media/Girl1.jpg" alt="image of the person">
+                        <img src="media/profile-pic/dhana.jpg" style="width:250px;" alt="image of the person">
                     </div>
-                    <h3>person1</h3>
+                    <h3>Dhanushka</h3>
                     <h4>Software Engineer</h4>
                 </div>
                 <div class="Pcard">
                     <div class="Pcard-image">
-                        <img src="media/Man1.jpg" alt="image of the person">
+                        <img src="media/profile-pic/paba.jpg" style="width:250px;" alt="image of the person">
                     </div>
-                    <h3>person2</h3>
+                    <h3>Paba</h3>
                     <h4>Software Engineer</h4>
                 </div>
                 <div class="Pcard">
                     <div class="Pcard-image">
-                        <img src="media/Girl2.jpg" alt="image of the person">
+                        <img src="media/profile-pic/sandeepa.jpg" style="width:220px;" alt="image of the person">
                     </div>
-                    <h3>person3</h3>
+                    <h3>Sandeepa</h3>
                     <h4>Software Engineer</h4>
                 </div>
                 <div class="Pcard">
                     <div class="Pcard-image">
-                        <img src="media/Man2.jpg" alt="image of the person">
+                        <img src="media/profile-pic/thimali.jpg" style="width:265px;" alt="image of the person">
                     </div>
-                    <h3>person3</h3>
+                    <h3>Thimali</h3>
                     <h4>Software Engineer</h4>
                 </div>
             </div>
-            <h3><a href="about">About Us</a></h3>
+            <h3><a href="about.php">About Us</a></h3>
         </div>
     </div>
     <?php include 'footer.php'?>

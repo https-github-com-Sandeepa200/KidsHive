@@ -11,11 +11,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
 
     <!--main css file-->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/art.css">
+    <link rel="stylesheet" href="css/style.css?version=1">
+    <link rel="stylesheet" href="css/art.css?version=1">
 
-    <!--js link-->
-    <script src="script.js" ></script>
 
     <!-- font awesome cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
@@ -24,32 +22,26 @@
     <title>Kids Web</title>
 </head>
 <body>
-    <header>
-        <!--Full navigation bar-->
-        <nav id="navBar">
-            <img id="logo" src="media/logo.png" alt="logo">
-            <span><i id="menuIcon" class="fa-solid fa-bars"></i></span>
-            <ul class="menu">
-                <li><a href="index.php">Home</a></li>
-                <li><a href="#">Games</a></li>
-                <li><a href="lessons.html">Lessons</a></li>
-                <li><a href="art.php">Art</a></li>
-                <li><a href="about.php">About</a></li>
-            </ul>
-        </nav>
+    <div id="navHide">
+       <header>
+            <!--Full navigation bar-->
+            <?php include 'navigation.php'?>
 
-        <!--main banner part-->
-    </header>
-    <div class="drawHead">
-        <h1>Draw anything you like</h1>
+            <!--main banner part-->
+        
+        </header>
+        <div class="drawHead">
+            <h1>Draw anything you like</h1>
+        </div> 
     </div>
+    
         
     <!--canvas part-->
-    <div class="fullCanvas">
+    <div class="fullCanvas" id="canvasPrt">
         <div class="show-settings">
             <i class="fa fa-bars" aria-hidden="true"></i>
         </div>
-        <canvas id="board">
+        <canvas id="board" >
             Sorry your browser doesnt support canvas
         </canvas>
         <div class="settings">

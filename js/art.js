@@ -3,11 +3,13 @@ const board = document.querySelector("#board");
 const ctx = board.getContext("2d");
 let color = "black";
 let lineSize = 5;
+var artboard = window.getComputedStyle(document.querySelector(".fullCanvas"), null);
+
 
 window.addEventListener("load", () => {
     // resizing
     board.width = window.innerWidth;
-    board.height = window.innerHeight;
+    board.height = parseInt(artboard.getPropertyValue("height"));
 
     // variables and functions
     let drawing = false;
@@ -92,3 +94,23 @@ const eraser = document.querySelector("#eraser");
 eraser.addEventListener("click" , () => {
     color = "white";
 })
+
+// hiding navigation bar when using art board
+board.addEventListener('click', function () {
+            document.querySelector('#navHide').classList.add('hide');
+            
+        });
+
+/*functions of scrolling */
+window.onscroll = function(){scrollNavigation()};
+//again displaying navigation when start scrolling
+function scrollNavigation(){
+    if(window.scrollY > 1){
+        document.querySelector('#navHide').classList.remove('hide');
+        
+    }
+    else{ 
+        document.querySelector('#navHide').classList.remove('hide');
+        
+    }
+};

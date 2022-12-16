@@ -25,7 +25,7 @@
             <div class="programes">
                 <h3>Programes</h3>
                 <ul>
-                    <li><a href="#">Home</a></li>
+                    <li><a href="dashboard.php">Home</a></li><!-- plz insert the correct link -->
                     <li><a href="#">Games</a></li>
                     <li><a href="#">Lessons</a></li>
                     <li><a href="#">Art</a></li>
