@@ -354,11 +354,16 @@ header .headBanner h3 a:hover {
     overflow: hidden;
     background-image: url("../media/Banner5.png");/*Banner 1*/
     background-size: cover;
-    min-height: 80vh;
+    min-height: 60vh;
     background-position: center;
     background-repeat: no-repeat;
     margin-top: 10rem;
     color: white;
+    position: relative;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
 }
 .mainFooter .content{
     display: flex;
@@ -434,8 +439,10 @@ header .headBanner h3 a:hover {
     padding: 5px;
     border-top: 1px solid white;
     margin-top: 5rem;
-    position: static;
+    
     bottom: 0;
+    right: 0;
+    left: 0;
     width: 100%; 
     height: 40px;
 }
