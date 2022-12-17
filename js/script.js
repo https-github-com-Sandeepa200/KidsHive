@@ -20,3 +20,14 @@ menuBtn.addEventListener('click', () =>{
     menuBtn.classList.toggle('fa-xmark'); //changing menu icon to cross
     menu.classList.toggle('menuToggle');
 });
+
+//function for showing video emberded player
+
+var player = document.getElementById("hidePlayer");
+
+function openPlayer() {
+    player.style.display = "flex";
+    document.documentElement.scrollTop = 0;
+    document.body.scrollTop = 0;//for safari browser
+
+}
