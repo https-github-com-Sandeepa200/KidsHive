@@ -39,29 +39,29 @@
             <div class="cardpack">
                 <div class="card">
                     <div class="card-image">
-                        <a href="https://www.youtube.com/embed/jWQRCOrXxgE">
+                        <a href="games/snake/snake.php">
                             <img src="media/studing.jpg" alt="boy studing with computer">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play" ></i>
                             </div>
                         </a>
                     </div>
-                    <h3>Game name</h3>
+                    <h3>Snake Game</h3>
                 </div>
                 <div class="card">
                     <div class="card-image">
-                        <a href="https://www.youtube.com/embed/jWQRCOrXxgE">
+                        <a href="games/boxGame/box.php">
                             <img src="media/studing.jpg" alt="boy studing with computer">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play" ></i>
                             </div>
                         </a>
                     </div>
-                    <h3>Game name</h3>
+                    <h3>Box Game</h3>
                 </div>
                 <div class="card">
                     <div class="card-image">
-                        <a href="https://www.youtube.com/embed/jWQRCOrXxgE">
+                        <a href="#">
                             <img src="media/studing.jpg" alt="boy studing with computer">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play" ></i>
