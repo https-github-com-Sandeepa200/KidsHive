@@ -16,30 +16,27 @@
                 <h3>Pages</h3>
                 <ul>
                     <li><a href="index.php">Home</a></li>
-                    <li><a href="#">Games</a></li>
-                    <li><a href="#">Lessons</a></li>
+                    <li><a href="gameSelection.php">Games</a></li>
+                    <li><a href="lessons.php">Lessons</a></li>
                     <li><a href="art.php">Art</a></li>
                     <li><a href="about.php">About</a></li>
                 </ul>
             </div>
             <div class="programes">
-                <h3>Programes</h3>
+                <h3>Games</h3>
                 <ul>
-                    <li><a href="dashboard.php">Home</a></li><!-- plz insert the correct link -->
-                    <li><a href="#">Games</a></li>
-                    <li><a href="#">Lessons</a></li>
-                    <li><a href="#">Art</a></li>
-                    <li><a href="#">About</a></li>
+                    <li><a href="game.php#preSchool">Pre School</a></li><!-- plz insert the correct link -->
+                    <li><a href="game.php#grade1">Grade 1</a></li>
+                    <li><a href="game.php#grade2">Grade 2</a></li>
+                    <li><a href="game.php#grade3">Grade 3</a></li>
                 </ul>
             </div>
             <div class="lessons">
                 <h3>Lessons</h3>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Games</a></li>
-                    <li><a href="#">Lessons</a></li>
-                    <li><a href="#">Art</a></li>
-                    <li><a href="#">About</a></li>
+                    <li><a href="lessons.php">Maths</a></li>
+                    <li><a href="lessons.php">English</a></li>
+                    <li><a href="lessons.php">Science</a></li>
                 </ul>
             </div>
             <div class="contact">

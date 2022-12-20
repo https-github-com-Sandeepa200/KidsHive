@@ -35,7 +35,7 @@ session_start();
 
         <!--main banner part-->
         <div class="headBanner" id="headBannerSize">
-            <h1>A new Journey Begins</h1>
+            <h1>Welcome to the KidsHive</h1>
             <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia doloribus optio excepturi nostrum fuga obcaecati iste ex deleniti libero perspiciatis?
             </p>
