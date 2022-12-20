@@ -16,8 +16,8 @@
 
     <!--main css file-->
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="lessons.css">
-    <link rel="stylesheet" href="videoSet.css">
+    <link rel="stylesheet" href="css/lessons.css">
+    <link rel="stylesheet" href="css/videoSet.css">
 
 
     <!-- font awesome cdn link  -->
