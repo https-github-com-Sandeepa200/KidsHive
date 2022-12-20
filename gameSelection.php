@@ -16,7 +16,7 @@
 
     <!--main css file-->
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="lessons.css">
+    <link rel="stylesheet" href="css/lessons.css">
     <link rel="stylesheet" href="css/games.css">
 
 

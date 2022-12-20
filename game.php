@@ -16,8 +16,8 @@
 
     <!--main css file-->
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="lessons.css">
-    <link rel="stylesheet" href="videoSet.css">
+    <link rel="stylesheet" href="css/lessons.css">
+    <link rel="stylesheet" href="css/videoSet.css">
 
 
     <!-- font awesome cdn link  -->
@@ -31,16 +31,7 @@
         <!--Full navigation bar-->
         <?php include 'navigation.php'?>
     </header>
-    <!--  emberded video-->
-    <div class="vplayer" id="hidePlayer">
-        <iframe width="90%" height="90%" name="player"
-                src="https://www.youtube.com/embed/G-IS-scTJDo" 
-                title="YouTube video player" 
-                frameborder="0" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                allowfullscreen>
-        </iframe>
-    </div>
+    
     <div class="container">
         <div id="preSchool">
             <h1>Pre School Games</h1>
