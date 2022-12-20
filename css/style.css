@@ -38,6 +38,7 @@ nav{
     justify-content: space-between;
     z-index: 1000;
     transition: 0.5s;
+    
 }
 /*logo*/
 nav img {
@@ -56,11 +57,22 @@ nav ul li a{
     text-decoration: none;
     font-size: 1.5rem;
     margin-right: 2.5rem;
-    
+    color: blueviolet;
 }
 nav ul li a:hover{
     color: red;
     text-decoration: underline;
+}
+nav ul li form{
+    display: inline;
+}
+nav ul li select{
+    color: blueviolet;
+    font-size: 1.5rem;
+    font-family: 'Concert One';
+    border:2px solid blueviolet;
+    padding: 8px;
+    border-radius: 8px;
 }
 
 /*style for active page*/

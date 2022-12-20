@@ -13,6 +13,10 @@ header{
     min-height: 10vh;
     background: none;
 }
+
+nav ul li a{
+    color: white;
+}
 /*topic line*/
 .container h1{
     text-align: center;

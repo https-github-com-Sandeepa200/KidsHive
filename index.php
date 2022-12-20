@@ -3,8 +3,10 @@
 session_start();
     include("connections.php");
     include("functions.php");
+    include("language.php");
 
     $user_data = check_login($con);
+    
 ?>
 
 <!DOCTYPE html>
@@ -67,19 +69,19 @@ session_start();
                 <div class="cardpack">
                     <div class="card">
                         <div class="card-image">
-                            <a href="#"><img src="media/studing.jpg" alt="boy studing with computer"></a>
+                            <a href="lessons.php"><img src="media/studing.jpg" alt="boy studing with computer"></a>
                         </div>
                         <h3>Study with kidWeb</h3>
                     </div>
                     <div class="card">
                         <div class="card-image">
-                            <a href="#"><img src="media/gaming.jpg" alt="two girls playing games with computer"></a>
+                            <a href="gameSelection.php"><img src="media/gaming.jpg" alt="two girls playing games with computer"></a>
                         </div>
                         <h3>Play with kidWeb</h3>
                     </div>
                     <div class="card">
                         <div class="card-image">
-                            <a href="#"><img src="media/drawing.jpg" alt="girl drawing with computer"></a>
+                            <a href="art.php"><img src="media/drawing.jpg" alt="girl drawing with computer"></a>
                         </div>
                         <h3>Draw with kidWeb</h3>
                     </div>
