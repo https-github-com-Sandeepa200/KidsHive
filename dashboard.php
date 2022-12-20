@@ -50,7 +50,7 @@ session_start();
                 </div>
                 <div class="card">
                     <div class="card-image">
-                        <a href="games.php"><img src="media/gaming.jpg" alt="two girls playing games with computer"></a>
+                        <a href="gameSelection.php"><img src="media/gaming.jpg" alt="two girls playing games with computer"></a>
                     </div>
                     <h3>Play with kidWeb</h3>
                 </div>

@@ -1,0 +1,33 @@
+.card-1, .card-2, .card-3, .card-4{
+    width: 20%;
+    height: 35vh;
+    padding: 20px 0;
+    margin: 1rem 1rem 4rem 1rem;
+    border-radius: 50px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s;
+    justify-content: center;
+}
+
+
+.cardpack .card-4{
+    background-color: rgba(173, 16, 53, 0.5);
+
+}
+
+.cardpack .card-4:hover{
+    transform: translateY(-2.1rem);
+}
+
+.cardpack ul li{
+    list-style-type: none;
+    margin-top: 30%;
+}
+
+.cardpack ul li a{
+    text-decoration: none;
+    font-size: 40px;
+    color: white;
+    
+}
