@@ -23,9 +23,7 @@
             <span id="score">00</span>
           </div>
         </div>
-        <div id="author">
-          <h1>SNAKE</h1> <span>by Fariat</span>
-        </div>
+        
       </div>
       <script src="script.js"></script>
 </body>
