@@ -47,6 +47,8 @@ session_start();
                     }else{
                         $result = "";
                         //reading data from database
+
+                        
                         $query = "select * from register where email = '$email' limit 1";
                         include("connections.php");
                         $result = mysqli_query($con, $query);
