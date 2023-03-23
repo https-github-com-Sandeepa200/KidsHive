@@ -39,7 +39,7 @@ session_start();
         <div class="headBanner" id="headBannerSize">
             <h1>Welcome to the KidsHive</h1>
             <p>
-                enter description, sit amet consectetur adipisicing elit. Mollitia doloribus optio excepturi nostrum fuga obcaecati iste ex deleniti libero perspiciatis?
+                enter description here, sit amet consectetur adipisicing elit. Mollitia doloribus optio excepturi nostrum fuga obcaecati iste ex deleniti libero perspiciatis?
             </p>
             <h3><a href="loginPage.php">Sign Up</a></h3>
         </div>
