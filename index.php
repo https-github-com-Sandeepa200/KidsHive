@@ -39,7 +39,8 @@ session_start();
         <div class="headBanner" id="headBannerSize">
             <h1>Welcome to the KidsHive</h1>
             <p>
-                enter description here, sit amet consectetur adipisicing elit. Mollitia doloribus optio excepturi nostrum fuga obcaecati iste ex deleniti libero perspiciatis?
+            Play gives children a chance to practice what they are learning. Let's improve our knowledge and have fun.
+            So, come on in and start discovering your practice! 
             </p>
             <h3><a href="loginPage.php">Sign Up</a></h3>
         </div>
@@ -51,7 +52,8 @@ session_start();
             <div class="content">
                 <h1>Education Through Play!</h1>
                 <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi veritatis delectus tenetur vero provident voluptate? Consequatur ea itaque vitae alias excepturi, eum rerum quaerat tenetur quasi, laboriosam dolor mollitia sequi minus qui sapiente nesciunt numquam culpa assumenda suscipit. Placeat, pariatur.
+                children can learn important skills and knowledge through play-based activities. 
+                This approach recognizes that children learn best when they are actively involved in their learning process, and when they are able to make connections between what they are learning and the world around them.
                 </p>
                 <h3><a href="loginPage.php">Sign Up</a></h3>
             </div>
@@ -64,7 +66,7 @@ session_start();
             <div class="content">
                 <h1>Programes We Offer</h1>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt dolores culpa dolorum sequi vel illo.
+                    Here, you will find fun and educational games, activities and videos that will help you learnand explore new things.
                 </p>
                 <div class="cardpack">
                     <div class="card">
