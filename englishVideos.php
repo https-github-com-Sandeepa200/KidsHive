@@ -64,7 +64,7 @@
                             <img src="media/studing.jpg" alt="boy studing with computer">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play" ></i>
-                                <p>10.00</p>
+                                <p></p>
                             </div>
                         </a>
                     </div>
