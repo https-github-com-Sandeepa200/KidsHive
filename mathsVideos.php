@@ -48,7 +48,7 @@
             <div class="cardpack">
                 <div class="card">
                     <div class="card-image">
-                        <a href="https://www.youtube.com/embed/jWQRCOrXxgE" target="player" onclick="openPlayer()">
+                        <a href="https://www.youtube.com/embed/iSpyyxAUcDI" target="player" onclick="openPlayer()">
                             <img src="media/studing.jpg" alt="boy studing with computer">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play" ></i>
@@ -56,11 +56,11 @@
                             </div>
                         </a>
                     </div>
-                    <h3>video name</h3>
+                    <h3>Count 1 to 10</h3>
                 </div>
                 <div class="card">
                     <div class="card-image" >
-                        <a href="https://www.youtube.com/embed/yY3wc58yo2A" target="player" onclick="openPlayer()"> 
+                        <a href="https://www.youtube.com/embed/TzVZweQVato" target="player" onclick="openPlayer()"> 
                             <img src="media/studing.jpg" alt="boy studing with computer">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play" ></i>
@@ -68,7 +68,7 @@
                             </div>
                         </a>
                     </div>
-                    <h3>video name</h3>
+                    <h3>Basic Shapes</h3>
                 </div>
                 <div class="card">
                     <div class="card-image">
@@ -150,7 +150,7 @@
             <div class="cardpack">
                 <div class="card">
                     <div class="card-image">
-                        <a href="lessons.php">
+                        <a href="https://www.youtube.com/embed/YXHAc_ycDeY" target="player" onclick="openPlayer()">
                             <img src="media/studing.jpg" alt="boy studing with computer">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play" ></i>
@@ -158,11 +158,11 @@
                             </div>
                         </a>
                     </div>
-                    <h3>video name</h3>
+                    <h3>Count 1 to 100</h3>
                 </div>
                 <div class="card">
                     <div class="card-image">
-                        <a href="lessons.php">
+                        <a href="">
                             <img src="media/studing.jpg" alt="boy studing with computer">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play" ></i>
@@ -170,7 +170,7 @@
                             </div>
                         </a>
                     </div>
-                    <h3>video name</h3>
+                    <h3>Shapes</h3>
                 </div>
                 <div class="card">
                     <div class="card-image">
