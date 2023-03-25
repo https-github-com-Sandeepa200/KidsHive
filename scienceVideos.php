@@ -48,7 +48,7 @@
             <div class="cardpack">
                 <div class="card">
                     <div class="card-image">
-                        <a href="https://www.youtube.com/embed/jWQRCOrXxgE" target="player" onclick="openPlayer()">
+                        <a href= "https://www.youtube.com/embed/VS06O0_jn-A" target="player" onclick="openPlayer()">
                             <img src="media/studing.jpg" alt="boy studing with computer">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play" ></i>
@@ -56,11 +56,11 @@
                             </div>
                         </a>
                     </div>
-                    <h3>video name</h3>
+                    <h3>Zoo Trip</h3>
                 </div>
                 <div class="card">
                     <div class="card-image" >
-                        <a href="https://www.youtube.com/embed/yY3wc58yo2A" target="player" onclick="openPlayer()"> 
+                        <a href="" target="player" onclick="openPlayer()"> 
                             <img src="media/studing.jpg" alt="boy studing with computer">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play" ></i>
@@ -68,11 +68,11 @@
                             </div>
                         </a>
                     </div>
-                    <h3>video name</h3>
+                    <h3>Basic colors</h3>
                 </div>
                 <div class="card">
                     <div class="card-image">
-                        <a href="https://www.youtube.com/embed/srYV0c22jZA" target="player" onclick="openPlayer()">
+                        <a>
                             <img src="media/studing.jpg" alt="boy studing with computer">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play" ></i>
@@ -80,7 +80,7 @@
                             </div>
                         </a>
                     </div>
-                    <h3>video name</h3>
+                    <h3>Basic Shapes</h3>
                 </div>
                 <div class="card">
                     <div class="card-image">
@@ -150,7 +150,7 @@
             <div class="cardpack">
                 <div class="card">
                     <div class="card-image">
-                        <a href="lessons.php">
+                        <a href="https://www.youtube.com/embed/63v7rfAsAgk" target="player" onclick="openPlayer()">
                             <img src="media/studing.jpg" alt="boy studing with computer">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play" ></i>
@@ -158,7 +158,7 @@
                             </div>
                         </a>
                     </div>
-                    <h3>video name</h3>
+                    <h3>Wild Animals</h3>
                 </div>
                 <div class="card">
                     <div class="card-image">
@@ -252,7 +252,7 @@
             <div class="cardpack">
                 <div class="card">
                     <div class="card-image">
-                        <a href="lessons.php">
+                        <a href="lessons.php" target="player" onclick="openPlayer()" >
                             <img src="media/studing.jpg" alt="boy studing with computer">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play" ></i>
@@ -260,11 +260,11 @@
                             </div>
                         </a>
                     </div>
-                    <h3>video name</h3>
+                    <h3>Fruits</h3>
                 </div>
                 <div class="card">
                     <div class="card-image">
-                        <a href="lessons.php">
+                        <a href="https://www.youtube.com/embed/aYz5TAQVMC8" target="player" onclick="openPlayer()">
                             <img src="media/studing.jpg" alt="boy studing with computer">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play" ></i>
@@ -272,7 +272,7 @@
                             </div>
                         </a>
                     </div>
-                    <h3>video name</h3>
+                    <h3>Vegetables</h3>
                 </div>
                 <div class="card">
                     <div class="card-image">
@@ -354,7 +354,7 @@
             <div class="cardpack">
                 <div class="card">
                     <div class="card-image">
-                        <a href="lessons.php">
+                        <a >
                             <img src="media/studing.jpg" alt="boy studing with computer">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play" ></i>
@@ -362,11 +362,11 @@
                             </div>
                         </a>
                     </div>
-                    <h3>video name</h3>
+                    <h3></h3>
                 </div>
                 <div class="card">
                     <div class="card-image">
-                        <a href="lessons.php">
+                        <a >
                             <img src="media/studing.jpg" alt="boy studing with computer">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play" ></i>
@@ -374,7 +374,7 @@
                             </div>
                         </a>
                     </div>
-                    <h3>video name</h3>
+                    <h3></h3>
                 </div>
                 <div class="card">
                     <div class="card-image">
