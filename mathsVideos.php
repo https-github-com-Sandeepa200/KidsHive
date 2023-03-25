@@ -52,7 +52,7 @@
                             <img src="media/studing.jpg" alt="boy studing with computer">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play" ></i>
-                                <p>10.00</p>
+                                <p> 1:16</p>
                             </div>
                         </a>
                     </div>
@@ -64,7 +64,7 @@
                             <img src="media/studing.jpg" alt="boy studing with computer">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play" ></i>
-                                <p>10.00</p>
+                                <p> 1:26</p>
                             </div>
                         </a>
                     </div>
@@ -154,7 +154,7 @@
                             <img src="media/studing.jpg" alt="boy studing with computer">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play" ></i>
-                                <p>10.00</p>
+                                <p>1:59</p>
                             </div>
                         </a>
                     </div>
