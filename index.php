@@ -52,7 +52,7 @@ session_start();
             <div class="content">
                 <h1>Education Through Play!</h1>
                 <p>
-                children can learn important skills and knowledge through play-based activities. 
+                Children can learn important skills and knowledge through play-based activities. 
                 This approach recognizes that children learn best when they are actively involved in their learning process, and when they are able to make connections between what they are learning and the world around them.
                 </p>
                 <h3><a href="loginPage.php">Sign Up</a></h3>

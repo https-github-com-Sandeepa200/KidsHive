@@ -52,7 +52,7 @@
                             <img src="media/studing.jpg" alt="boy studing with computer">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play" ></i>
-                                <p>10.00</p>
+                                <p> 1:03</p>
                             </div>
                         </a>
                     </div>
@@ -154,7 +154,7 @@
                             <img src="media/studing.jpg" alt="boy studing with computer">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play" ></i>
-                                <p>10.00</p>
+                                <p>2:50</p>
                             </div>
                         </a>
                     </div>
@@ -252,11 +252,11 @@
             <div class="cardpack">
                 <div class="card">
                     <div class="card-image">
-                        <a href="lessons.php" target="player" onclick="openPlayer()" >
+                        <a href="https://www.youtube.com/embed/1AsOIg5B9W0" target="player" onclick="openPlayer()" >
                             <img src="media/studing.jpg" alt="boy studing with computer">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play" ></i>
-                                <p>10.00</p>
+                                <p> 2:15</p>
                             </div>
                         </a>
                     </div>
@@ -268,7 +268,7 @@
                             <img src="media/studing.jpg" alt="boy studing with computer">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play" ></i>
-                                <p>10.00</p>
+                                <p>2:48</p>
                             </div>
                         </a>
                     </div>
