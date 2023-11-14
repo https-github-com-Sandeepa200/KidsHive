@@ -2,7 +2,7 @@
         <div class="content">
             <div class="company">
                 <img src="media/logo.png" alt="logo">
-                <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum iure perspiciatis, sapiente voluptatum asperiores maiores quis soluta eum facilis, molestias voluptate nemo eaque nihil? Numquam nisi hic culpa soluta corrupti.</p>
+                <p class="description">The Kids Hive website provides for kids below 8 years old and includes incorporating educational content, interactive activities, and age-appropriate design elements to enhance their learning experience while having fun.</p>
                 <div class="social">
                     <ul>
                         <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
@@ -43,7 +43,7 @@
                 <h3>Contact</h3>
                 <ul>
                     <li><a href="#"><i class="fa-solid fa-location-dot"></i>  xx, kandy road,<br> &nbsp;&nbsp;&nbsp;Srilanka</a></li>
-                    <li><a href="#"><i class="fa-solid fa-envelope"></i>   sample@gmail.com</a></li>
+                    <li><a href="#"><i class="fa-solid fa-envelope"></i>   Kidshiveweb@gmail.com</a></li>
                     <li><a href="#"><i class="fa-solid fa-phone"></i>   +94xxxxxxxxx</a></li>
                 </ul>
             </div>
