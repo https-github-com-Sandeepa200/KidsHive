@@ -34,8 +34,8 @@
         <div class="headBanner" id="headBannerSize">
             <h1>About Our Team</h1>
             <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia doloribus optio excepturi nostrum
-                fuga obcaecati iste ex deleniti libero perspiciatis?
+            The Kids Hive web application is developed by the Data Pirates Team, a software engineering undergraduates of the Open University Sri Lanka with a focus on educational technology. 
+            Data Pirates has a team of developers, designers, and has who are committed to creating engaging and effective educational software for children.
             </p>
         </div>
     </header>
