@@ -39,8 +39,7 @@ session_start();
         <div class="headBanner" id="headBannerSize">
             <h1>Welcome to the KidsHive</h1>
             <p>
-            Play gives children a chance to practice what they are learning. Let's improve our knowledge and have fun.
-            So, come on in and start discovering your practice! 
+            <?php echo $descip1[$languages]?> 
             </p>
             <h3><a href="loginPage.php">Sign Up</a></h3>
         </div>
