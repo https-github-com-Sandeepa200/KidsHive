@@ -11,6 +11,10 @@ window.addEventListener("load", () => {
     board.width = window.innerWidth;
     board.height = parseInt(artboard.getPropertyValue("height"));
 
+    // Fill the canvas with white color initially
+    ctx.fillStyle = "white";
+    ctx.fillRect(0, 0, board.width, board.height);
+
     // variables and functions
     let drawing = false;
 
@@ -50,7 +54,7 @@ window.addEventListener("load", () => {
 const setBtn = document.querySelector(".show-settings");
 const settings = document.querySelector(".settings");
 
-setBtn.addEventListener("click" , () => {
+setBtn.addEventListener("click", () => {
     settings.classList.toggle("open-settings");
 })
 
@@ -79,6 +83,9 @@ const brushBtn = document.querySelector("#brush-btn");
 brushBtn.addEventListener("click", () => {
     const brushCont = document.querySelector(".brush");
     brushCont.classList.toggle("brush-toggle");
+    // Testing console logs
+    console.log("Download button clicked");
+    console.log("Data URL:", dataURL);
 })
 
 const brushBtns = document.querySelectorAll(".brush-size");
@@ -89,28 +96,49 @@ for (btn2 of brushBtns) {
     })
 }
 
+
+// eraser
 const eraser = document.querySelector("#eraser");
 
-eraser.addEventListener("click" , () => {
+eraser.addEventListener("click", () => {
     color = "white";
 })
 
 // hiding navigation bar when using art board
 board.addEventListener('click', function () {
-            document.querySelector('#navHide').classList.add('hide');
-            
-        });
+    document.querySelector('#navHide').classList.add('hide');
+
+});
 
 /*functions of scrolling */
-window.onscroll = function(){scrollNavigation()};
+window.onscroll = function () { scrollNavigation() };
 //again displaying navigation when start scrolling
-function scrollNavigation(){
-    if(window.scrollY > 1){
+function scrollNavigation() {
+    if (window.scrollY > 1) {
         document.querySelector('#navHide').classList.remove('hide');
-        
+
     }
-    else{ 
+    else {
         document.querySelector('#navHide').classList.remove('hide');
-        
+
     }
 };
+
+// download function
+
+const downloadBtn = document.querySelector('#downloadBtn');
+
+downloadBtn.addEventListener("click", () => {
+    const dataURL = board.toDataURL('image/jpeg');
+    const link = document.createElement('a');
+    link.href = dataURL;
+    link.download = 'drawing.jpg';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    
+    // Testing console logs
+    console.log("Download button clicked");
+    console.log("Data URL:", dataURL);
+
+});

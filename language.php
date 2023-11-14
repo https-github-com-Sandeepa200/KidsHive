@@ -6,6 +6,7 @@
         'ta'=>array('வீடு', 'டாஷ்போர்டு', 'கலை', 'பற்றி'),
     );
 
+
     $home_heading = array(
         'en'=>"Welcome to the KidsHive",
         'si'=>"KidsHive වෙත සාදරයෙන් පිළිගනිමු",
@@ -103,6 +104,7 @@
     );
 
      
+
 
 
 

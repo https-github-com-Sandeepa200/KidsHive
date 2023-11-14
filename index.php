@@ -40,6 +40,7 @@ session_start();
             <h1><?php echo $home_heading[$languages]?></h1>
             <p>
             <?php echo $home_description[$languages]?> 
+
             </p>
             <h3><a href="loginPage.php"><?php echo $sign_btn[$languages]?></a></h3>
         </div>
