@@ -37,11 +37,12 @@ session_start();
 
         <!--main banner part-->
         <div class="headBanner" id="headBannerSize">
-            <h1>Welcome to the KidsHive</h1>
+            <h1><?php echo $home_heading[$languages]?></h1>
             <p>
-            <?php echo $descip1[$languages]?> 
+            <?php echo $home_description[$languages]?> 
+
             </p>
-            <h3><a href="loginPage.php">Sign Up</a></h3>
+            <h3><a href="loginPage.php"><?php echo $sign_btn[$languages]?></a></h3>
         </div>
     </header>
 
@@ -49,12 +50,11 @@ session_start();
     <div class="container">
         <div class="part1">
             <div class="content">
-                <h1>Education Through Play!</h1>
+                <h1><?php echo $heading2[$languages]?></h1>
                 <p>
-                Children can learn important skills and knowledge through play-based activities. 
-                This approach recognizes that children learn best when they are actively involved in their learning process, and when they are able to make connections between what they are learning and the world around them.
+                <?php echo $description2[$languages]?> 
                 </p>
-                <h3><a href="loginPage.php">Sign Up</a></h3>
+                <h3><a href="loginPage.php"><?php echo $sign_btn[$languages]?></a></h3>
             </div>
         </div>
     </div>
@@ -63,28 +63,28 @@ session_start();
     <div class="container">
         <div class="part2">
             <div class="content">
-                <h1>Programes We Offer</h1>
+                <h1><?php echo $heading3[$languages]?></h1>
                 <p>
-                    Here, you will find fun and educational games, activities and videos that will help you learnand explore new things.
+                <?php echo $description3[$languages]?>
                 </p>
                 <div class="cardpack">
                     <div class="card">
                         <div class="card-image">
                             <a href="lessons.php"><img src="media/studing.jpg" alt="boy studing with computer"></a>
                         </div>
-                        <h3>Study with kidWeb</h3>
+                        <h3><?php echo $card_1[$languages]?></h3>
                     </div>
                     <div class="card">
                         <div class="card-image">
                             <a href="gameSelection.php"><img src="media/gaming.jpg" alt="two girls playing games with computer"></a>
                         </div>
-                        <h3>Play with kidWeb</h3>
+                        <h3><?php echo $card_2[$languages]?></h3>
                     </div>
                     <div class="card">
                         <div class="card-image">
                             <a href="art.php"><img src="media/drawing.jpg" alt="girl drawing with computer"></a>
                         </div>
-                        <h3>Draw with kidWeb</h3>
+                        <h3><?php echo $card_3[$languages]?></h3>
                     </div>
                 </div>
             </div>
@@ -94,18 +94,17 @@ session_start();
     <!--landing page part3 (review)-->
     <div class="containerPart3">
         <div class="part3">
-            <h1>What People Say!</h1>
+            <h1><?php echo $heading4[$languages]?></h1>
             <div class="content">
                 <div class="reviewPic">
                     <img src="media/review.jpg" style="width: 100%;" alt="kid with laptop">
                 </div>
                 <div class="reviewContent">
                     <i class="fa-solid fa-quote-left"></i>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi ea asperiores dolor neque id similique sit iure unde impedit debitis!lorem10
-                        exercitationem facere fugiat eveniet tempora aspernatur. Lorem ipsum dolor sit amet consectetur
+                    <p><?php echo $review[$languages]?>
                     </p>
-                    <h4>Sandeepa</h4>
-                    <p>from Google reviews</p>
+                    <h4><?php echo $name[$languages]?></h4>
+                    <p><?php echo $sentence[$languages]?></p>
                 </div>
             </div>
         </div>
@@ -114,7 +113,7 @@ session_start();
     <!--landing page part4 (team)-->
     <div class="container">
         <div class="part4">
-            <h1>Meet Our Team!</h1>
+            <h1><?php echo $heading5[$languages]?></h1>
             <div class="profileCards">
                 <div class="Pcard">
                     <div class="Pcard-image">
