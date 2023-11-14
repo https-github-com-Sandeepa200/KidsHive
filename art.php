@@ -42,7 +42,7 @@
             <i class="fa fa-bars" aria-hidden="true"></i>
         </div>
         <canvas id="board" >
-            Sorry your browser doesnt support canvas
+            Sorry your browser doesn't support canvas
         </canvas>
         <div class="settings">
             <div class="color-cont">
@@ -73,9 +73,13 @@
             <div class="eraser">
                 <button id="eraser">Eraser</button>
             </div>
+
+            <div class="downloadBtn">
+                <button id="downloadBtn">Download</button>
+            </div>
         </div>
     </div>
-    
+
     <?php include 'footer.php'?>
     <script type="text/javascript" src="js/script.js"></script>
     <script type="text/javascript" src="js/art.js"></script>
