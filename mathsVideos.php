@@ -49,7 +49,7 @@
                 <div class="card">
                     <div class="card-image">
                         <a href="https://www.youtube.com/embed/iSpyyxAUcDI" target="player" onclick="openPlayer()">
-                            <img src="media/studing.jpg" alt="boy studing with computer">
+                            <img src="media/lessons/preschool/maths/1 to 10 _ preschool.png" alt="boy studing with computer">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play" ></i>
                                 <p> 1:16</p>
@@ -61,7 +61,7 @@
                 <div class="card">
                     <div class="card-image" >
                         <a href="https://www.youtube.com/embed/TzVZweQVato" target="player" onclick="openPlayer()"> 
-                            <img src="media/studing.jpg" alt="boy studing with computer">
+                            <img src="media/lessons/preschool/maths/shape_preschool.jpg" alt="boy studing with computer">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play" ></i>
                                 <p> 1:26</p>
@@ -73,14 +73,14 @@
                 <div class="card">
                     <div class="card-image">
                         <a href="https://www.youtube.com/embed/srYV0c22jZA" target="player" onclick="openPlayer()">
-                            <img src="media/studing.jpg" alt="boy studing with computer">
+                            <img src="media/lessons/preschool/maths/color_preschool.png" alt="boy studing with computer">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play" ></i>
                                 <p>10.00</p>
                             </div>
                         </a>
                     </div>
-                    <h3>video name</h3>
+                    <h3>Colors</h3>
                 </div>
                 <div class="card">
                     <div class="card-image">
@@ -151,7 +151,7 @@
                 <div class="card">
                     <div class="card-image">
                         <a href="https://www.youtube.com/embed/YXHAc_ycDeY" target="player" onclick="openPlayer()">
-                            <img src="media/studing.jpg" alt="boy studing with computer">
+                            <img src="media/lessons/grade1/maths/1-100 01.png" alt="boy studing with computer">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play" ></i>
                                 <p>1:59</p>
