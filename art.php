@@ -73,9 +73,13 @@
             <div class="eraser">
                 <button id="eraser"><?php echo $art_btn[$languages]['2']?></button>
             </div>
+
+            <div class="downloadBtn">
+                <button id="downloadBtn">Download</button>
+            </div>
         </div>
     </div>
-    
+
     <?php include 'footer.php'?>
     <script type="text/javascript" src="js/script.js"></script>
     <script type="text/javascript" src="js/art.js"></script>
