@@ -75,7 +75,7 @@
             </div>
 
             <div class="downloadBtn">
-                <button id="downloadBtn">Download</button>
+                <button id="downloadBtn"><?php echo $art_btn[$languages]['3']?></button>
             </div>
         </div>
     </div>
