@@ -70,19 +70,19 @@ session_start();
                 <div class="cardpack">
                     <div class="card">
                         <div class="card-image">
-                            <a href="lessons.php"><img src="media/studing.jpg" alt="boy studing with computer"></a>
+                            <a href="lessons.php"><img src="media/animation/lesson.gif" alt="boy studing with computer"></a>
                         </div>
                         <h3><?php echo $cards[$languages]['0']?></h3>
                     </div>
                     <div class="card">
                         <div class="card-image">
-                            <a href="gameSelection.php"><img src="media/gaming.jpg" alt="two girls playing games with computer"></a>
+                            <a href="gameSelection.php"><img src="media/animation/play.gif" alt="two girls playing games with computer"></a>
                         </div>
                         <h3><?php echo $cards[$languages]['1']?></h3>
                     </div>
                     <div class="card">
                         <div class="card-image">
-                            <a href="art.php"><img src="media/drawing.jpg" alt="girl drawing with computer"></a>
+                            <a href="art.php"><img src="media/animation/art.gif" alt="girl drawing with computer"></a>
                         </div>
                         <h3><?php echo $cards[$languages]['2']?></h3>
                     </div>
