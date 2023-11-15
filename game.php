@@ -158,7 +158,7 @@
                 <div class="card">
                     <div class="card-image">
                         <a href="games/mathsgames/addition.php">
-                            <img src="media/studing.jpg" alt="boy studing with computer">
+                            <img src="media/animation/addition.gif" alt="boy studing with computer">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play" ></i>
                             </div>
@@ -169,7 +169,7 @@
                 <div class="card">
                     <div class="card-image">
                         <a href="games/mathsgames/subtraction.php">
-                            <img src="media/studing.jpg" alt="boy studing with computer">
+                            <img src="media/animation/subraction.gif" alt="boy studing with computer">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play" ></i>
                             </div>
@@ -180,7 +180,7 @@
                 <div class="card">
                     <div class="card-image">
                         <a href="games/mathsgames/division.php">
-                            <img src="media/studing.jpg" alt="boy studing with computer">
+                            <img src="media/animation/divition.gif" alt="boy studing with computer">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play" ></i>
                             </div>
@@ -191,7 +191,7 @@
                 <div class="card">
                     <div class="card-image">
                         <a href="games/mathsgames/multiplication.php">
-                            <img src="media/studing.jpg" alt="boy studing with computer">
+                            <img src="media/animation/multiplication.gif" alt="boy studing with computer">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play" ></i>
                             </div>
