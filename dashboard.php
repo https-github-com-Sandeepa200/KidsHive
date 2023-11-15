@@ -46,24 +46,24 @@ session_start();
                     <div class="card-image">
                         <a href="lessons.php"><img src="media/studing.jpg" alt="boy studing with computer"></a>
                     </div>
-                    <h3>Study with kidWeb</h3>
+                    <h3><?php echo $cards[$languages]['0']?></h3>
                 </div>
                 <div class="card">
                     <div class="card-image">
                         <a href="gameSelection.php"><img src="media/gaming.jpg" alt="two girls playing games with computer"></a>
                     </div>
-                    <h3>Play with kidWeb</h3>
+                    <h3><?php echo $cards[$languages]['1']?></h3>
                 </div>
                 <div class="card">
                     <div class="card-image">
                         <a href="art.php"><img src="media/drawing.jpg" alt="girl drawing with computer"></a>
                     </div>
-                    <h3>Draw with kidWeb</h3>
+                    <h3><?php echo $cards[$languages]['2']?></h3>
                 </div>
             </div>
             <div class="shortfooter">
                 <hr>
-                <div class="baseline">Privacy Policy - kids web © 2022 - All Rights Reserved</div>
+                <div class="baseline"><?php echo $footer_contact[$languages]['1']?></div>
             </div>
         </div>
     </header>

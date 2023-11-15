@@ -72,19 +72,19 @@ session_start();
                         <div class="card-image">
                             <a href="lessons.php"><img src="media/studing.jpg" alt="boy studing with computer"></a>
                         </div>
-                        <h3><?php echo $card_1[$languages]?></h3>
+                        <h3><?php echo $cards[$languages]['0']?></h3>
                     </div>
                     <div class="card">
                         <div class="card-image">
                             <a href="gameSelection.php"><img src="media/gaming.jpg" alt="two girls playing games with computer"></a>
                         </div>
-                        <h3><?php echo $card_2[$languages]?></h3>
+                        <h3><?php echo $cards[$languages]['1']?></h3>
                     </div>
                     <div class="card">
                         <div class="card-image">
                             <a href="art.php"><img src="media/drawing.jpg" alt="girl drawing with computer"></a>
                         </div>
-                        <h3><?php echo $card_3[$languages]?></h3>
+                        <h3><?php echo $cards[$languages]['2']?></h3>
                     </div>
                 </div>
             </div>
@@ -119,32 +119,32 @@ session_start();
                     <div class="Pcard-image">
                         <img src="media/profile-pic/dhana.jpg" style="width:250px;" alt="image of the person">
                     </div>
-                    <h3>Dhanushka</h3>
-                    <h4>Software Engineer</h4>
+                    <h3><?php echo  $profile_card[$languages]['0']?></h3>
+                    <h4><?php echo  $profile_card[$languages]['4']?></h4>
                 </div>
                 <div class="Pcard">
                     <div class="Pcard-image">
                         <img src="media/profile-pic/paba.jpg" style="width:250px;" alt="image of the person">
                     </div>
-                    <h3>Paba</h3>
-                    <h4>Software Engineer</h4>
+                    <h3><?php echo  $profile_card[$languages]['1']?></h3>
+                    <h4><?php echo  $profile_card[$languages]['4']?></h4>
                 </div>
                 <div class="Pcard">
                     <div class="Pcard-image">
                         <img src="media/profile-pic/sandeepa.jpg" style="width:220px;" alt="image of the person">
                     </div>
-                    <h3>Sandeepa</h3>
-                    <h4>Software Engineer</h4>
+                    <h3><?php echo  $profile_card[$languages]['2']?></h3>
+                    <h4><?php echo  $profile_card[$languages]['4']?></h4>
                 </div>
                 <div class="Pcard">
                     <div class="Pcard-image">
                         <img src="media/profile-pic/thimali.jpg" style="width:265px;" alt="image of the person">
                     </div>
-                    <h3>Thimali</h3>
-                    <h4>Software Engineer</h4>
+                    <h3><?php echo  $profile_card[$languages]['3']?></h3>
+                    <h4><?php echo  $profile_card[$languages]['4']?></h4>
                 </div>
             </div>
-            <h3><a href="about.php">About Us</a></h3>
+            <h3><a href="about.php"><?php echo $about_btn[$languages]?></a></h3>
         </div>
     </div>
     <?php include 'footer.php'?>

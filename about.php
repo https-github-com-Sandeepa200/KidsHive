@@ -32,23 +32,22 @@
 
         <!--main banner part-->
         <div class="headBanner" id="headBannerSize">
-            <h1>About Our Team</h1>
+            <h1><?php echo $about_heading1[$languages]?></h1>
             <p>
-            The Kids Hive web application is developed by the Data Pirates Team, a software engineering undergraduates of the Open University Sri Lanka with a focus on educational technology. 
-            Data Pirates has a team of developers, designers, and has who are committed to creating engaging and effective educational software for children.
+            <?php echo $about_description1[$languages]?>
             </p>
         </div>
     </header>
     <!--members part-->
     <div class="backgroundPart">
         <div class="allMembers">
-            <h1 class="aboutHead">Team Members</h1>
+            <h1 class="aboutHead"><?php echo $about_heading2[$languages]?></h1>
             
             <div class="memberRight">
                 <img class="profilePic" src="media/profile-pic/paba.jpg" alt="profilePic">
                 <img class="background" src="media/labels/blueLable.png" alt="background">
                 <div class="lableContent">
-                    <h2>Ms. Paba Waruni</h2>
+                    <h2><?php echo $about_members[$languages]['0']?></h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis fugiat suscipit aspernatur non
                         voluptate. Fugiat eaque tempore omnis quae illo.</p>
                 </div>
@@ -57,7 +56,7 @@
                 <img class="profilePic" src="media/profile-pic/dhana.jpg" alt="profilePic">
                 <img class="background" src="media/labels/purpleLable.png" alt="background">
                 <div class="lableContent">
-                    <h2>Mr. Dhanushka Dharmasiri</h2>
+                    <h2><?php echo $about_members[$languages]['1']?></h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis fugiat suscipit aspernatur non
                         voluptate. Fugiat eaque tempore omnis quae illo.</p>
                 </div>
@@ -66,7 +65,7 @@
                 <img class="profilePic" src="media/profile-pic/thimali.jpg" alt="profilePic">
                 <img class="background" src="media/labels/redLable.png" alt="background">
                 <div class="lableContent">
-                    <h2>Ms. Thimali Ruwanthika</h2>
+                    <h2><?php echo $about_members[$languages]['2']?></h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis fugiat suscipit aspernatur non
                         voluptate. Fugiat eaque tempore omnis quae illo.</p>
                 </div>
@@ -75,7 +74,7 @@
                 <img class="profilePic" src="media/profile-pic/sandeepa.jpg" alt="profilePic">
                 <img class="background" src="media/labels/greenLable.png" alt="background">
                 <div class="lableContent">
-                    <h2>Mr. Sandeepa Rambukwella</h2>
+                    <h2><?php echo $about_members[$languages]['3']?></h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis fugiat suscipit aspernatur non
                         voluptate. Fugiat eaque tempore omnis quae illo.</p>
                 </div>
