@@ -151,7 +151,7 @@
                 <div class="card">
                     <div class="card-image">
                         <a href="https://www.youtube.com/embed/63v7rfAsAgk" target="player" onclick="openPlayer()">
-                            <img src="media/studing.jpg" alt="boy studing with computer">
+                            <img src="media/lessons/grade1/science/wildanimals_grade1.jpg" alt="boy studing with computer">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play" ></i>
                                 <p>2:50</p>
@@ -163,50 +163,50 @@
                 <div class="card">
                     <div class="card-image">
                         <a href="lessons.php">
-                            <img src="media/studing.jpg" alt="boy studing with computer">
+                            <img src="media/lessons/grade1/science/zooanimals_grade1.jpg" alt="boy studing with computer">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play" ></i>
                                 <p>10.00</p>
                             </div>
                         </a>
                     </div>
-                    <h3>video name</h3>
+                    <h3>Zoo Animals</h3>
                 </div>
                 <div class="card">
                     <div class="card-image">
                         <a href="lessons.php">
-                            <img src="media/studing.jpg" alt="boy studing with computer">
+                            <img src="media/lessons/grade1/science/vegitables_grade1.jpg" alt="boy studing with computer">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play" ></i>
                                 <p>10.00</p>
                             </div>
                         </a>
                     </div>
-                    <h3>video name</h3>
+                    <h3>Vegitables</h3>
                 </div>
                 <div class="card">
                     <div class="card-image">
                         <a href="lessons.php">
-                            <img src="media/studing.jpg" alt="boy studing with computer">
+                            <img src="media/lessons/grade1/science/fruits_grade01.png" alt="boy studing with computer">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play" ></i>
                                 <p>10.00</p>
                             </div>
                         </a>
                     </div>
-                    <h3>video name</h3>
+                    <h3>Fruits</h3>
                 </div>
                 <div class="card">
                     <div class="card-image">
                         <a href="lessons.php">
-                            <img src="media/studing.jpg" alt="boy studing with computer">
+                            <img src="media/lessons/grade1/science/days_grade1.png" alt="boy studing with computer">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play" ></i>
                                 <p>10.00</p>
                             </div>
                         </a>
                     </div>
-                    <h3>video name</h3>
+                    <h3>Days in the Week</h3>
                 </div>
                 <div class="card">
                     <div class="card-image">

@@ -49,7 +49,7 @@
                 <div class="card">
                     <div class="card-image">
                         <a href="https://www.youtube.com/embed/nvgFQ2BQPJ0" target="player" onclick="openPlayer()">
-                            <img src="media/studing.jpg" alt="boy studing with computer">
+                            <img src="media/lessons/preschool/English/alpherbet_preschool.png" alt="boy studing with computer">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play" ></i>
                                 <p> 1:22</p>
