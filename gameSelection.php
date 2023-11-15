@@ -33,33 +33,33 @@
     </header>
 
     <div class="container">
-        <h1>select your category</h1>
+        <h1><?php echo $gameSelecction_heading[$languages]?></h1>
         <!--Subject navigation-->
         <div class="cardpack">
             <div class="card-1">
                 <ul>
-                    <li><a href="game.php#preSchool">Pre School</a></li>
+                    <li><a href="game.php#preSchool"><?php echo $programmes[$languages]['0']?></a></li>
                 </ul>
             </div>
             <div class="card-2">
                 <ul>
-                    <li><a href="game.php#grade1">Grade 1</a></li>
+                    <li><a href="game.php#grade1"><?php echo $programmes[$languages]['1']?></a></li>
                 </ul>                      
             </div>
             <div class="card-3">
                 <ul>
-                    <li><a href="game.php#grade2">Grade 2</a></li>
+                    <li><a href="game.php#grade2"><?php echo $programmes[$languages]['2']?></a></li>
                 </ul>             
             </div>
             <div class="card-4">
                 <ul>
-                    <li><a href="game.php#grade3">Grade 3</a></li>
+                    <li><a href="game.php#grade3"><?php echo $programmes[$languages]['3']?></a></li>
                 </ul>             
             </div>
         </div>
     </div>
     <footer class="mainFooter">
-        <div class="baseline">Privacy Policy - kids web © 2022 - All Rights Reserved</div>
+        <div class="baseline"><?php echo $footer_contact[$languages]['1']?></div>
     </footer>
     <script src="js/script.js" ></script>
 </body>

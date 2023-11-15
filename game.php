@@ -34,7 +34,7 @@
     
     <div class="container">
         <div id="preSchool">
-            <h1>Pre School Games</h1>
+            <h1><?php echo $games_headings[$languages]['0']?></h1>
             <!--game selection-->
             <div class="cardpack">
                 <div class="card">
@@ -74,7 +74,7 @@
             </div>
         </div>
         <div id="grade1">
-            <h1>Grade 1 Games</h1>
+            <h1><?php echo $games_headings[$languages]['1']?></h1>
             <!--game selection-->
             <div class="cardpack">
                 <div class="card">
@@ -113,7 +113,7 @@
             </div>
         </div>
         <div id="grade2">
-            <h1>Grade 2 Games</h1>
+            <h1><?php echo $games_headings[$languages]['2']?></h1>
             <!--game selection-->
             <div class="cardpack">
                 <div class="card">
@@ -152,7 +152,7 @@
             </div>
         </div>
         <div id="grade3">
-            <h1>Grade 3-Games</h1>
+            <h1><?php echo $games_headings[$languages]['3']?></h1>
             <!--game selection-->
             <div class="cardpack">
                 <div class="card">
@@ -203,7 +203,7 @@
         </div>
     </div>
     <footer class="mainFooter">
-        <div class="baseline">Privacy Policy - kids web © 2022 - All Rights Reserved</div>
+        <div class="baseline"><?php echo $footer_contact[$languages]['1']?></div>
     </footer>
     
     <script src="js/script.js" ></script>

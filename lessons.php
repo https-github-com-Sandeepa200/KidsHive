@@ -32,40 +32,40 @@
     </header>
 
     <div class="container">
-        <h1>select what you want to learn</h1>
+        <h1><?php echo $lesson_heading[$languages]?></h1>
         <!--Subject navigation-->
         <div class="cardpack">
             <div class="card-1">
-                <h3>Maths</h3>
+                <h3><?php echo $lessons[$languages]['0']?></h3>
                 <ul>
-                    <li><a href="mathsVideos.php#preSchool">Pre School</a></li>
-                    <li><a href="mathsVideos.php#grade1">Grade 1</a></li>
-                    <li><a href="mathsVideos.php#grade2">Grade 2</a></li>
-                    <li><a href="mathsVideos.php#grade3">Grade 3</a></li>
+                    <li><a href="mathsVideos.php#preSchool"><?php echo $programmes[$languages]['0']?></a></li>
+                    <li><a href="mathsVideos.php#grade1"><?php echo $programmes[$languages]['1']?></a></li>
+                    <li><a href="mathsVideos.php#grade2"><?php echo $programmes[$languages]['2']?></a></li>
+                    <li><a href="mathsVideos.php#grade3"><?php echo $programmes[$languages]['3']?></a></li>
                 </ul>
             </div>
             <div class="card-2">
-                <h3>English</h3>
+                <h3><?php echo $lessons[$languages]['1']?></h3>
                 <ul>
-                    <li><a href="englishVideos.php#preSchool">Pre School</a></li>
-                    <li><a href="englishVideos.php#grade1">Grade 1</a></li>
-                    <li><a href="englishVideos.php#grade2">Grade 2</a></li>
-                    <li><a href="englishVideos.php#grade3">Grade 3</a></li>
+                    <li><a href="englishVideos.php#preSchool"><?php echo $programmes[$languages]['0']?></a></li>
+                    <li><a href="englishVideos.php#grade1"><?php echo $programmes[$languages]['1']?></a></li>
+                    <li><a href="englishVideos.php#grade2"><?php echo $programmes[$languages]['2']?></a></li>
+                    <li><a href="englishVideos.php#grade3"><?php echo $programmes[$languages]['3']?></a></li>
                 </ul>                      
             </div>
             <div class="card-3">
-                <h3>Science</h3>
+                <h3><?php echo $lessons[$languages]['2']?></h3>
                 <ul>
-                    <li><a href="scienceVideos.php#preSchool">Pre School</a></li>
-                    <li><a href="scienceVideos.php#grade1">Grade 1</a></li>
-                    <li><a href="scienceVideos.php#grade2">Grade 2</a></li>
-                    <li><a href="scienceVideos.php#grade2">Grade 3</a></li>
+                    <li><a href="scienceVideos.php#preSchool"><?php echo $programmes[$languages]['0']?></a></li>
+                    <li><a href="scienceVideos.php#grade1"><?php echo $programmes[$languages]['1']?></a></li>
+                    <li><a href="scienceVideos.php#grade2"><?php echo $programmes[$languages]['2']?></a></li>
+                    <li><a href="scienceVideos.php#grade2"><?php echo $programmes[$languages]['3']?></a></li>
                 </ul>             
             </div>
         </div>
     </div>
     <footer class="mainFooter">
-        <div class="baseline">Privacy Policy - kids web © 2022 - All Rights Reserved</div>
+        <div class="baseline"><?php echo $footer_contact[$languages]['1']?></div>
     </footer>
     <script src="script.js" ></script>
 </body>

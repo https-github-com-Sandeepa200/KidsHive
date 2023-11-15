@@ -31,7 +31,7 @@
         
         </header>
         <div class="drawHead">
-            <h1>Draw anything you like</h1>
+            <h1><?php echo $art_heading[$languages]['0']?></h1>
         </div> 
     </div>
     
@@ -42,7 +42,7 @@
             <i class="fa fa-bars" aria-hidden="true"></i>
         </div>
         <canvas id="board" >
-            Sorry your browser doesn't support canvas
+        <?php echo $art_heading[$languages]['1']?>
         </canvas>
         <div class="settings">
             <div class="color-cont">
@@ -57,7 +57,7 @@
                     <div class="clr" data-color-name="black"></div>
                     <div class="clr" data-color-name="grey"></div>
                 </div>
-                <button id="color-btn">Color</button>
+                <button id="color-btn"><?php echo $art_btn[$languages]['0']?></button>
             </div>
 
             <div class="brush-cont">
@@ -67,11 +67,11 @@
                     <div class="brush-size br3" data-size="30"></div>
                 </div>
         
-                <button id="brush-btn">Brush Size</button>
+                <button id="brush-btn"><?php echo $art_btn[$languages]['1']?></button>
             </div>
 
             <div class="eraser">
-                <button id="eraser">Eraser</button>
+                <button id="eraser"><?php echo $art_btn[$languages]['2']?></button>
             </div>
 
             <div class="downloadBtn">
