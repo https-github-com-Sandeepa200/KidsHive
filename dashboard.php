@@ -25,6 +25,12 @@ if ($user_data == "") {
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/dashboard.css">
 
+    <!--css.animation CDN link-->
+
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    </head>
+
     <!-- font awesome cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/regular.min.css" />
@@ -37,32 +43,39 @@ if ($user_data == "") {
         <?php include 'navigation.php' ?>
 
         <div class="container">
-            <div class="cardpack">
-                <div class="card">
-                    <div class="card-image">
-                        <a href="art.php"><img src="media/animation/art.gif" alt="girl drawing with computer"></a>
+            <div class="animate__animated animate__zoomInDown">
+                <div class="cardpack">
+                    <div class="card">
+                        <div class="card-image">
+                            <a href="art.php"><img src="media/animation/art.gif" alt="girl drawing with computer"></a>
+                        </div>
+                        <h3><?php echo $cards[$languages]['2'] ?></h3>
                     </div>
-                    <h3><?php echo $cards[$languages]['2'] ?></h3>
-                </div>
-                <div class="card">
-                    <div class="card-image">
-                        <a href="lessons.php"><img src="media/animation/lesson.gif" alt="boy studing with computer"></a>
+                    <div class="card">
+                        <div class="card-image">
+                            <a href="lessons.php"><img src="media/animation/lesson.gif" alt="boy studing with computer"></a>
+                        </div>
+                        <h3><?php echo $cards[$languages]['0'] ?></h3>
                     </div>
-                    <h3><?php echo $cards[$languages]['0'] ?></h3>
-                </div>
-                <div class="card">
-                    <div class="card-image">
-                        <a href="gameSelection.php"><img src="media/animation/play.gif" alt="two girls playing games with computer"></a>
+                    <div class="card">
+                        <div class="card-image">
+                            <a href="gameSelection.php"><img src="media/animation/play.gif" alt="two girls playing games with computer"></a>
+                        </div>
+                        <h3><?php echo $cards[$languages]['1'] ?></h3>
                     </div>
-                    <h3><?php echo $cards[$languages]['1'] ?></h3>
                 </div>
             </div>
+
             <div>
-                <div class="topic">
-                    <h1>Hello,<span id="greeting"></span> <?php echo $user_data['first_name'], " ", $user_data['last_name']; ?></h1>
+
+                <div class="animate__animated animate__backInUp">
+                    <div class="topic">
+                        <h1>Hello, <?php echo $user_data['first_name'], " ", $user_data['last_name']; ?></h1>
+                    </div>
                 </div>
+
                 <div class="side_image">
-                    <img src="media/dashboard_images/yellow_girl.png" alt="girl">
+                    <img class="animate__animated animate__bounceIn" src="media/dashboard_images/yellow_girl.png" alt="girl">
                 </div>
             </div>
             <div class="shortfooter">
