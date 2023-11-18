@@ -86,7 +86,7 @@
                             </div>
                         </a>
                     </div>
-                    <h3>Game name</h3>
+                    <h3>Number Guesing</h3>
                 </div>
                 <div class="card">
                     <div class="card-image">

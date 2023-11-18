@@ -67,6 +67,7 @@ if ($user_data == "") {
             </div>
 
             <div>
+
                 <div class="animate__animated animate__backInUp">
                     <div class="topic">
                         <h1>Hello, <?php echo $user_data['first_name'], " ", $user_data['last_name']; ?></h1>
@@ -83,6 +84,26 @@ if ($user_data == "") {
             </div>
         </div>
     </header>
+
+    <!-- Customized Greetings -->
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const greetingElem = document.getElementById('greeting');
+        const currentTime = new Date().getHours();
+
+        let greetingMessage = '';
+
+        if (currentTime >= 5 && currentTime < 12) {
+            greetingMessage = 'Good Morning!';
+        } else if (currentTime >= 12 && currentTime < 18) {
+            greetingMessage = 'Good Afternoon!';
+        } else {
+            greetingMessage = 'Good Evening!';
+        }
+
+        greetingElem.textContent = greetingMessage;
+    });
+</script>
 
 </body>
 
