@@ -2,9 +2,7 @@
 header{
     background-image: url("../media/dashboard_images/dashboard_banner.jpg");/*Banner 1*/
 }
-#navBar{
-   
-}
+
 #navBar .menu a{
     color: white;
 }
@@ -43,4 +41,19 @@ header{
 .container .cardpack .card{
     background-color: rgb(236, 219, 219);
     min-width: 300px;
+    transition: transform 0.3s ease-in-out;
 }
+
+.container .cardpack .card:hover {
+    transform: scale(1.05);
+}
+
+/* Animation on card images */
+.container .cardpack .card .card-image img {
+    transition: transform 0.3s ease-in-out;
+}
+
+.container .cardpack .card .card-image img:hover {
+    transform: scale(1.1);
+} 
+
