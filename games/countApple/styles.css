@@ -1,0 +1,100 @@
+body{
+  padding-left: 100px;
+  padding-top: 50px;
+  padding-right: 100px;
+  padding-bottom: 100px;
+  align-items: center;
+  justify-content: center;
+  background-image: url("media/appleTree.png");
+  background-position-x: right;
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-color: beige;
+  zoom: 1.1;
+
+}
+
+.appleContainer {
+  text-align: center;
+  margin-top: 50px;
+  border: 2px solid red;
+  border-style: dashed;
+  border-width: 5px;
+  border-radius: 10px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  background-color: #ffff;
+  width: 500px;
+  justify-content: center;
+}
+
+.appleContainer h1{
+  font-family: Changa;
+  color: blueviolet;
+  font-style: italic;
+  font-weight: bold ;
+  justify-content: center;
+}
+
+.appleContainer button{
+    background-color: #18e91f;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    display:inline;
+    box-shadow: 0 0 20px rgba(0, 1, 1, 0.3);
+}
+
+input[type="number"] {
+  width: 300px;; 
+  font-size: 40px;
+  padding: 5px;
+  border-radius: 10px; 
+}
+
+/* Increase the size of the placeholder text */
+input[type="number"]::placeholder {
+  font-size: 10pt; 
+  align-content: center;
+}
+
+#gameArea {
+  margin-top: 10px;
+  align-items: center;
+}
+
+#appleContainer {
+  margin: 5px;
+  align-items: center;
+}
+
+img{
+  width:5em;
+  height:5em;
+}
+
+.containerOuter #result{
+  text-align:left;
+  padding-top: 50px;
+  text-shadow: rgba(0, 0, 0, 0.3);
+  font-size: 50pt;
+  font-weight: bold;
+  color: violet;
+}
+
+.containerOuter #score{
+  padding-top: 1em;
+  font-size: 2em;
+  font-weight:bold;
+  color:black;
+}
+
+.containerOuter #tries{
+  font-size: 2em;
+  font-weight:bold;
+  color:black;
+  padding-top: 1em;
+}
+
