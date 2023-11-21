@@ -4,6 +4,7 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,53 +21,55 @@
 
 
     <!-- font awesome cdn link  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/regular.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/regular.min.css" />
 
     <title>Lessons</title>
 </head>
+
 <body>
-    <header>
-        <!--Full navigation bar-->
-        <?php include 'navigation.php'?>
-    </header>
+
+    <!--Full navigation bar-->
+    <?php include 'navigation.php' ?>
+
 
     <div class="container">
-        <h1><?php echo $lesson_heading[$languages]?></h1>
+        <h1><?php echo $lesson_heading[$languages] ?></h1>
         <!--Subject navigation-->
         <div class="cardpack">
             <div class="card-1">
-                <h3><?php echo $lessons[$languages]['0']?></h3>
+                <h3><?php echo $lessons[$languages]['0'] ?></h3>
                 <ul>
-                    <li><a href="mathsVideos.php#preSchool"><?php echo $programmes[$languages]['0']?></a></li>
-                    <li><a href="mathsVideos.php#grade1"><?php echo $programmes[$languages]['1']?></a></li>
-                    <li><a href="mathsVideos.php#grade2"><?php echo $programmes[$languages]['2']?></a></li>
-                    <li><a href="mathsVideos.php#grade3"><?php echo $programmes[$languages]['3']?></a></li>
+                    <li><a href="mathsVideos.php#preSchool"><?php echo $programmes[$languages]['0'] ?></a></li>
+                    <li><a href="mathsVideos.php#grade1"><?php echo $programmes[$languages]['1'] ?></a></li>
+                    <li><a href="mathsVideos.php#grade2"><?php echo $programmes[$languages]['2'] ?></a></li>
+                    <li><a href="mathsVideos.php#grade3"><?php echo $programmes[$languages]['3'] ?></a></li>
                 </ul>
             </div>
             <div class="card-2">
-                <h3><?php echo $lessons[$languages]['1']?></h3>
+                <h3><?php echo $lessons[$languages]['1'] ?></h3>
                 <ul>
-                    <li><a href="englishVideos.php#preSchool"><?php echo $programmes[$languages]['0']?></a></li>
-                    <li><a href="englishVideos.php#grade1"><?php echo $programmes[$languages]['1']?></a></li>
-                    <li><a href="englishVideos.php#grade2"><?php echo $programmes[$languages]['2']?></a></li>
-                    <li><a href="englishVideos.php#grade3"><?php echo $programmes[$languages]['3']?></a></li>
-                </ul>                      
+                    <li><a href="englishVideos.php#preSchool"><?php echo $programmes[$languages]['0'] ?></a></li>
+                    <li><a href="englishVideos.php#grade1"><?php echo $programmes[$languages]['1'] ?></a></li>
+                    <li><a href="englishVideos.php#grade2"><?php echo $programmes[$languages]['2'] ?></a></li>
+                    <li><a href="englishVideos.php#grade3"><?php echo $programmes[$languages]['3'] ?></a></li>
+                </ul>
             </div>
             <div class="card-3">
-                <h3><?php echo $lessons[$languages]['2']?></h3>
+                <h3><?php echo $lessons[$languages]['2'] ?></h3>
                 <ul>
-                    <li><a href="scienceVideos.php#preSchool"><?php echo $programmes[$languages]['0']?></a></li>
-                    <li><a href="scienceVideos.php#grade1"><?php echo $programmes[$languages]['1']?></a></li>
-                    <li><a href="scienceVideos.php#grade2"><?php echo $programmes[$languages]['2']?></a></li>
-                    <li><a href="scienceVideos.php#grade2"><?php echo $programmes[$languages]['3']?></a></li>
-                </ul>             
+                    <li><a href="scienceVideos.php#preSchool"><?php echo $programmes[$languages]['0'] ?></a></li>
+                    <li><a href="scienceVideos.php#grade1"><?php echo $programmes[$languages]['1'] ?></a></li>
+                    <li><a href="scienceVideos.php#grade2"><?php echo $programmes[$languages]['2'] ?></a></li>
+                    <li><a href="scienceVideos.php#grade2"><?php echo $programmes[$languages]['3'] ?></a></li>
+                </ul>
             </div>
         </div>
     </div>
     <footer class="mainFooter">
-        <div class="baseline"><?php echo $footer_contact[$languages]['1']?></div>
+        <div class="baseline"><?php echo $footer_contact[$languages]['1'] ?></div>
     </footer>
-    <script src="script.js" ></script>
+    <script src="script.js"></script>
 </body>
+
 </html>

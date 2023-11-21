@@ -1,9 +1,10 @@
 <?php
-    
+
 ?>
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,20 +22,20 @@
 
 
     <!-- font awesome cdn link  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/regular.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/regular.min.css" />
 
     <title>Games</title>
 </head>
+
 <body>
-    <header>
-        <!--Full navigation bar-->
-        <?php include 'navigation.php'?>
-    </header>
-    
+    <!--Full navigation bar-->
+    <?php include 'navigation.php' ?>
+
+
     <div class="container">
         <div id="preSchool">
-            <h1><?php echo $games_headings[$languages]['0']?></h1>
+            <h1><?php echo $games_headings[$languages]['0'] ?></h1>
             <!--game selection-->
             <div class="cardpack">
                 <div class="card">
@@ -42,7 +43,7 @@
                         <a href="games/snake/snake.php">
                             <img src="media/studing.jpg" alt="boy studing with computer">
                             <div class="overlayVideo">
-                                <i class="fa-regular fa-circle-play" ></i>
+                                <i class="fa-regular fa-circle-play"></i>
                             </div>
                         </a>
                     </div>
@@ -53,7 +54,7 @@
                         <a href="games/boxGame/box.php">
                             <img src="media/studing.jpg" alt="boy studing with computer">
                             <div class="overlayVideo">
-                                <i class="fa-regular fa-circle-play" ></i>
+                                <i class="fa-regular fa-circle-play"></i>
                             </div>
                         </a>
                     </div>
@@ -64,17 +65,17 @@
                         <a href="games/countApple/countApple.php">
                             <img src="games/countApple/media/cover.png" alt="count Apples">
                             <div class="overlayVideo">
-                                <i class="fa-regular fa-circle-play" ></i>
+                                <i class="fa-regular fa-circle-play"></i>
                             </div>
                         </a>
                     </div>
                     <h3>Count Apples</h3>
                 </div>
-                
+
             </div>
         </div>
         <div id="grade1">
-            <h1><?php echo $games_headings[$languages]['1']?></h1>
+            <h1><?php echo $games_headings[$languages]['1'] ?></h1>
             <!--game selection-->
             <div class="cardpack">
                 <div class="card">
@@ -82,7 +83,7 @@
                         <a href="https://www.youtube.com/embed/jWQRCOrXxgE">
                             <img src="media/studing.jpg" alt="boy studing with computer">
                             <div class="overlayVideo">
-                                <i class="fa-regular fa-circle-play" ></i>
+                                <i class="fa-regular fa-circle-play"></i>
                             </div>
                         </a>
                     </div>
@@ -93,7 +94,7 @@
                         <a href="https://www.youtube.com/embed/jWQRCOrXxgE">
                             <img src="media/studing.jpg" alt="boy studing with computer">
                             <div class="overlayVideo">
-                                <i class="fa-regular fa-circle-play" ></i>
+                                <i class="fa-regular fa-circle-play"></i>
                             </div>
                         </a>
                     </div>
@@ -104,7 +105,7 @@
                         <a href="https://www.youtube.com/embed/jWQRCOrXxgE">
                             <img src="media/studing.jpg" alt="boy studing with computer">
                             <div class="overlayVideo">
-                                <i class="fa-regular fa-circle-play" ></i>
+                                <i class="fa-regular fa-circle-play"></i>
                             </div>
                         </a>
                     </div>
@@ -113,7 +114,7 @@
             </div>
         </div>
         <div id="grade2">
-            <h1><?php echo $games_headings[$languages]['2']?></h1>
+            <h1><?php echo $games_headings[$languages]['2'] ?></h1>
             <!--game selection-->
             <div class="cardpack">
                 <div class="card">
@@ -121,7 +122,7 @@
                         <a href="games/Game_HangMan/HangMan.php">
                             <img src="media/studing.jpg" alt="boy studing with computer">
                             <div class="overlayVideo">
-                                <i class="fa-regular fa-circle-play" ></i>
+                                <i class="fa-regular fa-circle-play"></i>
                             </div>
                         </a>
                     </div>
@@ -132,7 +133,7 @@
                         <a href="https://www.youtube.com/embed/jWQRCOrXxgE">
                             <img src="media/studing.jpg" alt="boy studing with computer">
                             <div class="overlayVideo">
-                                <i class="fa-regular fa-circle-play" ></i>
+                                <i class="fa-regular fa-circle-play"></i>
                             </div>
                         </a>
                     </div>
@@ -143,7 +144,7 @@
                         <a href="https://www.youtube.com/embed/jWQRCOrXxgE">
                             <img src="media/studing.jpg" alt="boy studing with computer">
                             <div class="overlayVideo">
-                                <i class="fa-regular fa-circle-play" ></i>
+                                <i class="fa-regular fa-circle-play"></i>
                             </div>
                         </a>
                     </div>
@@ -152,7 +153,7 @@
             </div>
         </div>
         <div id="grade3">
-            <h1><?php echo $games_headings[$languages]['3']?></h1>
+            <h1><?php echo $games_headings[$languages]['3'] ?></h1>
             <!--game selection-->
             <div class="cardpack">
                 <div class="card">
@@ -160,7 +161,7 @@
                         <a href="games/mathsgames/addition.php">
                             <img src="media/animation/addition.gif" alt="boy studing with computer">
                             <div class="overlayVideo">
-                                <i class="fa-regular fa-circle-play" ></i>
+                                <i class="fa-regular fa-circle-play"></i>
                             </div>
                         </a>
                     </div>
@@ -171,7 +172,7 @@
                         <a href="games/mathsgames/subtraction.php">
                             <img src="media/animation/subraction.gif" alt="boy studing with computer">
                             <div class="overlayVideo">
-                                <i class="fa-regular fa-circle-play" ></i>
+                                <i class="fa-regular fa-circle-play"></i>
                             </div>
                         </a>
                     </div>
@@ -182,7 +183,7 @@
                         <a href="games/mathsgames/division.php">
                             <img src="media/animation/divition.gif" alt="boy studing with computer">
                             <div class="overlayVideo">
-                                <i class="fa-regular fa-circle-play" ></i>
+                                <i class="fa-regular fa-circle-play"></i>
                             </div>
                         </a>
                     </div>
@@ -193,7 +194,7 @@
                         <a href="games/mathsgames/multiplication.php">
                             <img src="media/animation/multiplication.gif" alt="boy studing with computer">
                             <div class="overlayVideo">
-                                <i class="fa-regular fa-circle-play" ></i>
+                                <i class="fa-regular fa-circle-play"></i>
                             </div>
                         </a>
                     </div>
@@ -203,9 +204,10 @@
         </div>
     </div>
     <footer class="mainFooter">
-        <div class="baseline"><?php echo $footer_contact[$languages]['1']?></div>
+        <div class="baseline"><?php echo $footer_contact[$languages]['1'] ?></div>
     </footer>
-    
-    <script src="js/script.js" ></script>
+
+    <script src="js/script.js"></script>
 </body>
+
 </html>

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,33 +17,30 @@
 
 
     <!-- font awesome cdn link  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/regular.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/regular.min.css" />
 
     <title>Kids Web</title>
 </head>
+
 <body>
     <div id="navHide">
-       <header>
-            <!--Full navigation bar-->
-            <?php include 'navigation.php'?>
+        <!--Full navigation bar-->
+        <?php include 'navigation.php' ?>
 
-            <!--main banner part-->
-        
-        </header>
         <div class="drawHead">
-            <h1><?php echo $art_heading[$languages]['0']?></h1>
-        </div> 
+            <h1><?php echo $art_heading[$languages]['0'] ?></h1>
+        </div>
     </div>
-    
-        
+
+
     <!--canvas part-->
     <div class="fullCanvas" id="canvasPrt">
         <div class="show-settings">
             <i class="fa fa-bars" aria-hidden="true"></i>
         </div>
-        <canvas id="board" >
-        <?php echo $art_heading[$languages]['1']?>
+        <canvas id="board">
+            <?php echo $art_heading[$languages]['1'] ?>
         </canvas>
         <div class="settings">
             <div class="color-cont">
@@ -57,7 +55,7 @@
                     <div class="clr" data-color-name="black"></div>
                     <div class="clr" data-color-name="grey"></div>
                 </div>
-                <button id="color-btn"><?php echo $art_btn[$languages]['0']?></button>
+                <button id="color-btn"><?php echo $art_btn[$languages]['0'] ?></button>
             </div>
 
             <div class="brush-cont">
@@ -66,22 +64,23 @@
                     <div class="brush-size br2" data-size="15"></div>
                     <div class="brush-size br3" data-size="30"></div>
                 </div>
-        
-                <button id="brush-btn"><?php echo $art_btn[$languages]['1']?></button>
+
+                <button id="brush-btn"><?php echo $art_btn[$languages]['1'] ?></button>
             </div>
 
             <div class="eraser">
-                <button id="eraser"><?php echo $art_btn[$languages]['2']?></button>
+                <button id="eraser"><?php echo $art_btn[$languages]['2'] ?></button>
             </div>
 
             <div class="downloadBtn">
-                <button id="downloadBtn"><?php echo $art_btn[$languages]['3']?></button>
+                <button id="downloadBtn"><?php echo $art_btn[$languages]['3'] ?></button>
             </div>
         </div>
     </div>
 
-    <?php include 'footer.php'?>
+    <?php include 'footer.php' ?>
     <script type="text/javascript" src="js/script.js"></script>
     <script type="text/javascript" src="js/art.js"></script>
 </body>
+
 </html>

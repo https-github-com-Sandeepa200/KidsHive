@@ -1,9 +1,10 @@
 <?php
-    
+
 ?>
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,24 +22,20 @@
 
 
     <!-- font awesome cdn link  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/regular.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/regular.min.css" />
 
     <title>Videos</title>
 </head>
+
 <body>
-    <header>
-        <!--Full navigation bar-->
-        <?php include 'navigation.php'?>
-    </header>
+
+    <!--Full navigation bar-->
+    <?php include 'navigation.php' ?>
+
     <!--  emberded video-->
     <div class="vplayer" id="hidePlayer">
-        <iframe width="90%" height="90%" name="player"
-                src="https://www.youtube.com/embed/G-IS-scTJDo" 
-                title="YouTube video player" 
-                frameborder="0" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                allowfullscreen>
+        <iframe width="90%" height="90%" name="player" src="https://www.youtube.com/embed/G-IS-scTJDo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
         </iframe>
     </div>
     <div class="container">
@@ -48,10 +45,10 @@
             <div class="cardpack">
                 <div class="card">
                     <div class="card-image">
-                        <a href= "https://www.youtube.com/embed/VS06O0_jn-A" target="player" onclick="openPlayer()">
+                        <a href="https://www.youtube.com/embed/VS06O0_jn-A" target="player" onclick="openPlayer()">
                             <img src="media/studing.jpg" alt="boy studing with computer">
                             <div class="overlayVideo">
-                                <i class="fa-regular fa-circle-play" ></i>
+                                <i class="fa-regular fa-circle-play"></i>
                                 <p> 1:03</p>
                             </div>
                         </a>
@@ -59,11 +56,11 @@
                     <h3>Zoo Trip</h3>
                 </div>
                 <div class="card">
-                    <div class="card-image" >
-                        <a href="" target="player" onclick="openPlayer()"> 
+                    <div class="card-image">
+                        <a href="" target="player" onclick="openPlayer()">
                             <img src="media/studing.jpg" alt="boy studing with computer">
                             <div class="overlayVideo">
-                                <i class="fa-regular fa-circle-play" ></i>
+                                <i class="fa-regular fa-circle-play"></i>
                                 <p>10.00</p>
                             </div>
                         </a>
@@ -75,7 +72,7 @@
                         <a>
                             <img src="media/studing.jpg" alt="boy studing with computer">
                             <div class="overlayVideo">
-                                <i class="fa-regular fa-circle-play" ></i>
+                                <i class="fa-regular fa-circle-play"></i>
                                 <p>10.00</p>
                             </div>
                         </a>
@@ -87,7 +84,7 @@
                         <a href="lessons.php">
                             <img src="media/studing.jpg" alt="boy studing with computer">
                             <div class="overlayVideo">
-                                <i class="fa-regular fa-circle-play" ></i>
+                                <i class="fa-regular fa-circle-play"></i>
                                 <p>10.00</p>
                             </div>
                         </a>
@@ -99,7 +96,7 @@
                         <a href="lessons.php">
                             <img src="media/studing.jpg" alt="boy studing with computer">
                             <div class="overlayVideo">
-                                <i class="fa-regular fa-circle-play" ></i>
+                                <i class="fa-regular fa-circle-play"></i>
                                 <p>10.00</p>
                             </div>
                         </a>
@@ -111,7 +108,7 @@
                         <a href="lessons.php">
                             <img src="media/studing.jpg" alt="boy studing with computer">
                             <div class="overlayVideo">
-                                <i class="fa-regular fa-circle-play" ></i>
+                                <i class="fa-regular fa-circle-play"></i>
                                 <p>10.00</p>
                             </div>
                         </a>
@@ -123,7 +120,7 @@
                         <a href="lessons.php">
                             <img src="media/studing.jpg" alt="boy studing with computer">
                             <div class="overlayVideo">
-                                <i class="fa-regular fa-circle-play" ></i>
+                                <i class="fa-regular fa-circle-play"></i>
                                 <p>10.00</p>
                             </div>
                         </a>
@@ -135,7 +132,7 @@
                         <a href="lessons.php">
                             <img src="media/studing.jpg" alt="boy studing with computer">
                             <div class="overlayVideo">
-                                <i class="fa-regular fa-circle-play" ></i>
+                                <i class="fa-regular fa-circle-play"></i>
                                 <p>10.00</p>
                             </div>
                         </a>
@@ -153,7 +150,7 @@
                         <a href="https://www.youtube.com/embed/63v7rfAsAgk" target="player" onclick="openPlayer()">
                             <img src="media/lessons/grade1/science/wildanimals_grade1.jpg" alt="boy studing with computer">
                             <div class="overlayVideo">
-                                <i class="fa-regular fa-circle-play" ></i>
+                                <i class="fa-regular fa-circle-play"></i>
                                 <p>2:50</p>
                             </div>
                         </a>
@@ -165,7 +162,7 @@
                         <a href="lessons.php">
                             <img src="media/lessons/grade1/science/zooanimals_grade1.jpg" alt="boy studing with computer">
                             <div class="overlayVideo">
-                                <i class="fa-regular fa-circle-play" ></i>
+                                <i class="fa-regular fa-circle-play"></i>
                                 <p>10.00</p>
                             </div>
                         </a>
@@ -177,7 +174,7 @@
                         <a href="lessons.php">
                             <img src="media/lessons/grade1/science/vegitables_grade1.jpg" alt="boy studing with computer">
                             <div class="overlayVideo">
-                                <i class="fa-regular fa-circle-play" ></i>
+                                <i class="fa-regular fa-circle-play"></i>
                                 <p>10.00</p>
                             </div>
                         </a>
@@ -189,7 +186,7 @@
                         <a href="lessons.php">
                             <img src="media/lessons/grade1/science/fruits_grade01.png" alt="boy studing with computer">
                             <div class="overlayVideo">
-                                <i class="fa-regular fa-circle-play" ></i>
+                                <i class="fa-regular fa-circle-play"></i>
                                 <p>10.00</p>
                             </div>
                         </a>
@@ -201,7 +198,7 @@
                         <a href="lessons.php">
                             <img src="media/lessons/grade1/science/days_grade1.png" alt="boy studing with computer">
                             <div class="overlayVideo">
-                                <i class="fa-regular fa-circle-play" ></i>
+                                <i class="fa-regular fa-circle-play"></i>
                                 <p>10.00</p>
                             </div>
                         </a>
@@ -213,7 +210,7 @@
                         <a href="lessons.php">
                             <img src="media/studing.jpg" alt="boy studing with computer">
                             <div class="overlayVideo">
-                                <i class="fa-regular fa-circle-play" ></i>
+                                <i class="fa-regular fa-circle-play"></i>
                                 <p>10.00</p>
                             </div>
                         </a>
@@ -225,7 +222,7 @@
                         <a href="lessons.php">
                             <img src="media/studing.jpg" alt="boy studing with computer">
                             <div class="overlayVideo">
-                                <i class="fa-regular fa-circle-play" ></i>
+                                <i class="fa-regular fa-circle-play"></i>
                                 <p>10.00</p>
                             </div>
                         </a>
@@ -237,7 +234,7 @@
                         <a href="lessons.php">
                             <img src="media/studing.jpg" alt="boy studing with computer">
                             <div class="overlayVideo">
-                                <i class="fa-regular fa-circle-play" ></i>
+                                <i class="fa-regular fa-circle-play"></i>
                                 <p>10.00</p>
                             </div>
                         </a>
@@ -252,10 +249,10 @@
             <div class="cardpack">
                 <div class="card">
                     <div class="card-image">
-                        <a href="https://www.youtube.com/embed/1AsOIg5B9W0" target="player" onclick="openPlayer()" >
+                        <a href="https://www.youtube.com/embed/1AsOIg5B9W0" target="player" onclick="openPlayer()">
                             <img src="media/studing.jpg" alt="boy studing with computer">
                             <div class="overlayVideo">
-                                <i class="fa-regular fa-circle-play" ></i>
+                                <i class="fa-regular fa-circle-play"></i>
                                 <p> 2:15</p>
                             </div>
                         </a>
@@ -267,7 +264,7 @@
                         <a href="https://www.youtube.com/embed/aYz5TAQVMC8" target="player" onclick="openPlayer()">
                             <img src="media/studing.jpg" alt="boy studing with computer">
                             <div class="overlayVideo">
-                                <i class="fa-regular fa-circle-play" ></i>
+                                <i class="fa-regular fa-circle-play"></i>
                                 <p>2:48</p>
                             </div>
                         </a>
@@ -279,7 +276,7 @@
                         <a href="lessons.php">
                             <img src="media/studing.jpg" alt="boy studing with computer">
                             <div class="overlayVideo">
-                                <i class="fa-regular fa-circle-play" ></i>
+                                <i class="fa-regular fa-circle-play"></i>
                                 <p>10.00</p>
                             </div>
                         </a>
@@ -291,7 +288,7 @@
                         <a href="lessons.php">
                             <img src="media/studing.jpg" alt="boy studing with computer">
                             <div class="overlayVideo">
-                                <i class="fa-regular fa-circle-play" ></i>
+                                <i class="fa-regular fa-circle-play"></i>
                                 <p>10.00</p>
                             </div>
                         </a>
@@ -303,7 +300,7 @@
                         <a href="lessons.php">
                             <img src="media/studing.jpg" alt="boy studing with computer">
                             <div class="overlayVideo">
-                                <i class="fa-regular fa-circle-play" ></i>
+                                <i class="fa-regular fa-circle-play"></i>
                                 <p>10.00</p>
                             </div>
                         </a>
@@ -315,7 +312,7 @@
                         <a href="lessons.php">
                             <img src="media/studing.jpg" alt="boy studing with computer">
                             <div class="overlayVideo">
-                                <i class="fa-regular fa-circle-play" ></i>
+                                <i class="fa-regular fa-circle-play"></i>
                                 <p>10.00</p>
                             </div>
                         </a>
@@ -327,7 +324,7 @@
                         <a href="lessons.php">
                             <img src="media/studing.jpg" alt="boy studing with computer">
                             <div class="overlayVideo">
-                                <i class="fa-regular fa-circle-play" ></i>
+                                <i class="fa-regular fa-circle-play"></i>
                                 <p>10.00</p>
                             </div>
                         </a>
@@ -339,7 +336,7 @@
                         <a href="lessons.php">
                             <img src="media/studing.jpg" alt="boy studing with computer">
                             <div class="overlayVideo">
-                                <i class="fa-regular fa-circle-play" ></i>
+                                <i class="fa-regular fa-circle-play"></i>
                                 <p>10.00</p>
                             </div>
                         </a>
@@ -354,10 +351,10 @@
             <div class="cardpack">
                 <div class="card">
                     <div class="card-image">
-                        <a >
+                        <a>
                             <img src="media/studing.jpg" alt="boy studing with computer">
                             <div class="overlayVideo">
-                                <i class="fa-regular fa-circle-play" ></i>
+                                <i class="fa-regular fa-circle-play"></i>
                                 <p>10.00</p>
                             </div>
                         </a>
@@ -366,10 +363,10 @@
                 </div>
                 <div class="card">
                     <div class="card-image">
-                        <a >
+                        <a>
                             <img src="media/studing.jpg" alt="boy studing with computer">
                             <div class="overlayVideo">
-                                <i class="fa-regular fa-circle-play" ></i>
+                                <i class="fa-regular fa-circle-play"></i>
                                 <p>10.00</p>
                             </div>
                         </a>
@@ -381,7 +378,7 @@
                         <a href="lessons.php">
                             <img src="media/studing.jpg" alt="boy studing with computer">
                             <div class="overlayVideo">
-                                <i class="fa-regular fa-circle-play" ></i>
+                                <i class="fa-regular fa-circle-play"></i>
                                 <p>10.00</p>
                             </div>
                         </a>
@@ -393,7 +390,7 @@
                         <a href="lessons.php">
                             <img src="media/studing.jpg" alt="boy studing with computer">
                             <div class="overlayVideo">
-                                <i class="fa-regular fa-circle-play" ></i>
+                                <i class="fa-regular fa-circle-play"></i>
                                 <p>10.00</p>
                             </div>
                         </a>
@@ -405,7 +402,7 @@
                         <a href="lessons.php">
                             <img src="media/studing.jpg" alt="boy studing with computer">
                             <div class="overlayVideo">
-                                <i class="fa-regular fa-circle-play" ></i>
+                                <i class="fa-regular fa-circle-play"></i>
                                 <p>10.00</p>
                             </div>
                         </a>
@@ -417,7 +414,7 @@
                         <a href="lessons.php">
                             <img src="media/studing.jpg" alt="boy studing with computer">
                             <div class="overlayVideo">
-                                <i class="fa-regular fa-circle-play" ></i>
+                                <i class="fa-regular fa-circle-play"></i>
                                 <p>10.00</p>
                             </div>
                         </a>
@@ -429,7 +426,7 @@
                         <a href="lessons.php">
                             <img src="media/studing.jpg" alt="boy studing with computer">
                             <div class="overlayVideo">
-                                <i class="fa-regular fa-circle-play" ></i>
+                                <i class="fa-regular fa-circle-play"></i>
                                 <p>10.00</p>
                             </div>
                         </a>
@@ -441,7 +438,7 @@
                         <a href="lessons.php">
                             <img src="media/studing.jpg" alt="boy studing with computer">
                             <div class="overlayVideo">
-                                <i class="fa-regular fa-circle-play" ></i>
+                                <i class="fa-regular fa-circle-play"></i>
                                 <p>10.00</p>
                             </div>
                         </a>
@@ -454,7 +451,8 @@
     <footer class="mainFooter">
         <div class="baseline">Privacy Policy - kids web © 2022 - All Rights Reserved</div>
     </footer>
-    
-    <script src="js/script.js" ></script>
+
+    <script src="js/script.js"></script>
 </body>
+
 </html>
