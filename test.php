@@ -69,7 +69,7 @@ $user_data = check_login($con);
     <img id="cursor_follower" src="media/animation/giphy.gif" alt="flying bee" width="15%">
 
     <!--landing page part1 (after header)-->
-    <div class="container">
+    <div class="container" id="animate">
         <div class="part1">
             <div class="content">
                 <h1><?php echo $heading2[$languages] ?></h1>
@@ -77,6 +77,19 @@ $user_data = check_login($con);
                     <?php echo $description2[$languages] ?>
                 </p>
                 <h3><a href="loginPage.php"><?php echo $sign_btn[$languages] ?></a></h3>
+            </div>
+            <!-- header banner animation part -->
+            <div class="Banner2Animation">
+                <div>
+                    <img id="child2" src="media/font_banner2_images/child.png" alt="image of children" width="40%">
+                </div>
+                <div>
+                    <img id="big_grass2" src="media/font_banner2_images/big_grass.png" alt="image of a grass" width="15%">
+                </div>
+                <div>
+                    <img id="small_grass2" src="media/font_banner2_images/small_grass.png" alt="image of a small grass" width="10%">
+                </div>
+
             </div>
         </div>
     </div>
@@ -89,26 +102,29 @@ $user_data = check_login($con);
                 <p>
                     <?php echo $description3[$languages] ?>
                 </p>
-                <div class="cardpack">
-                    <div class="card">
-                        <div class="card-image">
-                            <a href="lessons.php"><img src="media/animation/lesson.gif" alt="boy studing with computer"></a>
+                <div id="animate_zoomInDown" class="hide">
+                    <div class="cardpack">
+                        <div class="card">
+                            <div class="card-image">
+                                <a href="lessons.php"><img src="media/animation/lesson.gif" alt="boy studing with computer"></a>
+                            </div>
+                            <h3><?php echo $cards[$languages]['0'] ?></h3>
                         </div>
-                        <h3><?php echo $cards[$languages]['0'] ?></h3>
-                    </div>
-                    <div class="card">
-                        <div class="card-image">
-                            <a href="gameSelection.php"><img src="media/animation/play.gif" alt="two girls playing games with computer"></a>
+                        <div class="card">
+                            <div class="card-image">
+                                <a href="gameSelection.php"><img src="media/animation/play.gif" alt="two girls playing games with computer"></a>
+                            </div>
+                            <h3><?php echo $cards[$languages]['1'] ?></h3>
                         </div>
-                        <h3><?php echo $cards[$languages]['1'] ?></h3>
-                    </div>
-                    <div class="card">
-                        <div class="card-image">
-                            <a href="art.php"><img src="media/animation/art.gif" alt="girl drawing with computer"></a>
+                        <div class="card">
+                            <div class="card-image">
+                                <a href="art.php"><img src="media/animation/art.gif" alt="girl drawing with computer"></a>
+                            </div>
+                            <h3><?php echo $cards[$languages]['2'] ?></h3>
                         </div>
-                        <h3><?php echo $cards[$languages]['2'] ?></h3>
                     </div>
                 </div>
+
             </div>
         </div>
     </div>
@@ -171,47 +187,9 @@ $user_data = check_login($con);
     </div>
     <?php include 'footer.php' ?>
 
-    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/script.js" defer></script>
 
-    <!--cursor following "bee" icon script -->
-    <script>
-        (function() {
-            console.clear();
 
-            const follower = document.querySelector('#cursor_follower');
-
-            let posX = 0;
-            let posY = 0;
-            let mouseX = 0;
-            let mouseY = 0;
-
-            const ease = 0.05;
-
-            function easeTo() {
-                const followerBounds = follower.getBoundingClientRect();
-
-                const dX = mouseX - (followerBounds.left + 16);
-                const dY = mouseY - (followerBounds.top + 16);
-
-                posX += dX * ease;
-                posY += dY * ease;
-            }
-
-            function update() {
-                easeTo();
-                follower.style.transform = `translate3d(${posX}px, ${posY}px, 0)`;
-                requestAnimationFrame(update);
-            }
-
-            function setCoords(e) {
-                mouseX = e.clientX;
-                mouseY = e.clientY;
-            }
-
-            document.onmousemove = setCoords;
-            update();
-        })();
-    </script>
 </body>
 
 </html>
