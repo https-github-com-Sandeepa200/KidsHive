@@ -118,14 +118,14 @@
             <div class="cardpack">
                 <div class="card">
                     <div class="card-image">
-                        <a href="https://www.youtube.com/embed/jWQRCOrXxgE">
+                        <a href="games/Game_HangMan/HangMan.php">
                             <img src="media/studing.jpg" alt="boy studing with computer">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play" ></i>
                             </div>
                         </a>
                     </div>
-                    <h3>Game name</h3>
+                    <h3>Hang Man</h3>
                 </div>
                 <div class="card">
                     <div class="card-image">
