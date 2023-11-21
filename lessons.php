@@ -32,7 +32,6 @@
     <!--Full navigation bar-->
     <?php include 'navigation.php' ?>
 
-
     <div class="container">
         <h1><?php echo $lesson_heading[$languages] ?></h1>
         <!--Subject navigation-->
