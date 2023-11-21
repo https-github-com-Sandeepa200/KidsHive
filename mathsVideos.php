@@ -72,7 +72,7 @@
                 </div>
                 <div class="card">
                     <div class="card-image">
-                        <a href="https://www.youtube.com/embed/srYV0c22jZA" target="player" onclick="openPlayer()">
+                        <a href="https://www.youtube.com/embed/LgmPVi9Wngc?si=EzQgvt0DAnixmJeM" target="player" onclick="openPlayer()">
                             <img src="media/lessons/preschool/maths/color_preschool.png" alt="boy studing with computer">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play" ></i>
@@ -84,15 +84,15 @@
                 </div>
                 <div class="card">
                     <div class="card-image">
-                        <a href="lessons.php">
-                            <img src="media/studing.jpg" alt="boy studing with computer">
+                        <a href="https://www.youtube.com/embed/pZG9Lf1Qic0?si=Mgi1C47rvJdEpp9m" target="player" onclick="openPlayer()" >
+                            <img src="media/lessons/preschool/maths/pattern Party" alt="boy studing with computer">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play" ></i>
                                 <p>10.00</p>
                             </div>
                         </a>
                     </div>
-                    <h3>video name</h3>
+                    <h3>Pattern Party</h3>
                 </div>
                 <div class="card">
                     <div class="card-image">
