@@ -1,48 +1,35 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-html{
-    overflow-x: hidden;
+html {
     scroll-behavior: smooth;
-    scroll-padding-top: 4rem;
 }
 
-body{
+body {
     background-color: #f1f1f1;
     font-family: 'Concert One';
     width: 100%;
 }
 
 /*landing page main part with navigation and Main banner*/
-header{
-    overflow: hidden;
-    background-image: url("../media/Banner1.jpg");/*Banner 1*/
-    background-size: cover;
-    min-height: 100vh;
-    background-position: center;
-    background-repeat: no-repeat;
-}
+
 
 /*navigation bar*/
-nav{
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    padding: 10px;
-    float: left;
+nav {
     display: flex;
+    padding: 10px;
+    z-index: 1000z;
+    margin-inline: 15px;
     align-items: center;
     justify-content: space-between;
-    z-index: 1000;
     transition: 0.5s;
-    
 }
+
 /*logo*/
 nav img {
-    margin-left: 30px;
+    margin-inline: 30px;
     margin-top: 10px;
     width: 100px;
     background-color: white;
@@ -56,62 +43,71 @@ nav img:hover {
 }
 
 @keyframes shake {
-    0% { transform: translateX(0); }
-    20% { transform: translateX(-10px) rotate(3deg); }
-    40% { transform: translateX(10px) rotate(-3deg); }
-    60% { transform: translateX(-10px) rotate(2deg); }
-    80% { transform: translateX(10px) rotate(-2deg); }
-    100% { transform: translateX(0); }
+    0% {
+        transform: translateX(0);
+    }
+
+    20% {
+        transform: translateX(-10px) rotate(3deg);
+    }
+
+    40% {
+        transform: translateX(10px) rotate(-3deg);
+    }
+
+    60% {
+        transform: translateX(-10px) rotate(2deg);
+    }
+
+    80% {
+        transform: translateX(10px) rotate(-2deg);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
 }
 
 /*navigation button list*/
+
 nav ul {
     list-style-type: none;
 }
-nav ul li{
+
+nav ul li {
     display: inline;
 }
-nav ul li a{
+
+nav ul li a {
     text-decoration: none;
     font-size: 1.5rem;
     margin-right: 2.5rem;
     color: blueviolet;
     transition: 0.5s;
 }
-nav ul li a:hover{
+
+nav ul li a:hover {
     color: red;
     text-decoration: underline;
 }
-nav ul li form{
+
+nav ul li form {
     display: inline;
 }
-nav ul li select{
+
+nav ul li select {
     color: blueviolet;
     font-size: 1.5rem;
     font-family: 'Concert One';
-    border:2px solid blueviolet;
+    border: 2px solid blueviolet;
     padding: 8px;
     border-radius: 8px;
 }
 
-/*style for active page*/
-.active{
-    text-decoration: underline;
-}
-/*working with js as a stickey bar*/
-.navScroll{
-    background-color: white;
-    box-shadow: 2px 2px 10px black;
-    transition: 0.5s;
-    height: 50px;
-}
-.logoScroll{
-    width: 30px;
-    margin-top: 5px;
-}
+
 
 /*working in smaller screens to toggle the menu (default is hidden)*/
-#menuIcon{
+#menuIcon {
     font-size: 2rem;
     color: blue;
     cursor: pointer;
@@ -123,25 +119,105 @@ nav ul li select{
 
 
 /*main banner part*/
+
+header {
+    overflow: hidden;
+    /*Banner 1*/
+    background-image: url("../media/font_banner1_images/banner1.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header .headBannerAnimation {
+    padding: 0;
+}
+
+header .headBannerAnimation #cloud {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 20;
+    animation: zoom-out-slide-left 0.5s ease;
+}
+
+header .headBannerAnimation #child {
+    position: absolute;
+    right: 50px;
+    bottom: 0;
+    z-index: 10;
+    animation: zoom-out-slide-left 1s ease;
+}
+
+header .headBannerAnimation #big_grass {
+    position: absolute;
+    right: 7%;
+    bottom: 7%;
+    z-index: 30;
+    animation: zoom-out 1.5s ease;
+}
+
+header .headBannerAnimation #small_grass {
+    position: absolute;
+    right: 30%;
+    bottom: 10%;
+    z-index: 35;
+    animation: zoom-out 1.8s ease;
+}
+
+/*animation for entrance zoom-out*/
+@keyframes zoom-out-slide-left {
+    0% {
+      transform: translate(0, 10rem) scale(0.01);
+      opacity: 0;
+    }
+    100% {
+      transform: scale(1) translate(0px, 0px);
+      opacity: 1;
+    }
+}
+
+@keyframes zoom-out {
+    0% {
+      transform: scale(0.01);
+      opacity: 0;
+    }
+    50% {
+      transform: scale(0.1);
+      opacity: 0;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  
+
 header .headBanner {
-    padding-top: 10rem;
+    margin-inline: 10px;
+    padding-top: 8rem;
     padding-left: 5%;
     padding-right: 5%;
+    width: 55%;
+   
 }
 
 header .headBanner h1 {
     font-size: 60px;
     padding-bottom: 20px;
     color: #527c6c;
-    transition: 1s;
+
 }
-header .headBanner p{
+
+header .headBanner p {
     font-size: 25px;
-    padding-bottom: 30px;
+    margin-bottom: 5rem;
     color: rgb(0, 0, 0);
-    width: 50%;
+    width: 70%;
     transition: 1s;
 }
+
 /*sign up button*/
 header .headBanner h3 a {
     text-decoration: none;
@@ -154,6 +230,7 @@ header .headBanner h3 a {
     text-align: center;
     transition: 1s;
 }
+
 header .headBanner h3 a:hover {
     background-color: rgb(255, 255, 255);
     color: rgb(144, 0, 255);
@@ -161,34 +238,40 @@ header .headBanner h3 a:hover {
 
 
 /*part1 - introduction part*/
-.container .part1{
+.container .part1 {
     overflow: hidden;
-    background-image: url("../media/Banner2.jpg");/*Banner 2*/
+    background-image: url("../media/font_banner2_images/banner2.png");
+    /*Banner 2*/
     background-size: cover;
     min-height: 120vh;
     background-position: center;
     background-repeat: no-repeat;
 }
-.part1 .content{
+
+.part1 .content {
     padding-top: 10rem;
     padding-right: 40px;
     width: 40%;
     float: right;
 }
-.part1 h1{
+
+.part1 h1 {
     font-size: 60px;
     padding: 0 0px 30px 10px;
 }
-.part1 p{
+
+.part1 p {
     font-size: 20px;
     padding-bottom: 5rem;
 }
-.part1 h3{
+
+.part1 h3 {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.part1 h3 a{
+
+.part1 h3 a {
     text-decoration: none;
     font-size: 30px;
     color: rgb(249, 248, 248);
@@ -201,38 +284,95 @@ header .headBanner h3 a:hover {
 }
 
 
+.part1  .Banner2Animation #child2 {
+    position: relative;
+    top: 7rem;
+    left: 6rem;
+    z-index: 10;
+    opacity: 0;
+}
+.part1  .Banner2Animation #child2.animate{
+    opacity: 1;
+    animation: zoom-out-slide-left 1s ease;
+}
+
+.part1  .Banner2Animation #big_grass2 {
+    position: relative;
+    bottom: 10rem;
+    left: 6rem;
+    z-index: 30;
+    opacity: 0;
+}
+
+.part1  .Banner2Animation #big_grass2.animate{
+    opacity: 1;
+    animation: zoom-out 1.5s ease;
+}
+
+.part1  .Banner2Animation #small_grass2 {
+    position: relative;
+    bottom: 20rem;
+    left: 40rem;
+    z-index: 35;
+    opacity: 0;
+}
+
+.part1  .Banner2Animation #small_grass2.animate{
+    opacity: 1;
+    animation: zoom-out 1.8s ease;
+}
+
+/*Cursor follower*/
+#cursor_follower {
+    position: absolute;
+    z-index: 100;
+}
+
 /*part2 - our programes part*/
-.container .part2{
+.container .part2 {
     overflow: hidden;
-    background-image: url("../media/Banner3.png");/*Banner 3*/
+    background-image: url("../media/Banner3.png");
+    /*Banner 3*/
     background-size: cover;
     min-height: 120vh;
     background-position: center;
     background-repeat: no-repeat;
     margin-top: 4rem;
 }
-.part2 .content{
+
+.part2 .content {
     text-align: center;
     margin-top: 10rem;
     padding: 0 5%;
 }
-.content h1{
+
+.content h1 {
     font-size: 3rem;
     margin-bottom: 1rem;
 }
-.content p{
+
+.content p {
     font-size: 1.5rem;
     margin-bottom: 3rem;
 }
-.cardpack{
+
+.cardpack {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    
+
 }
 
-.cardpack .card{
+.content .hide {
+    opacity: 0;
+}
+
+.content .show {
+    opacity: 1;
+}
+
+.cardpack .card {
     width: 40%;
     margin: 1rem 1rem 4rem 1rem;
     border-radius: 0.5rem;
@@ -243,32 +383,35 @@ header .headBanner h3 a:hover {
     transition: 0.5s;
 }
 
-.cardpack .card:hover{
+.cardpack .card:hover {
     transform: translateY(-2.1rem);
 }
-.card .card-image img{
+
+.card .card-image img {
     width: 100%;
 }
 
 
 /*part 3 review part*/
-.containerPart3{
+.containerPart3 {
     overflow: hidden;
-    background-image: url("../media/Banner4.png");/*Banner 4*/
+    background-image: url("../media/Banner4.png");
+    /*Banner 4*/
     background-size: cover;
     min-height: 120vh;
     background-position: center;
     background-repeat: no-repeat;
     margin-top: 4rem;
-    
+
 }
-.part3 h1{
+
+.part3 h1 {
     text-align: center;
     margin-top: 5rem;
     font-size: 400%;
 }
 
-.part3 .content{
+.part3 .content {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -277,18 +420,18 @@ header .headBanner h3 a:hover {
     margin-top: 6rem;
 }
 
-.part3 .reviewPic{
+.part3 .reviewPic {
     width: 40%;
     margin: 0 2.5rem;
 }
 
-.part3 .reviewPic img{
+.part3 .reviewPic img {
     border-right: 15px solid yellow;
     border-bottom: 15px solid yellow;
     border-radius: 5rem;
 }
 
-.part3 .reviewContent{
+.part3 .reviewContent {
     width: 35%;
     height: 25rem;
     border-right: 15px solid yellow;
@@ -299,27 +442,29 @@ header .headBanner h3 a:hover {
     border-radius: 5rem;
 }
 
-.part3 .reviewContent i{
+.part3 .reviewContent i {
     font-size: 70px;
     margin-bottom: 40px;
 }
 
 /*part 4 our team*/
 
-.container .part4{
+.container .part4 {
     overflow: hidden;
     min-height: 101vh;
     margin-top: 4rem;
 }
-.part4 h1{
+
+.part4 h1 {
     text-align: center;
     font-size: 3rem;
 }
 
-.part4 h3{
+.part4 h3 {
     text-align: center;
 }
-.part4 h3 a{
+
+.part4 h3 a {
     text-decoration: none;
     font-size: 30px;
     color: rgb(249, 248, 248);
@@ -331,7 +476,7 @@ header .headBanner h3 a:hover {
     transition: 1s;
 }
 
-.part4 h3 a:hover{
+.part4 h3 a:hover {
     background-color: rgb(255, 255, 255);
     color: rgb(144, 0, 255);
 }
@@ -346,33 +491,34 @@ header .headBanner h3 a:hover {
     margin-top: 3rem;
 }
 
-.profileCards .Pcard{
+.profileCards .Pcard {
     width: 20%;
     margin: 1rem 1rem 4rem 1rem;
     border-radius: 0.5rem;
     text-align: center;
     background-color: rgb(255, 255, 255);
-    border: 1px solid rgba(31, 31, 31, 0.422);;
+    border: 1px solid rgba(31, 31, 31, 0.422);
+    ;
     padding: 1rem;
     cursor: pointer;
     transition: 0.5s;
 }
 
-.profileCards .Pcard:hover{
+.profileCards .Pcard:hover {
     box-shadow: 5px 10px 8px #888888;
 }
 
-.Pcard .Pcard-image img{
+.Pcard .Pcard-image img {
     width: 100%;
     border-radius: 30rem 50rem;
 }
 
-.profileCards .Pcard h3{
+.profileCards .Pcard h3 {
     font-size: 2rem;
     margin: 2rem 0 1rem 0;
 }
 
-.profileCards .Pcard h4{
+.profileCards .Pcard h4 {
     font-size: 1rem;
     margin: 0 0 1rem 0;
     color: rgb(51, 0, 255);
@@ -383,7 +529,8 @@ header .headBanner h3 a:hover {
 
 .mainFooter {
     overflow: hidden;
-    background-image: url("../media/Banner5.png");/*Banner 1*/
+    background-image: url("../media/Banner5.png");
+    /*Banner 1*/
     background-size: cover;
     min-height: 60vh;
     background-position: center;
@@ -396,7 +543,8 @@ header .headBanner h3 a:hover {
     left: 0;
 
 }
-.mainFooter .content{
+
+.mainFooter .content {
     display: flex;
     /*align-items: center;*/
     justify-content: space-between;
@@ -406,27 +554,31 @@ header .headBanner h3 a:hover {
 }
 
 /*Company logo and social media icons*/
-.content .company{
+.content .company {
     width: 30%;
-    
+
 }
-.content .company img{
+
+.content .company img {
     width: 70px;
 }
-.company p{
+
+.company p {
     font-size: 1rem;
     margin: 1rem 0;
 }
 
-.social ul{
+.social ul {
     display: flex;
     align-items: center;
     list-style-type: none;
 }
-.social ul li{
+
+.social ul li {
     margin-right: 20px;
 }
-.social ul li i{
+
+.social ul li i {
     font-size: 20px;
     color: white;
     border: 2px solid white;
@@ -434,7 +586,8 @@ header .headBanner h3 a:hover {
     padding: 8px;
     transition: 0.5s;
 }
-.social ul li i:hover{
+
+.social ul li i:hover {
     background-color: white;
     color: rgb(255, 4, 234);
     transition: 0.5s;
@@ -443,38 +596,42 @@ header .headBanner h3 a:hover {
 
 /*pages, programs, lessons and contact parts*/
 
-.pages ul li, .programes ul li, .lessons ul li, .contact ul li{
+.pages ul li,
+.programes ul li,
+.lessons ul li,
+.contact ul li {
     list-style-type: none;
     margin-top: 15px;
-    
+
 }
 
-.content h3{
+.content h3 {
     font-size: 1.5rem;
     margin-bottom: 2.5rem;
 }
-.content a{
+
+.content a {
     text-decoration: none;
     color: white
 }
 
-.content a:hover{
+.content a:hover {
     color: rgb(63, 58, 63);
     transition: 0.5s;
 }
 
 /*baseline footer*/
-.mainFooter .baseline{
+.mainFooter .baseline {
     font-size: 1rem;
     text-align: center;
     padding: 5px;
     border-top: 1px solid white;
     margin-top: 5rem;
-    
+
     bottom: 0;
     right: 0;
     left: 0;
-    width: 100%; 
+    width: 100%;
     height: 40px;
 }
 
@@ -483,22 +640,25 @@ header .headBanner h3 a:hover {
 /*Media queries*/
 
 /*laptop*/
-@media screen and (max-width: 1024px){
-    #headBannerSize h1{
+@media screen and (max-width: 1024px) {
+    #headBannerSize h1 {
         font-size: 250%;
     }
 }
 
 /*tablet */
 @media screen and (max-width: 768px) {
+
     /*shrinking the 3 parts of main banner*/
-    #headBannerSize h1{
+    #headBannerSize h1 {
         font-size: 200%;
     }
-    #headBannerSize p{
+
+    #headBannerSize p {
         font-size: 150%;
     }
-    #menuIcon{
+
+    #menuIcon {
         display: block;
     }
 
@@ -514,13 +674,14 @@ header .headBanner h3 a:hover {
         transition: 0.5s;
         height: 50px;
     }
-    #navBar img{
+
+    #navBar img {
         width: 30px;
         margin-top: 5px;
     }
 
     /*full size menu*/
-    #navBar ul{
+    #navBar ul {
         position: absolute;
         top: 100%;
         left: 0;
@@ -528,10 +689,12 @@ header .headBanner h3 a:hover {
         background-color: white;
         border-top: 0.1rem solid black;
         padding: 1rem 2rem;
-        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0); /*hiding the menu from square pologon*/
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+        /*hiding the menu from square pologon*/
         transition: 0.5s;
     }
-    #navBar ul li{
+
+    #navBar ul li {
         display: block;
         margin: 1.5rem 0;
         padding: 1rem;
@@ -539,59 +702,69 @@ header .headBanner h3 a:hover {
         text-align: center;
         border-radius: 10px;
     }
-    #navBar ul li :hover{
+
+    #navBar ul li :hover {
         color: white;
     }
 
     /*working with js to toggle menu*/
-    #navBar .menuToggle{
+    #navBar .menuToggle {
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
         transition: 0.5s;
     }
 
     /*programe cards in part 2*/
 
-    .part2 .content .cardpack .card{
+    .part2 .content .cardpack .card {
         width: 39%;
     }
 
     /*review boxes in part 3*/
 
-    .part3 .content .reviewPic{
+    .part3 .content .reviewPic {
         width: 60%;
         margin: 0 2.5rem 2.5rem 2.5rem;
     }
 
-    .part3 .content .reviewContent{
+    .part3 .content .reviewContent {
         width: 60%;
     }
-    
+
 }
 
 /*mobile phone*/
 @media screen and (max-width: 426px) {
+
     /*shrinking the navigation bar*/
-    #headBannerSize h1{
+    #headBannerSize h1 {
         font-size: 200%;
         text-align: center;
     }
-    #headBannerSize p{
+
+    #headBannerSize p {
         font-size: 120%;
         text-align: center;
         width: 100%;
-        
+
     }
 
     /*programe cards in part 2*/
 
-    .container .part2 .content .cardpack .card{
+    .container .part2 .content .cardpack .card {
         width: 90%;
     }
 
     /*review boxes in part 3*/
 
-    .part3 .content .reviewPic{
+    .part3 .content .reviewPic {
         width: 80%;
         margin: -2.5rem 2.5rem 2.5rem 2.5rem;
     }
+
+    /*disabling the cursor pointer*/
+
+    #cursor_follower {
+        display: none;
+    }
+
 }

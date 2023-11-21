@@ -5,7 +5,6 @@
 
 html {
     scroll-behavior: smooth;
-    scroll-padding-top: 4rem;
 }
 
 body {
@@ -170,10 +169,12 @@ header .headBannerAnimation #small_grass {
 /*animation for entrance zoom-out*/
 @keyframes zoom-out-slide-left {
     0% {
-      transform: translate(0, 100rem) scale(0.01);
+      transform: translate(0, 10rem) scale(0.01);
+      opacity: 0;
     }
     100% {
       transform: scale(1) translate(0px, 0px);
+      opacity: 1;
     }
 }
 
@@ -239,7 +240,7 @@ header .headBanner h3 a:hover {
 /*part1 - introduction part*/
 .container .part1 {
     overflow: hidden;
-    background-image: url("../media/Banner2.jpg");
+    background-image: url("../media/font_banner2_images/banner2.png");
     /*Banner 2*/
     background-size: cover;
     min-height: 120vh;
@@ -282,6 +283,45 @@ header .headBanner h3 a:hover {
     transition: 1s;
 }
 
+
+.part1  .Banner2Animation #child2 {
+    position: relative;
+    top: 7rem;
+    left: 6rem;
+    z-index: 10;
+    opacity: 0;
+}
+.part1  .Banner2Animation #child2.animate{
+    opacity: 1;
+    animation: zoom-out-slide-left 1s ease;
+}
+
+.part1  .Banner2Animation #big_grass2 {
+    position: relative;
+    bottom: 10rem;
+    left: 6rem;
+    z-index: 30;
+    opacity: 0;
+}
+
+.part1  .Banner2Animation #big_grass2.animate{
+    opacity: 1;
+    animation: zoom-out 1.5s ease;
+}
+
+.part1  .Banner2Animation #small_grass2 {
+    position: relative;
+    bottom: 20rem;
+    left: 40rem;
+    z-index: 35;
+    opacity: 0;
+}
+
+.part1  .Banner2Animation #small_grass2.animate{
+    opacity: 1;
+    animation: zoom-out 1.8s ease;
+}
+
 /*Cursor follower*/
 #cursor_follower {
     position: absolute;
@@ -322,6 +362,14 @@ header .headBanner h3 a:hover {
     justify-content: center;
     flex-wrap: wrap;
 
+}
+
+.content .hide {
+    opacity: 0;
+}
+
+.content .show {
+    opacity: 1;
 }
 
 .cardpack .card {

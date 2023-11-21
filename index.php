@@ -22,7 +22,10 @@ $user_data = check_login($con);
     <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
 
     <!--main css file-->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/test.css">
+
+    <!-- animate.css cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
     <!-- font awesome cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
@@ -41,9 +44,24 @@ $user_data = check_login($con);
             <h1><?php echo $home_heading[$languages] ?></h1>
             <p>
                 <?php echo $home_description[$languages] ?>
-
             </p>
             <h3><a href="loginPage.php"><?php echo $sign_btn[$languages] ?></a></h3>
+        </div>
+
+        <!-- header banner animation part -->
+        <div class="headBannerAnimation">
+            <div>
+                <img id="child" src="media/font_banner1_images/children.png" alt="image of children" width="43%">
+            </div>
+            <div>
+                <img id="big_grass" src="media/font_banner1_images/big_grass.png" alt="image of a grass" width="15%">
+            </div>
+            <div>
+                <img id="small_grass" src="media/font_banner1_images/small_grass.png" alt="image of a small grass" width="10%">
+            </div>
+            <div>
+                <img id="cloud" src="media/font_banner1_images/cloud.png" alt="image of a cloud" width="50%">
+            </div>
         </div>
     </header>
 
@@ -51,7 +69,7 @@ $user_data = check_login($con);
     <img id="cursor_follower" src="media/animation/giphy.gif" alt="flying bee" width="15%">
 
     <!--landing page part1 (after header)-->
-    <div class="container">
+    <div class="container" id="animate">
         <div class="part1">
             <div class="content">
                 <h1><?php echo $heading2[$languages] ?></h1>
@@ -59,6 +77,19 @@ $user_data = check_login($con);
                     <?php echo $description2[$languages] ?>
                 </p>
                 <h3><a href="loginPage.php"><?php echo $sign_btn[$languages] ?></a></h3>
+            </div>
+            <!-- header banner animation part -->
+            <div class="Banner2Animation">
+                <div>
+                    <img id="child2" src="media/font_banner2_images/child.png" alt="image of children" width="40%">
+                </div>
+                <div>
+                    <img id="big_grass2" src="media/font_banner2_images/big_grass.png" alt="image of a grass" width="15%">
+                </div>
+                <div>
+                    <img id="small_grass2" src="media/font_banner2_images/small_grass.png" alt="image of a small grass" width="10%">
+                </div>
+
             </div>
         </div>
     </div>
@@ -71,26 +102,29 @@ $user_data = check_login($con);
                 <p>
                     <?php echo $description3[$languages] ?>
                 </p>
-                <div class="cardpack">
-                    <div class="card">
-                        <div class="card-image">
-                            <a href="lessons.php"><img src="media/animation/lesson.gif" alt="boy studing with computer"></a>
+                <div id="animate_zoomInDown" class="hide">
+                    <div class="cardpack">
+                        <div class="card">
+                            <div class="card-image">
+                                <a href="lessons.php"><img src="media/animation/lesson.gif" alt="boy studing with computer"></a>
+                            </div>
+                            <h3><?php echo $cards[$languages]['0'] ?></h3>
                         </div>
-                        <h3><?php echo $cards[$languages]['0'] ?></h3>
-                    </div>
-                    <div class="card">
-                        <div class="card-image">
-                            <a href="gameSelection.php"><img src="media/animation/play.gif" alt="two girls playing games with computer"></a>
+                        <div class="card">
+                            <div class="card-image">
+                                <a href="gameSelection.php"><img src="media/animation/play.gif" alt="two girls playing games with computer"></a>
+                            </div>
+                            <h3><?php echo $cards[$languages]['1'] ?></h3>
                         </div>
-                        <h3><?php echo $cards[$languages]['1'] ?></h3>
-                    </div>
-                    <div class="card">
-                        <div class="card-image">
-                            <a href="art.php"><img src="media/animation/art.gif" alt="girl drawing with computer"></a>
+                        <div class="card">
+                            <div class="card-image">
+                                <a href="art.php"><img src="media/animation/art.gif" alt="girl drawing with computer"></a>
+                            </div>
+                            <h3><?php echo $cards[$languages]['2'] ?></h3>
                         </div>
-                        <h3><?php echo $cards[$languages]['2'] ?></h3>
                     </div>
                 </div>
+
             </div>
         </div>
     </div>
@@ -153,47 +187,9 @@ $user_data = check_login($con);
     </div>
     <?php include 'footer.php' ?>
 
-    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/script.js" defer></script>
 
-    <!--cursor following "bee" icon script -->
-    <script>
-        (function() {
-            console.clear();
 
-            const follower = document.querySelector('#cursor_follower');
-
-            let posX = 0;
-            let posY = 0;
-            let mouseX = 0;
-            let mouseY = 0;
-
-            const ease = 0.05;
-
-            function easeTo() {
-                const followerBounds = follower.getBoundingClientRect();
-
-                const dX = mouseX - (followerBounds.left + 16);
-                const dY = mouseY - (followerBounds.top + 16);
-
-                posX += dX * ease;
-                posY += dY * ease;
-            }
-
-            function update() {
-                easeTo();
-                follower.style.transform = `translate3d(${posX}px, ${posY}px, 0)`;
-                requestAnimationFrame(update);
-            }
-
-            function setCoords(e) {
-                mouseX = e.clientX;
-                mouseY = e.clientY;
-            }
-
-            document.onmousemove = setCoords;
-            update();
-        })();
-    </script>
 </body>
 
 </html>
