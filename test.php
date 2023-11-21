@@ -22,7 +22,10 @@ $user_data = check_login($con);
     <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
 
     <!--main css file-->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/test.css">
+
+    <!-- animate.css cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
     <!-- font awesome cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
@@ -41,9 +44,24 @@ $user_data = check_login($con);
             <h1><?php echo $home_heading[$languages] ?></h1>
             <p>
                 <?php echo $home_description[$languages] ?>
-
             </p>
             <h3><a href="loginPage.php"><?php echo $sign_btn[$languages] ?></a></h3>
+        </div>
+
+        <!-- header banner animation part -->
+        <div class="headBannerAnimation">
+            <div>
+                <img id="child" src="media/font_banner1_images/children.png" alt="image of children" width="43%">
+            </div>
+            <div>
+                <img id="big_grass" src="media/font_banner1_images/big_grass.png" alt="image of a grass" width="15%">
+            </div>
+            <div>
+                <img id="small_grass" src="media/font_banner1_images/small_grass.png" alt="image of a small grass" width="10%">
+            </div>
+            <div>
+                <img id="cloud" src="media/font_banner1_images/cloud.png" alt="image of a cloud" width="50%">
+            </div>
         </div>
     </header>
 
