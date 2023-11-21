@@ -61,14 +61,14 @@
                 </div>
                 <div class="card">
                     <div class="card-image">
-                        <a href="#">
-                            <img src="media/studing.jpg" alt="boy studing with computer">
+                        <a href="games/countApple/countApple.php">
+                            <img src="games/countApple/media/cover.png" alt="count Apples">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play" ></i>
                             </div>
                         </a>
                     </div>
-                    <h3>Game name</h3>
+                    <h3>Count Apples</h3>
                 </div>
                 
             </div>

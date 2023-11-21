@@ -70,7 +70,7 @@ if ($user_data == "") {
 
                 <div class="animate__animated animate__backInUp">
                     <div class="topic">
-                        <h1>Hello, <?php echo $user_data['first_name'], " ", $user_data['last_name']; ?></h1>
+                        <h1>Hello, <span id="greeting"></span><?php echo $user_data['first_name'], " ", $user_data['last_name']; ?></h1>
                     </div>
                 </div>
 

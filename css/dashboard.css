@@ -42,6 +42,7 @@ header{
     background-color: rgb(236, 219, 219);
     min-width: 300px;
     transition: transform 0.3s ease-in-out;
+    margin-bottom: 40px;
 }
 
 .container .cardpack .card:hover {
@@ -51,6 +52,7 @@ header{
 /* Animation on card images */
 .container .cardpack .card .card-image img {
     transition: transform 0.3s ease-in-out;
+    margin-bottom: 10px;
 }
 
 .container .cardpack .card .card-image img:hover {
