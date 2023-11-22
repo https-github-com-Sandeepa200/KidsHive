@@ -7,7 +7,7 @@ function startGame() {
     document.getElementById('guessInput').disabled = false;
     document.getElementById('submitBtn').disabled = false;
     document.getElementById('playAgainBtn')?.remove();
-    displayMessage('The secret number is between 1  and  100');
+    displayMessage('The secret number is between 1 and 100');
     updateAttemptsDisplay();
 }
 
@@ -90,9 +90,28 @@ function resetGame() {
 }
 
 function updateAttemptsDisplay() {
-    document.getElementById('attempts').textContent = `Attempts: ${attempts} / ${maxAttempts}`;
+    const attemptsDisplay = document.getElementById('attempts');
+    attemptsDisplay.textContent = `Attempts: ${attempts} / ${maxAttempts}`;
 }
 
-window.onload = function() {
+window.onload = function () {
     startGame();
 };
+
+// code for mobile view
+window.addEventListener('resize', adjustForMobile);
+
+function adjustForMobile() {
+    const windowWidth = window.innerWidth;
+    if (windowWidth < 768) {
+        const submitButton = document.getElementById('submitBtn');
+        submitButton.style.fontSize = '16px';
+    } else {
+        // Reset styles or functionality if necessary when not in mobile view
+        const submitButton = document.getElementById('submitBtn');
+        submitButton.style.fontSize = '';
+    }
+}
+
+// Call adjustForMobile initially when the page loads
+adjustForMobile();

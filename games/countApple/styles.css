@@ -1,30 +1,27 @@
-body{
-  padding-left: 100px;
-  padding-top: 50px;
-  padding-right: 100px;
-  padding-bottom: 100px;
+body {
+  padding: 50px; /* Adjust padding for better mobile view */
   align-items: center;
   justify-content: center;
   background-image: url("media/appleTree.png");
-  background-position-x: right;
+  background-position: right;
   background-repeat: no-repeat;
-  background-size:contain;
+  background-size: contain;
   background-color: beige;
   zoom: 1.1;
-
 }
 
 .appleContainer {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 20px; /* Reduced margin for smaller screens */
   border: 2px solid red;
   border-style: dashed;
-  border-width: 5px;
+  border-width: 3px; /* Reduced border width for smaller screens */
   border-radius: 10px;
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
-  padding: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  padding: 15px; /* Slightly reduced padding */
   background-color: #ffff;
-  width: 500px;
+  width: 90%; /* Change to percentage for responsiveness */
+  max-width: 500px; /* Limit maximum width */
   justify-content: center;
 }
 
@@ -38,6 +35,7 @@ body{
 
 .appleContainer button{
     background-color: #18e91f;
+    margin-top: 10px;
     padding: 10px 20px;
     color: white;
     border-radius: 20px;
@@ -48,10 +46,10 @@ body{
 }
 
 input[type="number"] {
-  width: 300px;; 
-  font-size: 40px;
-  padding: 5px;
-  border-radius: 10px; 
+  width: 90%; /* Adjust width for smaller screens */
+  font-size: 24px; /* Reduced font size for better fit */
+  padding: 10px; 
+  border-radius: 8px; 
 }
 
 /* Increase the size of the placeholder text */
