@@ -1,4 +1,4 @@
-.card-1, .card-2, .card-3, .card-4{
+.Gcard-1, .Gcard-2, .Gcard-3, .Gcard-4{
     width: 20%;
     height: 35vh;
     padding: 20px 0;
@@ -11,23 +11,76 @@
 }
 
 
-.cardpack .card-4{
-    background-color: rgba(173, 16, 53, 0.5);
-
+.cardpack .Gcard-1:hover{
+    transform: translateY(-2.1rem);
 }
-
-.cardpack .card-4:hover{
+.cardpack .Gcard-2:hover{
+    transform: translateY(-2.1rem);
+}
+.cardpack .Gcard-3:hover{
+    transform: translateY(-2.1rem);
+}
+.cardpack .Gcard-4:hover{
     transform: translateY(-2.1rem);
 }
 
-.cardpack ul li{
+.cardpack .Gcard-1 ul li{
     list-style-type: none;
     margin-top: 30%;
+    margin-left: 40%;
+}
+
+.cardpack .Gcard-2 ul li{
+    list-style-type: none;
+    margin-top: 30%;
+    margin-right: 40%;
+}
+
+.cardpack .Gcard-3 ul li{
+    list-style-type: none;
+    margin-top: 30%;
+    margin-left: 40%;
+}
+
+.cardpack .Gcard-4 ul li{
+    list-style-type: none;
+    margin-top: 30%;
+    margin-right: 40%;
 }
 
 .cardpack ul li a{
     text-decoration: none;
     font-size: 40px;
-    color: white;
-    
+    color: black;   
+}
+
+.cardpack .Gcard-1{
+    /* background-color: #D2DE32; */
+    background-image: url("../media/border.png");
+    background-size:cover;
+    background-position:left;
+
+}
+
+.cardpack .Gcard-2{
+    /* background-color:#FF5B22; */
+    background-image: url("../media/border.png");
+    background-size:cover;
+    background-position:right;
+}
+
+.cardpack .Gcard-3{
+    /* background-color:#FFC5C5; */
+    background-image: url("../media/border.png");
+    background-size:cover;
+    background-position:left;
+
+}
+
+.cardpack .Gcard-4{
+    /* background-color:#7752FE; */
+    background-image: url("../media/border.png");
+    background-size:cover;
+    background-position:right;
+
 }

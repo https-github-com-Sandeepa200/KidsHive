@@ -38,10 +38,10 @@ if ($user_data == "") {
 </head>
 
 <body>
-    <header>
+    <div class= "bigContainer">
         <!--Full navigation bar-->
         <?php include 'navigation.php' ?>
-
+    
         <div class="container">
             <div class="animate__animated animate__zoomInDown">
                 <div class="cardpack">
@@ -70,11 +70,11 @@ if ($user_data == "") {
 
                 <div class="animate__animated animate__backInUp">
                     <div class="topic">
-                        <h1>Hello, <span id="greeting"></span><?php echo $user_data['first_name'], " ", $user_data['last_name']; ?></h1>
+                    <h1>Hello, <span id="greeting"></span><?php echo $user_data['first_name'], " ", $user_data['last_name']; ?></h1>
                     </div>
                 </div>
 
-                <div class="side_image">
+        <div class="side_image">
                     <img class="animate__animated animate__bounceIn" src="media/dashboard_images/yellow_girl.png" alt="girl">
                 </div>
             </div>
@@ -83,8 +83,8 @@ if ($user_data == "") {
                 <div class="baseline"><?php echo $footer_contact[$languages]['1'] ?></div>
             </div>
         </div>
-    </header>
-
+    
+    </div>
     <!-- Customized Greetings -->
     <script>
     document.addEventListener('DOMContentLoaded', function() {

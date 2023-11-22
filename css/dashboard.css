@@ -1,6 +1,9 @@
 /*landing page main part with navigation and Main banner*/
-header{
+.bigContainer{
     background-image: url("../media/dashboard_images/dashboard_banner.jpg");/*Banner 1*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 #navBar .menu a{
@@ -59,3 +62,6 @@ header{
     transform: scale(1.1);
 } 
 
+.container .side_image{
+    max-width: 40%;
+}

@@ -80,8 +80,8 @@
             <div class="cardpack">
                 <div class="card">
                     <div class="card-image">
-                        <a href="https://www.youtube.com/embed/jWQRCOrXxgE">
-                            <img src="media/studing.jpg" alt="boy studing with computer">
+                        <a href="games/numberGuesing/Number Guess.php">
+                            <img src="games/numberGuesing/media/numberguesing.png" alt="guess the number">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play"></i>
                             </div>
