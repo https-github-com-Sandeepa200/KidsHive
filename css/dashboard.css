@@ -1,9 +1,8 @@
 /*landing page main part with navigation and Main banner*/
-.bigContainer{
-    background-image: url("../media/dashboard_images/dashboard_banner.jpg");/*Banner 1*/
-    background-size: cover;
+body{
+    background-image: url("../media/dashboard_images/dashboard_banner.jpg");
     background-position: center;
-    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #navBar .menu a{
@@ -12,33 +11,10 @@
 .container{
     position: relative;
     display: flex;
-    top: 5rem;
+    
 }
-.container .shortfooter{
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 2.5rem;
-    color: white;
-    text-align: center;
-}
-
-.container .shortfooter hr {
-    color: white;
-}
-
-.container .topic {
-    position: absolute;
-    top: 5em;
-    right: 30em;
-    height: 200px;
-    width: 238px;
-    padding: 5px;
-    text-align: center;
-    background-image: url("../media/dashboard_images/dashboard_dialogBox.png");
-    background-position: center;
-    background-size: cover;
+.bigContainer .container .left_part {
+    width: 50%;
 }
 
 .container .cardpack .card{
@@ -62,6 +38,38 @@
     transform: scale(1.1);
 } 
 
-.container .side_image{
-    max-width: 40%;
+.bigContainer .container .right_part {
+    width: 50%;
 }
+
+.bigContainer .container .right_part img{
+    float: right;
+    width: 70%;
+}
+
+.container .topic {
+    position: absolute;
+    top: 5em;
+    right: 30em;
+    height: 200px;
+    width: 238px;
+    padding: 5px;
+    text-align: center;
+    background-image: url("../media/dashboard_images/dashboard_dialogBox.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.bigContainer .shortfooter{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: 50px;
+    color: white;
+    text-align: center;
+}
+
+.bigContainer .shortfooter hr {
+    color: white;
+}
+
