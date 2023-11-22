@@ -4,7 +4,10 @@ html{
 }
 
 body{
-    background-image: url("../media/100.jpg");
+    background-image: url("../media/dashboard_images/dashboard_banner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     height: 100vh;
 }
 
@@ -44,14 +47,21 @@ nav ul li a{
 
 
 .cardpack .card-1{
-    background-color: rgba(16, 173, 69, 0.5);
-
+    background-image: url("../media/math2.jpg");
+    background-size:cover;
+    background-position:left;
 }
-.cardpack .card-2{
-    background-color: rgba(24, 55, 112, 0.5);
 
-}.cardpack .card-3{
-    background-color: rgba(204, 192, 20, 0.5);
+.cardpack .card-2{
+    background-image: url("../media/english.jpg");
+    background-size:cover;
+    background-position:right;
+}
+
+.cardpack .card-3{
+    background-image: url("../media/science.jpg");
+    background-size:cover;
+    background-position:center;
 
 }
 
@@ -65,9 +75,22 @@ nav ul li a{
     transform: translateY(-2.1rem);
 }
 
-.cardpack h3{
+.cardpack .card-1 h3{
     font-size: 50px;
     margin-bottom: 40px;
+    color: #F94C10;
+}
+
+.cardpack .card-2 h3{
+    font-size: 50px;
+    margin-bottom: 40px;
+    color: #B3005E;
+}
+
+.cardpack .card-3 h3{
+    font-size: 50px;
+    margin-bottom: 40px;
+    color: #D0A2F7;
 }
 
 .cardpack ul li{

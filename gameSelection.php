@@ -38,22 +38,22 @@
         <h1><?php echo $gameSelecction_heading[$languages] ?></h1>
         <!--Subject navigation-->
         <div class="cardpack">
-            <div class="card-1">
+            <div class="Gcard-1">
                 <ul>
                     <li><a href="game.php#preSchool"><?php echo $programmes[$languages]['0'] ?></a></li>
                 </ul>
             </div>
-            <div class="card-2">
+            <div class="Gcard-2">
                 <ul>
                     <li><a href="game.php#grade1"><?php echo $programmes[$languages]['1'] ?></a></li>
                 </ul>
             </div>
-            <div class="card-3">
+            <div class="Gcard-3">
                 <ul>
                     <li><a href="game.php#grade2"><?php echo $programmes[$languages]['2'] ?></a></li>
                 </ul>
             </div>
-            <div class="card-4">
+            <div class="Gcard-4">
                 <ul>
                     <li><a href="game.php#grade3"><?php echo $programmes[$languages]['3'] ?></a></li>
                 </ul>
