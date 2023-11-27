@@ -1,0 +1,75 @@
+body{
+  background-image: url("media/bg2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.memory-game {
+    text-align: center;
+  }
+  
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    grid-gap: 5px;
+    margin-top: 20px;
+    justify-content: center;
+  }
+  
+.tile {
+    width: 180px;
+    height: 120px;
+    background-color:#EC9CD3;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+    border-color: #0C356A;
+    border-radius: 5%;
+    border-style:groove;
+    border-width: 5px;
+  }
+
+#timer{
+    justify-content: flex-start;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #0C356A;
+   }
+
+#message{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    font-style: italic;
+    font-weight: bold;
+    color: #27005D;
+  }
+
+ button{
+    background-color: #7752FE;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    display:inline;
+    box-shadow: 0 0 20px rgba(0, 1, 1, 0.3);
+  }
+
+ button:hover {
+    background-color: #FE0000;
+}
+
+.tile::before {
+  content: attr(data-image); /* Show the image content */
+  font-size: 50px; /* Adjust the font size of the image */
+}
+
+/* Optional: Hide the text content when images are revealed */
+.tile.hidden::before {
+  content: "";
+}
