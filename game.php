@@ -91,14 +91,14 @@
                 </div>
                 <div class="card">
                     <div class="card-image">
-                        <a href="https://www.youtube.com/embed/jWQRCOrXxgE">
+                        <a href="games/memoryCheck/checkMemory.php">
                             <img src="media/studing.jpg" alt="boy studing with computer">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play"></i>
                             </div>
                         </a>
                     </div>
-                    <h3>Game name</h3>
+                    <h3>Check The Memory</h3>
                 </div>
                 <div class="card">
                     <div class="card-image">
