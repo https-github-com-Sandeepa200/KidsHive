@@ -73,14 +73,14 @@ header .headBanner p{
 .allMembers .memberRight .lableContent{
     position: relative;
     top: 50%;
-    width: 50%;
+    width: 55%;
     left: 40%;
     z-index: 10;
 }
 .allMembers .memberLeft .lableContent{
     position: relative;
     top: 50%;
-    width: 50%;
+    width: 70%;
     right: 10%;
     z-index: 10;
 }

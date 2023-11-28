@@ -41,7 +41,7 @@
                 <div class="card">
                     <div class="card-image">
                         <a href="games/snake/snake.php">
-                            <img src="media/studing.jpg" alt="boy studing with computer">
+                            <img src="games/snake/snakeGame.jpg" alt="Snake Game">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play"></i>
                             </div>
@@ -52,7 +52,7 @@
                 <div class="card">
                     <div class="card-image">
                         <a href="games/boxGame/box.php">
-                            <img src="media/studing.jpg" alt="boy studing with computer">
+                            <img src="games/boxGame/menja.png" alt="Menja Game">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play"></i>
                             </div>
@@ -63,7 +63,7 @@
                 <div class="card">
                     <div class="card-image">
                         <a href="games/countApple/countApple.php">
-                            <img src="games/countApple/media/cover.png" alt="count Apples">
+                            <img src="games/countApple/media/cover.png" alt="Count Apples">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play"></i>
                             </div>
@@ -92,7 +92,7 @@
                 <div class="card">
                     <div class="card-image">
                         <a href="games/memoryCheck/checkMemory.php">
-                            <img src="media/studing.jpg" alt="boy studing with computer">
+                            <img src="games/memoryCheck/media/logo.png" alt="check the memory">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play"></i>
                             </div>

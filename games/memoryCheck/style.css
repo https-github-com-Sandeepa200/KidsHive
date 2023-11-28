@@ -1,4 +1,5 @@
 body{
+  padding: 50px; /* Adjust padding for better mobile view */
   background-image: url("media/bg2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
