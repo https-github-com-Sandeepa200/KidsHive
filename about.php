@@ -47,36 +47,36 @@
                 <img class="profilePic" src="media/profile-pic/paba.jpg" alt="profilePic">
                 <img class="background" src="media/labels/blueLable.png" alt="background">
                 <div class="lableContent">
-                    <h2><?php echo $about_members[$languages]['0']?></h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis fugiat suscipit aspernatur non
-                        voluptate. Fugiat eaque tempore omnis quae illo.</p>
+                    <h3><?php echo $about_members[$languages]['0']?></h3>
+                    <h4><?php echo $profile_card[$languages]['4']?></h4>
+                    <p><?php echo $about_membersDesdriptions[$languages]['0']?></p>
                 </div>
             </div>
             <div class="memberLeft">
                 <img class="profilePic" src="media/profile-pic/dhana.jpg" alt="profilePic">
                 <img class="background" src="media/labels/purpleLable.png" alt="background">
                 <div class="lableContent">
-                    <h2><?php echo $about_members[$languages]['1']?></h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis fugiat suscipit aspernatur non
-                        voluptate. Fugiat eaque tempore omnis quae illo.</p>
+                    <h3><?php echo $about_members[$languages]['1']?></h3>
+                    <h4><?php echo $profile_card[$languages]['4']?></h4>
+                    <p><?php echo $about_membersDesdriptions[$languages]['1']?></p>
                 </div>
             </div>
             <div class="memberRight">
                 <img class="profilePic" src="media/profile-pic/thimali.jpg" alt="profilePic">
                 <img class="background" src="media/labels/redLable.png" alt="background">
                 <div class="lableContent">
-                    <h2><?php echo $about_members[$languages]['2']?></h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis fugiat suscipit aspernatur non
-                        voluptate. Fugiat eaque tempore omnis quae illo.</p>
+                    <h3><?php echo $about_members[$languages]['2']?></h3>
+                    <h4><?php echo $profile_card[$languages]['4']?></h4>
+                    <p><?php echo $about_membersDesdriptions[$languages]['2']?></p>
                 </div>
             </div>
             <div class="memberLeft">
                 <img class="profilePic" src="media/profile-pic/sandeepa.jpg" alt="profilePic">
                 <img class="background" src="media/labels/greenLable.png" alt="background">
                 <div class="lableContent">
-                    <h2><?php echo $about_members[$languages]['3']?></h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis fugiat suscipit aspernatur non
-                        voluptate. Fugiat eaque tempore omnis quae illo.</p>
+                    <h3><?php echo $about_members[$languages]['3']?></h3>
+                    <h4><?php echo $profile_card[$languages]['4']?></h4>
+                    <p><?php echo $about_membersDesdriptions[$languages]['3']?></p>
                 </div>
             </div>
         </div>

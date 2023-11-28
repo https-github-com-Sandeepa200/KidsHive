@@ -42,6 +42,16 @@ if ($user_data == "") {
         <!--Full navigation bar-->
         <?php include 'navigation.php' ?>
 
+        <!-- HTML structure for the search bar -->
+    
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Search...">
+            <button onclick="searchCards()">
+                    <img src="media/find.png" alt="Search">
+            </button>
+        </div>
+        <div id="searchResults"></div>
+
         <div class="container">
             <div class="left_part">
                 <div class="animate__animated animate__zoomInDown">
@@ -108,6 +118,9 @@ if ($user_data == "") {
             greetingElem.textContent = greetingMessage;
         });
     </script>
+
+<!-- Search Function -->
+
 
 </body>
 

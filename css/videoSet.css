@@ -1,5 +1,10 @@
 .cardpack .card{
-    width: 20%;
+    width:20%;
+    background-color: rgb(236, 219, 219);
+    transition: transform 0.3s ease-in-out;
+}
+.container .cardpack .card:hover {
+    transform: scale(1.05);
 }
 
 .mainFooter{
