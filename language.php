@@ -65,7 +65,7 @@
     /*word dictionary for reviews*/
     $heading4 = array(
         'en'=>"What People Say!",
-        'si'=>"මිනිසුන්ගේ අදහස් !",
+        'si'=>"පරිශීලකයන්ගේ අදහස් !",
         'ta'=>"மக்களின் கருத்துக்கள்",
     );
 
