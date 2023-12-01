@@ -72,6 +72,18 @@
                     <h3>Count Apples</h3>
                 </div>
 
+                <div class="card">
+                    <div class="card-image">
+                        <a href="games/kidsHivePracticals/Task.php">
+                            <img src="games/kidsHivePracticals/Images/theme.png" alt="little Sceintist">
+                            <div class="overlayVideo">
+                                <i class="fa-regular fa-circle-play"></i>
+                            </div>
+                        </a>
+                    </div>
+                    <h3>Little Scientist</h3>
+                </div>
+
             </div>
         </div>
         <div id="grade1">
@@ -102,14 +114,14 @@
                 </div>
                 <div class="card">
                     <div class="card-image">
-                        <a href="https://www.youtube.com/embed/jWQRCOrXxgE">
-                            <img src="media/studing.jpg" alt="boy studing with computer">
+                        <a href="games/kidsHivePracticals/Task.php">
+                            <img src="games/kidsHivePracticals/Images/theme.png" alt="little Sceintist">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play"></i>
                             </div>
                         </a>
                     </div>
-                    <h3>Game name</h3>
+                    <h3>Little Scientist</h3>
                 </div>
             </div>
         </div>
@@ -120,7 +132,7 @@
                 <div class="card">
                     <div class="card-image">
                         <a href="games/Game_HangMan/HangMan.php">
-                            <img src="media/studing.jpg" alt="boy studing with computer">
+                            <img src="games/Game_HangMan/images/images/hangTheme.png" alt="boy studing with computer">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play"></i>
                             </div>
@@ -128,17 +140,19 @@
                     </div>
                     <h3>Hang Man</h3>
                 </div>
+
                 <div class="card">
                     <div class="card-image">
-                        <a href="https://www.youtube.com/embed/jWQRCOrXxgE">
-                            <img src="media/studing.jpg" alt="boy studing with computer">
+                        <a href="games/kidsHivePracticals/Task.php">
+                            <img src="games/kidsHivePracticals/Images/theme.png" alt="little Sceintist">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play"></i>
                             </div>
                         </a>
                     </div>
-                    <h3>Game name</h3>
+                    <h3>Little Scientist</h3>
                 </div>
+
                 <div class="card">
                     <div class="card-image">
                         <a href="https://www.youtube.com/embed/jWQRCOrXxgE">
@@ -152,6 +166,7 @@
                 </div>
             </div>
         </div>
+
         <div id="grade3">
             <h1><?php echo $games_headings[$languages]['3'] ?></h1>
             <!--game selection-->
@@ -200,6 +215,19 @@
                     </div>
                     <h3>Multiplication</h3>
                 </div>
+
+                <div class="card">
+                    <div class="card-image">
+                        <a href="games/kidsHivePracticals/Task.php">
+                            <img src="games/kidsHivePracticals/Images/theme.png" alt="little Sceintist">
+                            <div class="overlayVideo">
+                                <i class="fa-regular fa-circle-play"></i>
+                            </div>
+                        </a>
+                    </div>
+                    <h3>Little Scientist</h3>
+                </div>
+
             </div>
         </div>
     </div>

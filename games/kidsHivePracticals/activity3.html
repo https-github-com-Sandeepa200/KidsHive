@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Little Scientist Experiment</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            margin: 20px;
+            background-color: #ff3b96;
+            color: #333;
+            line-height: 1.6;
+        }
+        h1 {
+            color: #04145a; 
+            text-align: center;
+        }
+        section {
+            margin-bottom: 20px;
+            padding: 20px;
+            background-color: #fff; 
+            border-radius: 10px; 
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+        }
+        img {
+            max-width: 20%;
+            height: 20%;
+            display: block;
+            margin: 30px 0;
+            float: right;
+            border: 5px solid #adca07; 
+            border-radius: 10px; 
+            transition: transform 0.3s ease-in-out;
+        }
+        img:hover {
+            transform: scale(2.1); 
+        }
+        ul, ol {
+            padding-left: 20px;
+            font-size: 1.2em; 
+        }
+        p {
+            padding-left: 20px;
+            font-size: 1.2em; 
+        }
+        .color-container {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        .color-cup {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 5px solid #333;
+            cursor: pointer;
+            transition: transform 0.3s ease-in-out;
+        }
+        .color-cup:hover {
+            transform: scale(1.1);
+        }
+
+        .new-colors {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        .new-color {
+            width: 100px;
+            height: 100px;
+            border-radius: 10px;
+            border: 2px solid #333;
+            cursor: pointer;
+            transition: transform 0.3s ease-in-out;
+        }
+        .new-color:hover {
+            transform: scale(1.1);
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1>Hi Little Scientist!</h1>
+
+    <section>
+        <h2>What you need:</h2>
+
+        <img src="Images/img3.jpg" alt="glass and pencil">
+
+        <ul>
+            <li>Three transparent cups</li>
+            <li>Red, blue, and yellow food coloring</li>
+            <li>Water</li>
+            <li>Small stirrers or spoons</li>
+        </ul>
+
+
+        <h2>How to do:</h2>
+        <ol>
+            <li>Step 1: Fill each cup with water.</li>
+            <li>Step 2: Add a few drops of red food coloring to the first cup, blue to the second cup, and yellow to the third cup.</li>
+            <li>Step 3: Stir each cup to mix the food coloring with water.</li>
+            <li>Step 4: Take two colors and pour them into a new cup to see what color they create. Try mixing red with blue, blue with yellow, and yellow with red.</li>
+            <li>Step 5: Observe the new colors you've created!</li>
+        </ol>
+    </section>
+
+    <section>
+        <h2>Color Mixing Cups:</h2>
+        <div class="color-container">
+            <div class="color-cup" style="background-color: #ff0000;"></div>
+            <div class="color-cup" style="background-color: #0000ff;"></div>
+            <div class="color-cup" style="background-color: #ffff00;"></div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Observation:</h2>
+        <p>Wow, look at that! When you mix different colors together, you create brand new colors. Red and blue make purple, blue and yellow make green, and red and yellow make orange. It's like a rainbow in a cup! Isn't it amazing how colors can make new friends and create a whole new world of shades? Lest's try friends.</p>
+    </section>
+
+    <section>
+        <h2>Brand New colors:</h2>
+
+        <p>Mixing <span style="color: #ff0000;">Red</span> and <span style="color: #0000ff;">Blue</span> creates <span style="color: purple;">purple</span>.</p>
+        <p>Mixing <span style="color: #0000ff;">Blue</span> and <span style="color: #f3f32d;">Yellow</span> creates <span style="color: green;">green</span>.</p>
+        <p>Mixing <span style="color: #ff0000;">Red</span> and <span style="color: #ffff11;">Yellow</span> creates <span style="color: orange;">orange</span>.</p>
+        
+        <div class="new-colors">
+            <div class="new-color" style="background-color: purple;"></div>
+            <div class="new-color" style="background-color: green;"></div>
+            <div class="new-color" style="background-color: orange;"></div>
+        </div>
+        
+    </section>
+
+</body>
+</html>
