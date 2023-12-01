@@ -12,16 +12,16 @@ body {
 
 .appleContainer {
   text-align: center;
-  margin-top: 20px; /* Reduced margin for smaller screens */
+  margin-top: 20px; 
   border: 2px solid red;
   border-style: dashed;
-  border-width: 3px; /* Reduced border width for smaller screens */
+  border-width: 3px; 
   border-radius: 10px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
-  padding: 15px; /* Slightly reduced padding */
+  padding: 15px; 
   background-color: #ffff;
-  width: 90%; /* Change to percentage for responsiveness */
-  max-width: 500px; /* Limit maximum width */
+  width: 90%; 
+  max-width: 500px; 
   justify-content: center;
 }
 

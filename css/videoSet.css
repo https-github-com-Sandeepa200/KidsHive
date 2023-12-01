@@ -95,5 +95,35 @@
         -webkit-box-shadow: 0px 0px 73px 42px rgba(0,0,0,0.75);
         -moz-box-shadow: 0px 0px 73px 42px rgba(0,0,0,0.75);
     
+}
+
+/* CSS styles for the search bar */
+.search-container {
+    position:relative;
+    display: inline-block;
+    margin: 10px;
+    margin-left: 30px;
 
 }
+
+/* Style the input field */
+#searchInput {
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    width: 500px; 
+    height: auto;
+}
+
+/* Style the search icon button */
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+ .search-container img{
+    width: 20px;
+    height: 20px;
+ }

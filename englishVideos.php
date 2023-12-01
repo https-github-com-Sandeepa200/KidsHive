@@ -33,6 +33,15 @@
     <!--Full navigation bar-->
     <?php include 'navigation.php' ?>
 
+    <!-- HTML structure for the search bar -->
+    <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Search...">
+        <button onclick="searchCards()">
+            <img src="media/find.png" alt="Search">
+        </button>
+    </div>
+    <div id="searchResults"></div>
+
     <!--  emberded video-->
     <div class="vplayer" id="hidePlayer">
         <iframe width="90%" height="90%" name="player" src="https://www.youtube.com/embed/G-IS-scTJDo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
@@ -453,6 +462,29 @@
     </footer>
 
     <script src="js/script.js"></script>
+
+        <!-- Search Function -->
+        <script>
+    function searchCards() {
+        const searchValue = document.getElementById('searchInput').value.toLowerCase();
+        const cards = document.querySelectorAll('.card h3');
+
+        let results = [];
+        cards.forEach(card => {
+            const cardText = card.textContent.toLowerCase();
+            if (cardText.includes(searchValue)) {
+                results.push(card.parentNode.outerHTML);
+            }
+        });
+
+        const searchResultsContainer = document.getElementById('searchResults');
+        if (results.length > 0) {
+            searchResultsContainer.innerHTML = results.join('');
+        } else {
+            searchResultsContainer.innerHTML = '<p class=result>No results found.</p>';
+        }
+    }
+    </script>
 </body>
 
 </html>
