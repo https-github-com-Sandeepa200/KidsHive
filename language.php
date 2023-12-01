@@ -204,7 +204,7 @@
     /*word dictionary for art board*/
     $art_btn = array(
         'en'=>array('Colour','Brush Size', 'Eraser','Download'),
-        'si'=>array('වර්ණ','බුරුසුවේ ප්‍රමාණය', 'මකනය', 'බාගත කිරීම ', ),
+        'si'=>array('වර්ණ','පින්සලෙහි ප්‍රමාණය', 'මකනය', 'බාගත කිරීම ', ),
         'ta'=>array('நிறம்', 'தூரிகை அளவு', 'அழிப்பான்', 'பதிவிறக்குகிறது'),
     );
 
