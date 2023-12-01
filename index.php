@@ -22,7 +22,7 @@ $user_data = check_login($con);
     <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
 
     <!--main css file-->
-    <link rel="stylesheet" href="css/test.css">
+    <link rel="stylesheet" href="css/style.css">
 
     <!-- animate.css cdn link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
