@@ -1,6 +1,5 @@
 .cardpack .card{
-    width: 300px;
-    height: 300px;
+    width:20%;
     background-color: rgb(236, 219, 219);
     transition: transform 0.3s ease-in-out;
 }
