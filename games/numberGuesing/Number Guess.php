@@ -13,6 +13,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
+
+    <div class=back-button onclick="goBack()">
+        <img src="../countApple/media/left-arrow.png" alt="Back">
+    </div>
+  <div class=logo>
+    <img src="../countApple/media/logo.png" alt="logo">
+  </div>
+
     <div id="game-container">
         <h1>Guess The Secret Number</h1>
         <p id="message">The secret number is between 1 and 100</p>
@@ -23,5 +31,12 @@
         </div>
     </div>
     <script src="script.js"></script>
+
+    <!-- back button function -->
+  <script>
+    function goBack() {
+      window.history.back();
+    }
+  </script>
 </body>
 </html>

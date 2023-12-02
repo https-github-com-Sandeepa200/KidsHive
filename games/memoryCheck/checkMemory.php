@@ -13,6 +13,13 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div class=back-button onclick="goBack()">
+    <img src="../countApple/media/left-arrow.png" alt="Back">
+  </div>
+  <div class=logo>
+    <img src="../countApple/media/logo.png" alt="logo">
+  </div>
+
   <div id="timer">Time left: 60 seconds</div>
   <div id="message" style="display: none;"></div>
   <button onclick="restartGame()" id="playAgainButton" style="display: none;">Play Again</button>
@@ -22,5 +29,11 @@
   </div>
 
   <script src="script.js"></script>
+  <!-- back button function -->
+  <script>
+    function goBack() {
+      window.history.back();
+    }
+  </script>
 </body>
 </html>

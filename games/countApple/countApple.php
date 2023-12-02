@@ -9,11 +9,20 @@
   <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
+  <div class=back-button onclick="goBack()">
+    <img src="../countApple/media/left-arrow.png" alt="Back">
+  </div>
+  <div class=logo>
+    <img src="../countApple/media/logo.png" alt="logo">
+  </div>
+
   <div class="containerOuter">
     <div id="result"></div>
     <div id="score">Score: <span id="scoreValue">0</span></div>
     <div id="tries">Tries left: <span id="triesLeft">3</span></div>
   </div>
+
+<div class="display">
   <div class="appleContainer">
     <h1>Count the Apples</h1>
     <div id="gameArea">
@@ -22,6 +31,15 @@
       <button onclick="checkAnswer()">Check Answer</button>
     </div>
   </div>
+</div>
+
   <script src="script.js"></script>
+
+  <!-- back button function -->
+  <script>
+    function goBack() {
+      window.history.back();
+    }
+  </script>
 </body>
 </html>
