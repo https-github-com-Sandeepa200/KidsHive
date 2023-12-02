@@ -219,7 +219,7 @@
     $gameSelecction_heading = array(
         'en'=>"select your category",
         'si'=>"ඔබේ කාණ්ඩය තෝරන්න",
-        'ta'=>"உங்கள் வகையைத் தேர்வுசெய்க",
+        'ta'=>"உங்கள் வகுப்பை தேர்வுசெய்க",
     );
 
     /*word dictionary for dashboard games catogory*/
