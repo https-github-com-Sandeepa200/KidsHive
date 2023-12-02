@@ -57,12 +57,12 @@ header .headBanner p{
 .allMembers .memberRight .profilePic{
     float: right;
     right: 64%;
-    top: 13%;
+    top: 40px;
 }
 .allMembers .memberLeft .profilePic{
     float: left;
     left: 64%;
-    top: 13%;
+    top: 40px;
 }
 
 .allMembers .background {

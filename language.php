@@ -22,7 +22,7 @@
 
     /*word dictionary for home page*/
     $sign_btn = array(
-        'en'=>"Sign Up",
+        'en'=>"Sign In",
         'si'=>"ලියාපදිංචි වන්න",
         'ta'=>"பதிவு செய்யவும்",
     );
@@ -203,9 +203,9 @@
 
     /*word dictionary for art board*/
     $art_btn = array(
-        'en'=>array('Colour','Brush Size', 'Eraser','Download'),
-        'si'=>array('වර්ණ','පින්සලෙහි ප්‍රමාණය', 'මකනය', 'බාගත කිරීම ', ),
-        'ta'=>array('நிறம்', 'தூரிகை அளவு', 'அழிப்பான்', 'பதிவிறக்குகிறது'),
+        'en'=>array('Colour','Brush Size', 'Eraser','Download', 'new page'),
+        'si'=>array('වර්ණ','පින්සලෙහි ප්‍රමාණය', 'මකනය', 'බාගත කිරීම ', 'නව පිටුව' ),
+        'ta'=>array('நிறம்', 'தூரிகை அளவு', 'அழிப்பான்', 'பதிவிறக்குகிறது', 'புதிய பக்கம்'),
     );
 
     /*word dictionary for dashboard lessons*/
