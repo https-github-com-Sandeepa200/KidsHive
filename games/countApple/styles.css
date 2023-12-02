@@ -1,18 +1,19 @@
 body {
   padding: 50px; /* Adjust padding for better mobile view */
-  align-items: center;
-  justify-content: center;
   background-image: url("media/appleTree.png");
   background-position: right;
   background-repeat: no-repeat;
   background-size: contain;
   background-color: beige;
-  zoom: 1.1;
+}
+
+.display{
+  display: flex;
 }
 
 .appleContainer {
   text-align: center;
-  margin-top: 20px; 
+  margin-top: 20px;
   border: 2px solid red;
   border-style: dashed;
   border-width: 3px; 
@@ -20,9 +21,10 @@ body {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
   padding: 15px; 
   background-color: #ffff;
-  width: 90%; 
   max-width: 500px; 
   justify-content: center;
+  margin-left: auto;
+  margin-right: auto; 
 }
 
 .appleContainer h1{
@@ -83,7 +85,7 @@ img{
 }
 
 .containerOuter #score{
-  padding-top: 1em;
+  /* padding-top:5px; */
   font-size: 2em;
   font-weight:bold;
   color:black;
@@ -96,3 +98,55 @@ img{
   padding-top: 1em;
 }
 
+/* back button */
+.back-button img {
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 10px; /* Adjust as needed to position vertically */
+  left: 10px; /* Adjust as needed to position horizontally */
+  z-index: 1; /* Ensure the back button is above other elements */
+  /* Add additional styles as needed */
+}
+
+/*logo*/
+.logo img{
+  position: relative;
+  margin-inline: 30px;
+  width: 100px;
+  background-color: white;
+  border-radius: 15px;
+  transition: transform 0.2s ease-in-out;
+}
+
+/*Animation of shake for logo*/
+.logo img:hover {
+  animation: shake 0.6s ease-in-out;
+}
+
+@keyframes shake {
+  0% {
+      transform: translateX(0);
+  }
+
+  20% {
+      transform: translateX(-10px) rotate(3deg);
+  }
+
+  40% {
+      transform: translateX(10px) rotate(-3deg);
+  }
+
+  60% {
+      transform: translateX(-10px) rotate(2deg);
+  }
+
+  80% {
+      transform: translateX(10px) rotate(-2deg);
+  }
+
+  100% {
+      transform: translateX(0);
+  }
+}

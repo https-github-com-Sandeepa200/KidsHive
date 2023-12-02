@@ -2,13 +2,12 @@ body {
     font-family: Arial, sans-serif;
     background-image: url('../numberGuesing/media/bg.png');
     text-align: center;
-    background-size: cover; 
-    justify-content: center;
-    padding-top: 150px;
-    
+    background-size: cover;  
+    padding-top: 150px;    
 }
 
 #game-container {
+    justify-content: center;
     width: 500px;
     max-height: 400px;
     margin: 50px auto;
@@ -16,6 +15,8 @@ body {
     background-color: #ffff;
     border-radius: 12px;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #game-container h1{
@@ -87,3 +88,57 @@ input[type="number"]::placeholder {
     }
 }
 
+/* back button */
+.back-button img {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 10px; 
+    left: 10px; 
+    z-index: 1; 
+    margin-left:20px;
+   
+  }
+  
+  /*logo*/
+  .logo img{
+    position: relative;
+    margin-inline: 30px;
+    width: 100px;
+    background-color: white;
+    border-radius: 15px;
+    transition: transform 0.2s ease-in-out;
+   
+    }
+  
+  /*Animation of shake for logo*/
+  .logo img:hover {
+    animation: shake 0.6s ease-in-out;
+  }
+  
+  @keyframes shake {
+    0% {
+        transform: translateX(0);
+    }
+  
+    20% {
+        transform: translateX(-10px) rotate(3deg);
+    }
+  
+    40% {
+        transform: translateX(10px) rotate(-3deg);
+    }
+  
+    60% {
+        transform: translateX(-10px) rotate(2deg);
+    }
+  
+    80% {
+        transform: translateX(10px) rotate(-2deg);
+    }
+  
+    100% {
+        transform: translateX(0);
+    }
+  }

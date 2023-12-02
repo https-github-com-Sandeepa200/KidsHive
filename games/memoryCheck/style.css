@@ -12,15 +12,15 @@ body{
   
 .grid {
     display: grid;
-    grid-template-columns: repeat(4, 200px);
+    grid-template-columns: repeat(4, 130px);
     grid-gap: 5px;
     margin-top: 20px;
     justify-content: center;
   }
   
 .tile {
-    width: 180px;
-    height: 120px;
+    width: 120px;
+    height: 100px;
     background-color:#EC9CD3;
     display:flex;
     justify-content: center;
@@ -73,4 +73,56 @@ body{
 /* Optional: Hide the text content when images are revealed */
 .tile.hidden::before {
   content: "";
+}
+/* back button */
+.back-button img {
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 10px; 
+  left: 10px; 
+  z-index: 1; 
+
+}
+
+/*logo*/
+.logo img{
+  position: relative;
+  margin-inline: 30px;
+  width: 100px;
+  background-color: white;
+  border-radius: 15px;
+  transition: transform 0.2s ease-in-out;
+}
+
+/*Animation of shake for logo*/
+.logo img:hover {
+  animation: shake 0.6s ease-in-out;
+}
+
+@keyframes shake {
+  0% {
+      transform: translateX(0);
+  }
+
+  20% {
+      transform: translateX(-10px) rotate(3deg);
+  }
+
+  40% {
+      transform: translateX(10px) rotate(-3deg);
+  }
+
+  60% {
+      transform: translateX(-10px) rotate(2deg);
+  }
+
+  80% {
+      transform: translateX(10px) rotate(-2deg);
+  }
+
+  100% {
+      transform: translateX(0);
+  }
 }

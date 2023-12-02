@@ -18,6 +18,7 @@
 
 .cardpack .card-image{
     position: relative;
+    height: 255px;
 }
 
 .card .card-image .overlayVideo{
