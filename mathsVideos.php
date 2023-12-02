@@ -78,23 +78,11 @@
                 </div>
                 <div class="card">
                     <div class="card-image">
-                        <a href="https://www.youtube.com/embed/LgmPVi9Wngc?si=EzQgvt0DAnixmJeM" target="player" onclick="openPlayer()">
-                            <img src="media/lessons/preschool/maths/color_preschool.png" alt="boy studing with computer">
-                            <div class="overlayVideo">
-                                <i class="fa-regular fa-circle-play"></i>
-                                <p>10.00</p>
-                            </div>
-                        </a>
-                    </div>
-                    <h3>Colors</h3>
-                </div>
-                <div class="card">
-                    <div class="card-image">
                         <a href="https://www.youtube.com/embed/pZG9Lf1Qic0?si=Mgi1C47rvJdEpp9m" target="player" onclick="openPlayer()">
                             <img src="media/lessons/preschool/maths/pattern Party" alt="boy studing with computer">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play"></i>
-                                <p>10.00</p>
+                                <p>1.55</p>
                             </div>
                         </a>
                     </div>
