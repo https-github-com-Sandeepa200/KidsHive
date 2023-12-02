@@ -142,3 +142,10 @@ downloadBtn.addEventListener("click", () => {
     console.log("Data URL:", dataURL);
 
 });
+
+//clear button
+const clearBtn = document.querySelector('#clearBtn');
+
+clearBtn.addEventListener("click", () => {
+    location.reload();
+});

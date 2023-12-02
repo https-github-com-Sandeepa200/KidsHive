@@ -1,4 +1,7 @@
+#headBannerSize{
+    width: 90%;
 
+}
 header{
     background-image: url("../media/signup.jpg");/*Banner 1*/
 }

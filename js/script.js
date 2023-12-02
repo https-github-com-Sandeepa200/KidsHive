@@ -91,7 +91,7 @@ window.addEventListener('load', () => {
     let mouseX = 0;
     let mouseY = 0;
 
-    const ease = 0.05;
+    const ease = 0.025;
 
     function easeTo() {
         const followerBounds = follower.getBoundingClientRect();
