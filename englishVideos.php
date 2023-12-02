@@ -67,7 +67,7 @@
                 <div class="card">
                     <div class="card-image">
                         <a href="https://www.youtube.com/embed/LgmPVi9Wngc" target="player" onclick="openPlayer()">
-                            <img src="media/studing.jpg" alt="boy studing with computer">
+                            <img src="media/lessons/preschool/English/color_preschool.png" alt="colours">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play"></i>
                                 <p>2:10</p>
@@ -79,7 +79,7 @@
                 <div class="card">
                     <div class="card-image">
                         <a href="https://www.youtube.com/embed/dJsm3rVa_Nk" target="player" onclick="openPlayer()">
-                            <img src="media/studing.jpg" alt="boy studing with computer">
+                            <img src="media/lessons/grade1/Science/days_grade1.png" alt="Days of the weel">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play"></i>
                                 <p>1:07</p>
@@ -90,15 +90,15 @@
                 </div>
                 <div class="card">
                     <div class="card-image">
-                        <a href="lessons.php">
-                            <img src="media/studing.jpg" alt="boy studing with computer">
+                        <a href="https://www.youtube.com/embed/15Av1Z0xPB0?si" target="player" onclick="openPlayer()">
+                            <img src="media/lessons/preschool/English/sports.png" alt="sports">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play"></i>
-                                <p>10.00</p>
+                                <p> 2:40</p>
                             </div>
                         </a>
                     </div>
-                    <h3>video name</h3>
+                    <h3>Sports</h3>
                 </div>
                 <div class="card">
                     <div class="card-image">
