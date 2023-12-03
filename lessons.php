@@ -73,7 +73,7 @@ if ($user_data == "") {
             </div>
         </div>
     </div>
-    <footer class="mainFooter">
+    <footer >
         <div class="baseline"><?php echo $footer_contact[$languages]['1'] ?></div>
     </footer>
     <script src="script.js"></script>

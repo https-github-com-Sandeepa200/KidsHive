@@ -25,7 +25,7 @@
         <li>
             <form method="post">
                 <select name="language" id="language" onchange="this.form.submit();">
-                    <option value="">Language</option>
+                    <!-- <option value="">Language</option> -->
                     <option value="en" <?php if($languages == 'en') echo 'selected'; ?>>English</option>
                     <option value="si" <?php if($languages == 'si') echo 'selected'; ?>>Sinhala</option>
                     <option value="ta" <?php if($languages == 'ta') echo 'selected'; ?>>Tamil</option>
