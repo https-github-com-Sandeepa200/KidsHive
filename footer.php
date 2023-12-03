@@ -5,10 +5,8 @@
                 <p class="description"><?php echo $footer_description[$languages]?></p>
                 <div class="social">
                     <ul>
-                        <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
-                        <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="https://www.youtube.com/@kidshive3770"><i class="fa-brands fa-youtube"></i></a></li>
+                        <li><a href="https://github.com/https-github-com-Sandeepa200/KidsHive/tree/master"><i class="fa-brands fa-github"></i></a></li>
                     </ul>
                 </div>
             </div>
@@ -42,7 +40,7 @@
             <div class="contact">
                 <h3><?php echo $footer_contact[$languages]['0']?></h3>
                 <ul>
-                    <li><a href="#"><i class="fa-solid fa-location-dot"></i>  xx, kandy road,<br> &nbsp;&nbsp;&nbsp;Srilanka</a></li>
+                    <li><a href="Polgolla"><i class="fa-solid fa-location-dot"></i> Kandy,&nbsp;Srilanka</a></li>
                     <li><a href="#"><i class="fa-solid fa-envelope"></i>   Kidshiveweb@gmail.com</a></li>
                     <li><a href="#"><i class="fa-solid fa-phone"></i>   +94xxxxxxxxx</a></li>
                 </ul>

@@ -451,28 +451,32 @@
 
     <script src="js/script.js"></script>
 
-      <!-- Search Function -->
-    <script>
-    function searchCards() {
-        const searchValue = document.getElementById('searchInput').value.toLowerCase();
-        const cards = document.querySelectorAll('.card h3');
+      
+<!-- Search Function -->
+<script>
+function searchCards() {
+    const searchValue = document.getElementById('searchInput').value.toLowerCase();
+    const cards = document.querySelectorAll('.card h3');
 
-        let results = [];
-        cards.forEach(card => {
-            const cardText = card.textContent.toLowerCase();
-            if (cardText.includes(searchValue)) {
-                results.push(card.parentNode.outerHTML);
-            }
-        });
+    let scrollToElement = null;
 
-        const searchResultsContainer = document.getElementById('searchResults');
-        if (results.length > 0) {
-            searchResultsContainer.innerHTML = results.join('');
-        } else {
-            searchResultsContainer.innerHTML = '<p class=result>No results found.</p>';
+    cards.forEach(card => {
+        const cardText = card.textContent.toLowerCase();
+        if (cardText.includes(searchValue) && scrollToElement === null) {
+            scrollToElement = card.parentNode;
         }
+    });
+
+    if (scrollToElement !== null) {
+        scrollToElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    } else {
+        // Handle case where no match is found
+        console.log('No matching element found.');
     }
-    </script>
+}
+</script>
+
+
 </body>
 
 </html>
