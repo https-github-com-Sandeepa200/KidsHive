@@ -42,7 +42,7 @@
             <div class="contact">
                 <h3><?php echo $footer_contact[$languages]['0']?></h3>
                 <ul>
-                    <li><a href="Polgolla"><i class="fa-solid fa-location-dot"></i> Kandy,&nbsp;Srilanka</a></li>
+                    <li><a href="https://maps.app.goo.gl/etj3fpRaRRBDBv6Y8"><i class="fa-solid fa-location-dot"></i> Kandy,&nbsp;Srilanka</a></li>
                     <li><a href="#"><i class="fa-solid fa-envelope"></i>   Kidshiveweb@gmail.com</a></li>
                     <li><a href="#"><i class="fa-solid fa-phone"></i>   +94xxxxxxxxx</a></li>
                 </ul>
