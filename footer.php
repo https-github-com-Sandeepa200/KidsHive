@@ -5,10 +5,10 @@
                 <p class="description"><?php echo $footer_description[$languages]?></p>
                 <div class="social">
                     <ul>
-                        <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
-                        <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="https://www.youtube.com/@kidshive3770"><i class="fa-brands fa-youtube"></i></a></li>
+                        <li><a href="https://github.com/https-github-com-Sandeepa200/KidsHive.git"><i class="fa-brands fa-github"></i></a></li>
+                        <li><a href="https://www.linkedin.com"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                        <li><a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a></li>
                     </ul>
                 </div>
             </div>
