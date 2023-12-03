@@ -117,3 +117,24 @@ window.addEventListener('load', () => {
     document.onmousemove = setCoords;
     update();
 })();
+
+// Search Function
+
+function searchCards() {
+    const searchValue = document.getElementById('searchInput').value.toLowerCase();
+    const cards = document.querySelectorAll('.card h3');
+
+    cards.forEach(card => {
+        const cardText = card.textContent.toLowerCase();
+        if (cardText.includes(searchValue) ) {
+            scrollToElement = card.parentNode;
+        }
+    });
+
+    if (scrollToElement !== null) {
+        scrollToElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    } else {
+        // Handle case where no match is found
+        alert('No matching element found.');
+    }
+}
