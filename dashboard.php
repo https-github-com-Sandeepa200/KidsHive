@@ -46,12 +46,6 @@ if ($user_data == "") {
                     <div class="cardpack">
                         <div class="card">
                             <div class="card-image">
-                                <a href="art.php"><img src="media/animation/art.gif" alt="girl drawing with computer"></a>
-                            </div>
-                            <h3><?php echo $cards[$languages]['2'] ?></h3>
-                        </div>
-                        <div class="card">
-                            <div class="card-image">
                                 <a href="lessons.php"><img src="media/animation/lesson.gif" alt="boy studing with computer"></a>
                             </div>
                             <h3><?php echo $cards[$languages]['0'] ?></h3>
@@ -61,6 +55,12 @@ if ($user_data == "") {
                                 <a href="gameSelection.php"><img src="media/animation/play.gif" alt="two girls playing games with computer"></a>
                             </div>
                             <h3><?php echo $cards[$languages]['1'] ?></h3>
+                        </div>
+                        <div class="card">
+                            <div class="card-image">
+                                <a href="art.php"><img src="media/animation/art.gif" alt="girl drawing with computer"></a>
+                            </div>
+                            <h3><?php echo $cards[$languages]['2'] ?></h3>
                         </div>
                     </div>
                 </div>
