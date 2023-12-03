@@ -21,7 +21,7 @@ menuBtn.addEventListener('click', () => {
     menu.classList.toggle('menuToggle');
 });
 
-//function for showing video emberded player
+//function for showing video embedded player
 
 var player = document.getElementById("hidePlayer");
 
@@ -57,7 +57,7 @@ window.addEventListener('scroll', () => {
     const distanceToAnimate2 = animateSection2.getBoundingClientRect().top;
 
     if (distanceToAnimate2 <= 300) {
-        console.log('working fime');
+        console.log('working fine');
         animateSection2.classList.add('show', 'animate__animated', 'animate__zoomInDown');
     }
 });

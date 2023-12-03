@@ -30,6 +30,9 @@ $user_data = check_login($con);
     <!-- font awesome cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/regular.min.css" />
+    
+    <!-- SweetAlert2 cdn link for js animations -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
     <title>Kids Web</title>
 </head>
@@ -149,7 +152,7 @@ $user_data = check_login($con);
     </div>
 
     <!--landing page part4 (team)-->
-    <div class="container">
+    <div class="container" id="about_container">
         <div class="part4">
             <h1><?php echo $heading5[$languages] ?></h1>
             <div class="profileCards">
@@ -169,14 +172,14 @@ $user_data = check_login($con);
                 </div>
                 <div class="Pcard">
                     <div class="Pcard-image">
-                        <img src="media/profile-pic/sandeepa.jpg" style="width:220px;" alt="image of the person">
+                        <img src="media/profile-pic/sandeepa.jpg" style="width:250px;" alt="image of the person">
                     </div>
                     <h3><?php echo  $profile_card[$languages]['2'] ?></h3>
                     <h4><?php echo  $profile_card[$languages]['4'] ?></h4>
                 </div>
                 <div class="Pcard">
                     <div class="Pcard-image">
-                        <img src="media/profile-pic/thimali.jpg" style="width:265px;" alt="image of the person">
+                        <img src="media/profile-pic/thimali.jpg" style="width:250px;" alt="image of the person">
                     </div>
                     <h3><?php echo  $profile_card[$languages]['3'] ?></h3>
                     <h4><?php echo  $profile_card[$languages]['4'] ?></h4>

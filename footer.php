@@ -6,7 +6,9 @@
                 <div class="social">
                     <ul>
                         <li><a href="https://www.youtube.com/@kidshive3770"><i class="fa-brands fa-youtube"></i></a></li>
-                        <li><a href="https://github.com/https-github-com-Sandeepa200/KidsHive/tree/master"><i class="fa-brands fa-github"></i></a></li>
+                        <li><a href="https://github.com/https-github-com-Sandeepa200/KidsHive.git"><i class="fa-brands fa-github"></i></a></li>
+                        <li><a href="https://www.linkedin.com"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                        <li><a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a></li>
                     </ul>
                 </div>
             </div>

@@ -1,5 +1,13 @@
 <?php
+session_start();
 
+include("connections.php");
+include("functions.php");
+
+$user_data = check_login($con);
+if ($user_data == "") {
+    notLoggedUser();
+}
 ?>
 
 <!DOCTYPE html>
@@ -445,7 +453,7 @@
             </div>
         </div>
     </div>
-    <footer class="mainFooter">
+    <footer >
         <div class="baseline">Privacy Policy - kids web © 2022 - All Rights Reserved</div>
     </footer>
 
