@@ -465,7 +465,7 @@ if ($user_data == "") {
             </div>
         </div>
     </div>
-    <footer class="mainFooter">
+    <footer >
         <div class="baseline">Privacy Policy - kids web © 2022 - All Rights Reserved</div>
     </footer>
 

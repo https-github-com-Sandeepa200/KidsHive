@@ -82,7 +82,7 @@ if ($user_data == "") {
 
         </div>
         <div class="shortfooter">
-            <hr>
+            
             <div class="baseline"><?php echo $footer_contact[$languages]['1'] ?></div>
         </div>
 
