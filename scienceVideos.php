@@ -471,29 +471,7 @@ if ($user_data == "") {
 
     <script src="js/script.js"></script>
 
- <!-- Search Function -->
-<script>
-function searchCards() {
-    const searchValue = document.getElementById('searchInput').value.toLowerCase();
-    const cards = document.querySelectorAll('.card h3');
 
-    let scrollToElement = null;
-
-    cards.forEach(card => {
-        const cardText = card.textContent.toLowerCase();
-        if (cardText.includes(searchValue) && scrollToElement === null) {
-            scrollToElement = card.parentNode;
-        }
-    });
-
-    if (scrollToElement !== null) {
-        scrollToElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    } else {
-        // Handle case where no match is found
-        console.log('No matching element found.');
-    }
-}
-</script>
 
 </body>
 
