@@ -107,3 +107,7 @@ span{
     width: 80%;
     margin: auto;   
 }
+
+#headBannerSize{
+    padding-top: 0;
+}
