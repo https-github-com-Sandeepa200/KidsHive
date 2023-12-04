@@ -98,39 +98,15 @@ if ($user_data == "") {
                 </div>
                 <div class="card">
                     <div class="card-image">
-                        <a href="lessons.php">
-                            <img src="media/studing.jpg" alt="boy studing with computer">
+                        <a href="https://www.youtube.com/embed/YXHAc_ycDeY" target="player" onclick="openPlayer()">
+                            <img src="media/lessons/grade1/maths/1-100 01.png" alt="boy studing with computer">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play"></i>
-                                <p>10.00</p>
+                                <p>1:59</p>
                             </div>
                         </a>
                     </div>
-                    <h3>video name</h3>
-                </div>
-                <div class="card">
-                    <div class="card-image">
-                        <a href="lessons.php">
-                            <img src="media/studing.jpg" alt="boy studing with computer">
-                            <div class="overlayVideo">
-                                <i class="fa-regular fa-circle-play"></i>
-                                <p>10.00</p>
-                            </div>
-                        </a>
-                    </div>
-                    <h3>video name</h3>
-                </div>
-                <div class="card">
-                    <div class="card-image">
-                        <a href="lessons.php">
-                            <img src="media/studing.jpg" alt="boy studing with computer">
-                            <div class="overlayVideo">
-                                <i class="fa-regular fa-circle-play"></i>
-                                <p>10.00</p>
-                            </div>
-                        </a>
-                    </div>
-                    <h3>video name</h3>
+                    <h3>Count 1 to 100</h3>
                 </div>
                 <div class="card">
                     <div class="card-image">
@@ -164,75 +140,39 @@ if ($user_data == "") {
                 </div>
                 <div class="card">
                     <div class="card-image">
-                        <a href="">
-                            <img src="media/studing.jpg" alt="boy studing with computer">
+                        <a href="https://www.youtube.com/embed/iSpyyxAUcDI" target="player" onclick="openPlayer()">
+                            <img src="media/lessons/preschool/maths/1 to 10 _ preschool.png" alt="boy studing with computer">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play"></i>
-                                <p>10.00</p>
+                                <p> 1:16</p>
                             </div>
                         </a>
                     </div>
-                    <h3>Shapes</h3>
+                    <h3>Count 1 to 10</h3>
                 </div>
                 <div class="card">
                     <div class="card-image">
-                        <a href="lessons.php">
-                            <img src="media/studing.jpg" alt="boy studing with computer">
+                        <a href="https://www.youtube.com/embed/TzVZweQVato" target="player" onclick="openPlayer()">
+                            <img src="media/lessons/preschool/maths/shape_preschool.jpg" alt="boy studing with computer">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play"></i>
-                                <p>10.00</p>
+                                <p> 1:26</p>
                             </div>
                         </a>
                     </div>
-                    <h3>video name</h3>
+                    <h3>Basic Shapes</h3>
                 </div>
                 <div class="card">
                     <div class="card-image">
-                        <a href="lessons.php">
-                            <img src="media/studing.jpg" alt="boy studing with computer">
+                        <a href="https://www.youtube.com/embed/pZG9Lf1Qic0?si=Mgi1C47rvJdEpp9m" target="player" onclick="openPlayer()">
+                            <img src="media/lessons/preschool/maths/pattern Party" alt="boy studing with computer">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play"></i>
-                                <p>10.00</p>
+                                <p>1.55</p>
                             </div>
                         </a>
                     </div>
-                    <h3>video name</h3>
-                </div>
-                <div class="card">
-                    <div class="card-image">
-                        <a href="lessons.php">
-                            <img src="media/studing.jpg" alt="boy studing with computer">
-                            <div class="overlayVideo">
-                                <i class="fa-regular fa-circle-play"></i>
-                                <p>10.00</p>
-                            </div>
-                        </a>
-                    </div>
-                    <h3>video name</h3>
-                </div>
-                <div class="card">
-                    <div class="card-image">
-                        <a href="lessons.php">
-                            <img src="media/studing.jpg" alt="boy studing with computer">
-                            <div class="overlayVideo">
-                                <i class="fa-regular fa-circle-play"></i>
-                                <p>10.00</p>
-                            </div>
-                        </a>
-                    </div>
-                    <h3>video name</h3>
-                </div>
-                <div class="card">
-                    <div class="card-image">
-                        <a href="lessons.php">
-                            <img src="media/studing.jpg" alt="boy studing with computer">
-                            <div class="overlayVideo">
-                                <i class="fa-regular fa-circle-play"></i>
-                                <p>10.00</p>
-                            </div>
-                        </a>
-                    </div>
-                    <h3>video name</h3>
+                    <h3>Pattern Party</h3>
                 </div>
                 <div class="card">
                     <div class="card-image">
@@ -252,89 +192,53 @@ if ($user_data == "") {
             <h1>Grade 2-Maths</h1>
             <!--video selection-->
             <div class="cardpack">
-                <div class="card">
+            <div class="card">
                     <div class="card-image">
-                        <a href="lessons.php">
-                            <img src="media/studing.jpg" alt="boy studing with computer">
+                        <a href="https://www.youtube.com/embed/pZG9Lf1Qic0?si=Mgi1C47rvJdEpp9m" target="player" onclick="openPlayer()">
+                            <img src="media/lessons/preschool/maths/pattern Party" alt="boy studing with computer">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play"></i>
-                                <p>10.00</p>
+                                <p>1.55</p>
                             </div>
                         </a>
                     </div>
-                    <h3>video name</h3>
+                    <h3>Pattern Party</h3>
                 </div>
                 <div class="card">
                     <div class="card-image">
-                        <a href="lessons.php">
-                            <img src="media/studing.jpg" alt="boy studing with computer">
+                        <a href="https://www.youtube.com/embed/TzVZweQVato" target="player" onclick="openPlayer()">
+                            <img src="media/lessons/preschool/maths/shape_preschool.jpg" alt="boy studing with computer">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play"></i>
-                                <p>10.00</p>
+                                <p> 1:26</p>
                             </div>
                         </a>
                     </div>
-                    <h3>video name</h3>
+                    <h3>Basic Shapes</h3>
                 </div>
                 <div class="card">
                     <div class="card-image">
-                        <a href="lessons.php">
-                            <img src="media/studing.jpg" alt="boy studing with computer">
+                        <a href="https://www.youtube.com/embed/iSpyyxAUcDI" target="player" onclick="openPlayer()">
+                            <img src="media/lessons/preschool/maths/1 to 10 _ preschool.png" alt="boy studing with computer">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play"></i>
-                                <p>10.00</p>
+                                <p> 1:16</p>
                             </div>
                         </a>
                     </div>
-                    <h3>video name</h3>
+                    <h3>Count 1 to 10</h3>
                 </div>
                 <div class="card">
                     <div class="card-image">
-                        <a href="lessons.php">
-                            <img src="media/studing.jpg" alt="boy studing with computer">
+                        <a href="https://www.youtube.com/embed/YXHAc_ycDeY" target="player" onclick="openPlayer()">
+                            <img src="media/lessons/grade1/maths/1-100 01.png" alt="boy studing with computer">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play"></i>
-                                <p>10.00</p>
+                                <p>1:59</p>
                             </div>
                         </a>
                     </div>
-                    <h3>video name</h3>
-                </div>
-                <div class="card">
-                    <div class="card-image">
-                        <a href="lessons.php">
-                            <img src="media/studing.jpg" alt="boy studing with computer">
-                            <div class="overlayVideo">
-                                <i class="fa-regular fa-circle-play"></i>
-                                <p>10.00</p>
-                            </div>
-                        </a>
-                    </div>
-                    <h3>video name</h3>
-                </div>
-                <div class="card">
-                    <div class="card-image">
-                        <a href="lessons.php">
-                            <img src="media/studing.jpg" alt="boy studing with computer">
-                            <div class="overlayVideo">
-                                <i class="fa-regular fa-circle-play"></i>
-                                <p>10.00</p>
-                            </div>
-                        </a>
-                    </div>
-                    <h3>video name</h3>
-                </div>
-                <div class="card">
-                    <div class="card-image">
-                        <a href="lessons.php">
-                            <img src="media/studing.jpg" alt="boy studing with computer">
-                            <div class="overlayVideo">
-                                <i class="fa-regular fa-circle-play"></i>
-                                <p>10.00</p>
-                            </div>
-                        </a>
-                    </div>
-                    <h3>video name</h3>
+                    <h3>Count 1 to 100</h3>
                 </div>
                 <div class="card">
                     <div class="card-image">
@@ -356,15 +260,51 @@ if ($user_data == "") {
             <div class="cardpack">
                 <div class="card">
                     <div class="card-image">
-                        <a href="lessons.php">
-                            <img src="media/studing.jpg" alt="boy studing with computer">
+                        <a href="https://www.youtube.com/embed/TzVZweQVato" target="player" onclick="openPlayer()">
+                            <img src="media/lessons/preschool/maths/shape_preschool.jpg" alt="boy studing with computer">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play"></i>
-                                <p>10.00</p>
+                                <p> 1:26</p>
                             </div>
                         </a>
                     </div>
-                    <h3>video name</h3>
+                    <h3>Basic Shapes</h3>
+                </div>
+                <div class="card">
+                    <div class="card-image">
+                        <a href="https://www.youtube.com/embed/pZG9Lf1Qic0?si=Mgi1C47rvJdEpp9m" target="player" onclick="openPlayer()">
+                            <img src="media/lessons/preschool/maths/pattern Party" alt="boy studing with computer">
+                            <div class="overlayVideo">
+                                <i class="fa-regular fa-circle-play"></i>
+                                <p>1.55</p>
+                            </div>
+                        </a>
+                    </div>
+                    <h3>Pattern Party</h3>
+                </div>
+                <div class="card">
+                    <div class="card-image">
+                        <a href="https://www.youtube.com/embed/iSpyyxAUcDI" target="player" onclick="openPlayer()">
+                            <img src="media/lessons/preschool/maths/1 to 10 _ preschool.png" alt="boy studing with computer">
+                            <div class="overlayVideo">
+                                <i class="fa-regular fa-circle-play"></i>
+                                <p> 1:16</p>
+                            </div>
+                        </a>
+                    </div>
+                    <h3>Count 1 to 10</h3>
+                </div>
+                <div class="card">
+                    <div class="card-image">
+                        <a href="https://www.youtube.com/embed/YXHAc_ycDeY" target="player" onclick="openPlayer()">
+                            <img src="media/lessons/grade1/maths/1-100 01.png" alt="boy studing with computer">
+                            <div class="overlayVideo">
+                                <i class="fa-regular fa-circle-play"></i>
+                                <p>1:59</p>
+                            </div>
+                        </a>
+                    </div>
+                    <h3>Count 1 to 100</h3>
                 </div>
                 <div class="card">
                     <div class="card-image">
@@ -378,78 +318,7 @@ if ($user_data == "") {
                     </div>
                     <h3>video name</h3>
                 </div>
-                <div class="card">
-                    <div class="card-image">
-                        <a href="lessons.php">
-                            <img src="media/studing.jpg" alt="boy studing with computer">
-                            <div class="overlayVideo">
-                                <i class="fa-regular fa-circle-play"></i>
-                                <p>10.00</p>
-                            </div>
-                        </a>
-                    </div>
-                    <h3>video name</h3>
-                </div>
-                <div class="card">
-                    <div class="card-image">
-                        <a href="lessons.php">
-                            <img src="media/studing.jpg" alt="boy studing with computer">
-                            <div class="overlayVideo">
-                                <i class="fa-regular fa-circle-play"></i>
-                                <p>10.00</p>
-                            </div>
-                        </a>
-                    </div>
-                    <h3>video name</h3>
-                </div>
-                <div class="card">
-                    <div class="card-image">
-                        <a href="lessons.php">
-                            <img src="media/studing.jpg" alt="boy studing with computer">
-                            <div class="overlayVideo">
-                                <i class="fa-regular fa-circle-play"></i>
-                                <p>10.00</p>
-                            </div>
-                        </a>
-                    </div>
-                    <h3>video name</h3>
-                </div>
-                <div class="card">
-                    <div class="card-image">
-                        <a href="lessons.php">
-                            <img src="media/studing.jpg" alt="boy studing with computer">
-                            <div class="overlayVideo">
-                                <i class="fa-regular fa-circle-play"></i>
-                                <p>10.00</p>
-                            </div>
-                        </a>
-                    </div>
-                    <h3>video name</h3>
-                </div>
-                <div class="card">
-                    <div class="card-image">
-                        <a href="lessons.php">
-                            <img src="media/studing.jpg" alt="boy studing with computer">
-                            <div class="overlayVideo">
-                                <i class="fa-regular fa-circle-play"></i>
-                                <p>10.00</p>
-                            </div>
-                        </a>
-                    </div>
-                    <h3>video name</h3>
-                </div>
-                <div class="card">
-                    <div class="card-image">
-                        <a href="lessons.php">
-                            <img src="media/studing.jpg" alt="boy studing with computer">
-                            <div class="overlayVideo">
-                                <i class="fa-regular fa-circle-play"></i>
-                                <p>10.00</p>
-                            </div>
-                        </a>
-                    </div>
-                    <h3>video name</h3>
-                </div>
+                
             </div>
         </div>
     </div>
