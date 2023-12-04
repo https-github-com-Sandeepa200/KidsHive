@@ -109,15 +109,15 @@ if ($user_data == "") {
                 </div>
                 <div class="card">
                     <div class="card-image">
-                        <a href="lessons.php">
-                            <img src="media/studing.jpg" alt="boy studing with computer">
+                        <a href="https://www.youtube.com/embed/fmJfKTyiYpc?si=xQ2l-xdaSFmlZ6cO" target="player" onclick="openPlayer()">
+                            <img src="media/lessons/preschool/English/rabbit_tortoise.png" alt="The Rabbit and The Tortoise">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play"></i>
-                                <p>10.00</p>
+                                <p>1.44</p>
                             </div>
                         </a>
                     </div>
-                    <h3>video name</h3>
+                    <h3>The Rabbit And The Tortoise</h3>
                 </div>
                 <div class="card">
                     <div class="card-image">
@@ -211,15 +211,15 @@ if ($user_data == "") {
                 </div>
                 <div class="card">
                     <div class="card-image">
-                        <a href="lessons.php">
-                            <img src="media/studing.jpg" alt="boy studing with computer">
+                        <a href="https://www.youtube.com/embed/fmJfKTyiYpc?si=xQ2l-xdaSFmlZ6cO" target="player" onclick="openPlayer()">
+                            <img src="media/lessons/preschool/English/rabbit_tortoise.png" alt="The Rabbit and The Tortoise">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play"></i>
-                                <p>10.00</p>
+                                <p>1.44</p>
                             </div>
                         </a>
                     </div>
-                    <h3>video name</h3>
+                    <h3>The Rabbit And The Tortoise</h3>
                 </div>
                 <div class="card">
                     <div class="card-image">
@@ -313,15 +313,15 @@ if ($user_data == "") {
                 </div>
                 <div class="card">
                     <div class="card-image">
-                        <a href="lessons.php">
-                            <img src="media/studing.jpg" alt="boy studing with computer">
+                        <a href="https://www.youtube.com/embed/fmJfKTyiYpc?si=xQ2l-xdaSFmlZ6cO" target="player" onclick="openPlayer()">
+                            <img src="media/lessons/preschool/English/rabbit_tortoise.png" alt="The Rabbit and The Tortoise">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play"></i>
-                                <p>10.00</p>
+                                <p>1.44</p>
                             </div>
                         </a>
                     </div>
-                    <h3>video name</h3>
+                    <h3>The Rabbit And The Tortoise</h3>
                 </div>
                 <div class="card">
                     <div class="card-image">
@@ -415,15 +415,15 @@ if ($user_data == "") {
                 </div>
                 <div class="card">
                     <div class="card-image">
-                        <a href="lessons.php">
-                            <img src="media/studing.jpg" alt="boy studing with computer">
+                        <a href="https://www.youtube.com/embed/fmJfKTyiYpc?si=xQ2l-xdaSFmlZ6cO" target="player" onclick="openPlayer()">
+                            <img src="media/lessons/preschool/English/rabbit_tortoise.png" alt="The Rabbit and The Tortoise">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play"></i>
-                                <p>10.00</p>
+                                <p>1.44</p>
                             </div>
                         </a>
                     </div>
-                    <h3>video name</h3>
+                    <h3>The Rabbit And The Tortoise</h3>
                 </div>
                 <div class="card">
                     <div class="card-image">
