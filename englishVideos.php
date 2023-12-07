@@ -51,7 +51,7 @@ if ($user_data == "") {
 
     <!--  emberded video-->
     <div class="vplayer" id="hidePlayer">
-        <iframe width="90%" height="90%" name="player" src="https://www.youtube.com/embed/G-IS-scTJDo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        <iframe width="90%" height="90%" name="player" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
         </iframe>
     </div>
     <div class="container">
@@ -98,7 +98,7 @@ if ($user_data == "") {
                 <div class="card">
                     <div class="card-image">
                         <a href="https://www.youtube.com/embed/15Av1Z0xPB0?si" target="player" onclick="openPlayer()">
-                            <img src="media/lessons/preschool/English/sports.png" alt="sports">
+                            <img src="media/lessons/preschool/English/Sports.png" alt="sports">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play"></i>
                                 <p> 2:40</p>
@@ -121,15 +121,15 @@ if ($user_data == "") {
                 </div>
                 <div class="card">
                     <div class="card-image">
-                        <a href="lessons.php">
-                            <img src="media/studing.jpg" alt="boy studing with computer">
+                        <a href="" target="player" onclick="openPlayer()">
+                            <img src="media/preschool/English/lettersounds.png" alt="">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play"></i>
                                 <p>10.00</p>
                             </div>
                         </a>
                     </div>
-                    <h3>video name</h3>
+                    <h3>Letter Recognize</h3>
                 </div>
                 <div class="card">
                     <div class="card-image">
@@ -200,7 +200,7 @@ if ($user_data == "") {
                 <div class="card">
                     <div class="card-image">
                         <a href="https://www.youtube.com/embed/15Av1Z0xPB0?si" target="player" onclick="openPlayer()">
-                            <img src="media/lessons/preschool/English/sports.png" alt="sports">
+                            <img src="media/lessons/preschool/English/Sports.png" alt="sports">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play"></i>
                                 <p> 2:40</p>
@@ -223,7 +223,7 @@ if ($user_data == "") {
                 </div>
                 <div class="card">
                     <div class="card-image">
-                        <a href="lessons.php">
+                        <a href="">
                             <img src="media/studing.jpg" alt="boy studing with computer">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play"></i>
@@ -302,7 +302,7 @@ if ($user_data == "") {
                 <div class="card">
                     <div class="card-image">
                         <a href="https://www.youtube.com/embed/15Av1Z0xPB0?si" target="player" onclick="openPlayer()">
-                            <img src="media/lessons/preschool/English/sports.png" alt="sports">
+                            <img src="media/lessons/preschool/English/Sports.png" alt="sports">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play"></i>
                                 <p> 2:40</p>
@@ -404,7 +404,7 @@ if ($user_data == "") {
                 <div class="card">
                     <div class="card-image">
                         <a href="https://www.youtube.com/embed/15Av1Z0xPB0?si" target="player" onclick="openPlayer()">
-                            <img src="media/lessons/preschool/English/sports.png" alt="sports">
+                            <img src="media/lessons/preschool/English/Sports.png" alt="sports">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play"></i>
                                 <p> 2:40</p>

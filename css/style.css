@@ -622,14 +622,14 @@ header .headBanner h3 a:hover {
 
 /*baseline footer*/
  .baseline {
-    position: inherit;
+    position:relative;
     font-size: 1rem;
     text-align: center;
     padding: 5px;
     overflow: hidden;
     border-top: 1px solid white;
     color: white;
-    margin-top: 5rem;
+    margin-top: 18rem;
     bottom: 0;
     right: 0;
     left: 0;

@@ -52,7 +52,7 @@ if ($user_data == "") {
 
     <!--  emberded video-->
     <div class="vplayer" id="hidePlayer">
-        <iframe width="90%" height="90%" name="player" src="https://www.youtube.com/embed/G-IS-scTJDo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        <iframe width="90%" height="90%" name="player" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
         </iframe>
     </div>
     <div class="container">
@@ -63,7 +63,7 @@ if ($user_data == "") {
                 <div class="card">
                     <div class="card-image">
                         <a href="https://www.youtube.com/embed/VS06O0_jn-A" target="player" onclick="openPlayer()">
-                            <img src="media/studing.jpg" alt="boy studing with computer">
+                            <img src="media/lessons/grade1/science/zooanimals_grade1.jpg" alt="boy studing with computer">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play"></i>
                                 <p> 1:03</p>
@@ -74,39 +74,39 @@ if ($user_data == "") {
                 </div>
                 <div class="card">
                     <div class="card-image">
-                        <a href="" target="player" onclick="openPlayer()">
-                            <img src="media/studing.jpg" alt="boy studing with computer">
+                        <a href="https://www.youtube.com/embed/63v7rfAsAgk?si=WHwHtOeX3SzlgUF-" target="player" onclick="openPlayer()">
+                            <img src="media/lessons/grade1/science/wildanimals_grade1.jpg" alt="boy studing with computer">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play"></i>
                                 <p>10.00</p>
                             </div>
                         </a>
                     </div>
-                    <h3>Basic colors</h3>
+                    <h3>Wild Animals</h3>
                 </div>
                 <div class="card">
                     <div class="card-image">
-                        <a>
-                            <img src="media/studing.jpg" alt="boy studing with computer">
+                        <a href="https://www.youtube.com/embed/1AsOIg5B9W0?si=QJkHp57Y9qP7EsG0" target="player" onclick="openPlayer()">
+                            <img src="media/lessons/grade1/science/fruits_grade01.png" alt="boy studing with computer">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play"></i>
                                 <p>10.00</p>
                             </div>
                         </a>
                     </div>
-                    <h3>Basic Shapes</h3>
+                    <h3>Fruits</h3>
                 </div>
                 <div class="card">
                     <div class="card-image">
-                        <a href="lessons.php">
-                            <img src="media/studing.jpg" alt="boy studing with computer">
+                        <a href="https://www.youtube.com/embed/aYz5TAQVMC8?si=MUDgQsQx_ofrewr4" target="player" onclick="openPlayer()">
+                            <img src="media/lessons/grade1/science/vegitables_grade1.jpg" alt="boy studing with computer">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play"></i>
                                 <p>10.00</p>
                             </div>
                         </a>
                     </div>
-                    <h3>video name</h3>
+                    <h3>Vegitables</h3>
                 </div>
                 <div class="card">
                     <div class="card-image">
@@ -176,7 +176,7 @@ if ($user_data == "") {
                 </div>
                 <div class="card">
                     <div class="card-image">
-                        <a href="lessons.php">
+                        <a href="https://www.youtube.com/embed/VS06O0_jn-A" target="player" onclick="openPlayer()">
                             <img src="media/lessons/grade1/science/zooanimals_grade1.jpg" alt="boy studing with computer">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play"></i>
@@ -188,7 +188,7 @@ if ($user_data == "") {
                 </div>
                 <div class="card">
                     <div class="card-image">
-                        <a href="lessons.php">
+                        <a href="https://www.youtube.com/embed/aYz5TAQVMC8?si=MUDgQsQx_ofrewr4" target="player" onclick="openPlayer()">
                             <img src="media/lessons/grade1/science/vegitables_grade1.jpg" alt="boy studing with computer">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play"></i>
@@ -200,7 +200,7 @@ if ($user_data == "") {
                 </div>
                 <div class="card">
                     <div class="card-image">
-                        <a href="lessons.php">
+                        <a href="https://www.youtube.com/embed/1AsOIg5B9W0?si=QJkHp57Y9qP7EsG0" target="player" onclick="openPlayer()">
                             <img src="media/lessons/grade1/science/fruits_grade01.png" alt="boy studing with computer">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play"></i>
@@ -220,7 +220,7 @@ if ($user_data == "") {
                             </div>
                         </a>
                     </div>
-                    <h3>Days in the Week</h3>
+                    <h3>Video</h3>
                 </div>
                 <div class="card">
                     <div class="card-image">
@@ -267,7 +267,7 @@ if ($user_data == "") {
                 <div class="card">
                     <div class="card-image">
                         <a href="https://www.youtube.com/embed/1AsOIg5B9W0" target="player" onclick="openPlayer()">
-                            <img src="media/studing.jpg" alt="boy studing with computer">
+                            <img src="media/lessons/grade1/science/fruits_grade01.png" alt="boy studing with computer">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play"></i>
                                 <p> 2:15</p>
@@ -279,7 +279,7 @@ if ($user_data == "") {
                 <div class="card">
                     <div class="card-image">
                         <a href="https://www.youtube.com/embed/aYz5TAQVMC8" target="player" onclick="openPlayer()">
-                            <img src="media/studing.jpg" alt="boy studing with computer">
+                            <img src="media/lessons/grade1/science/vegitables_grade1.jpg" alt="boy studing with computer">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play"></i>
                                 <p>2:48</p>
@@ -290,27 +290,27 @@ if ($user_data == "") {
                 </div>
                 <div class="card">
                     <div class="card-image">
-                        <a href="lessons.php">
-                            <img src="media/studing.jpg" alt="boy studing with computer">
+                        <a href="https://www.youtube.com/embed/VS06O0_jn-A" target="player" onclick="openPlayer()">
+                            <img src="media/lessons/grade1/science/zooanimals_grade1.jpg" alt="boy studing with computer">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play"></i>
                                 <p>10.00</p>
                             </div>
                         </a>
                     </div>
-                    <h3>video name</h3>
+                    <h3>Zoo Trip</h3>
                 </div>
                 <div class="card">
                     <div class="card-image">
-                        <a href="lessons.php">
-                            <img src="media/studing.jpg" alt="boy studing with computer">
+                        <a href="https://www.youtube.com/embed/63v7rfAsAgk" target="player" onclick="openPlayer()">
+                            <img src="media/lessons/grade1/science/wildanimals_grade1.jpg" alt="boy studing with computer">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play"></i>
                                 <p>10.00</p>
                             </div>
                         </a>
                     </div>
-                    <h3>video name</h3>
+                    <h3>Wild Animals</h3>
                 </div>
                 <div class="card">
                     <div class="card-image">
