@@ -198,18 +198,7 @@ if ($user_data == "") {
                     </div>
                     <h3>Fruits</h3>
                 </div>
-                <div class="card">
-                    <div class="card-image">
-                        <a href="lessons.php">
-                            <img src="media/lessons/grade1/science/days_grade1.png" alt="boy studing with computer">
-                            <div class="overlayVideo">
-                                <i class="fa-regular fa-circle-play"></i>
-                                <p>10.00</p>
-                            </div>
-                        </a>
-                    </div>
-                    <h3>Video</h3>
-                </div>
+            
                 <div class="card">
                     <div class="card-image">
                         <a href="https://www.youtube.com/embed/m9uaCCcpF0Y?si=82RvFHKqkT9csLu7" target="player" onclick="openPlayer()">
