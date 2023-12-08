@@ -119,17 +119,19 @@ window.addEventListener('load', () => {
 })();
 
 // Search Function
-
 function searchCards() {
     const searchValue = document.getElementById('searchInput').value.toLowerCase();
     const cards = document.querySelectorAll('.card h3');
 
+    let scrollToElement = null; // Declare scrollToElement variable here
+
     cards.forEach(card => {
         const cardText = card.textContent.toLowerCase();
-        if (cardText.includes(searchValue) ) {
+        if (cardText.includes(searchValue)) {
             scrollToElement = card.parentNode;
         }
     });
+
 
     if (scrollToElement !== null) {
         scrollToElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
@@ -138,3 +140,4 @@ function searchCards() {
         alert('No matching element found.');
     }
 }
+
