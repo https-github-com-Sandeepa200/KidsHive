@@ -368,7 +368,7 @@ if ($user_data == "") {
             <div class="cardpack">
                 <div class="card">
                     <div class="card-image">
-                        <a>
+                        <a href="https://www.youtube.com/embed/63v7rfAsAgk" target="player" onclick="openPlayer()">
                             <img src="media/studing.jpg" alt="boy studing with computer">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play"></i>
