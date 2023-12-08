@@ -44,6 +44,7 @@ if ($user_data == "") {
         <h1><?php echo $lesson_heading[$languages] ?></h1>
         <!--Subject navigation-->
         <div class="cardpack">
+            <!-- maths buject -->
             <div class="card-1">
                 <h3><?php echo $lessons[$languages]['0'] ?></h3>
                 <ul>
@@ -53,6 +54,7 @@ if ($user_data == "") {
                     <li><a href="mathsVideos.php#grade3"><?php echo $programmes[$languages]['3'] ?></a></li>
                 </ul>
             </div>
+            <!-- english subject -->
             <div class="card-2">
                 <h3><?php echo $lessons[$languages]['1'] ?></h3>
                 <ul>
@@ -62,13 +64,14 @@ if ($user_data == "") {
                     <li><a href="englishVideos.php#grade3"><?php echo $programmes[$languages]['3'] ?></a></li>
                 </ul>
             </div>
+            <!-- science subject -->
             <div class="card-3">
                 <h3><?php echo $lessons[$languages]['2'] ?></h3>
                 <ul>
-                    <li><a href="scienceVideos.php#preSchool"><?php echo $programmes[$languages]['0'] ?></a></li>
+                    <li><a href="scienceVideos.php#preSchool"><?php echo $programmes[$languages]['0'] ?></a></li> 
                     <li><a href="scienceVideos.php#grade1"><?php echo $programmes[$languages]['1'] ?></a></li>
                     <li><a href="scienceVideos.php#grade2"><?php echo $programmes[$languages]['2'] ?></a></li>
-                    <li><a href="scienceVideos.php#grade2"><?php echo $programmes[$languages]['3'] ?></a></li>
+                    <li><a href="scienceVideos.php#grade3"><?php echo $programmes[$languages]['3'] ?></a></li>
                 </ul>
             </div>
         </div>
