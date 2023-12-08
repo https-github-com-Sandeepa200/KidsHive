@@ -134,7 +134,7 @@ if ($user_data == "") {
                 </div>
                 <div class="card">
                     <div class="card-image">
-                        <a href="https://www.youtube.com/embed/XYlGkyS7Myw?si=iZmDLolfVZCRPJvX">
+                        <a href="https://www.youtube.com/embed/XYlGkyS7Myw?si=iZmDLolfVZCRPJvX" target="player" onclick="openPlayer()">
                             <img src="media/lessons/grade1/Science/Our Solar System.png" alt="solar system thumbnails">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play"></i>
@@ -225,7 +225,7 @@ if ($user_data == "") {
                 </div>
                 <div class="card">
                     <div class="card-image">
-                        <a href="https://www.youtube.com/embed/XYlGkyS7Myw?si=iZmDLolfVZCRPJvX">
+                        <a href="https://www.youtube.com/embed/XYlGkyS7Myw?si=iZmDLolfVZCRPJvX" target="player" onclick="openPlayer()">
                             <img src="media/lessons/grade1/Science/Our Solar System.png" alt="solar system thumbnails">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play"></i>
@@ -315,7 +315,7 @@ if ($user_data == "") {
                 </div>
                 <div class="card">
                     <div class="card-image">
-                        <a href="https://www.youtube.com/embed/XYlGkyS7Myw?si=iZmDLolfVZCRPJvX">
+                        <a href="https://www.youtube.com/embed/XYlGkyS7Myw?si=iZmDLolfVZCRPJvX" target="player" onclick="openPlayer()">
                             <img src="media/lessons/grade1/Science/Our Solar System.png" alt="solar system thumbnails">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play"></i>
@@ -357,7 +357,7 @@ if ($user_data == "") {
                 </div>
                 <div class="card">
                     <div class="card-image">
-                        <a href="https://www.youtube.com/embed/XYlGkyS7Myw?si=iZmDLolfVZCRPJvX">
+                        <a href="https://www.youtube.com/embed/XYlGkyS7Myw?si=iZmDLolfVZCRPJvX" target="player" onclick="openPlayer()">
                             <img src="media/lessons/grade1/Science/Our Solar System.png" alt="solar system thumbnails">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play"></i>
