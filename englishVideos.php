@@ -188,7 +188,7 @@ if ($user_data == "") {
                 <div class="card">
                     <div class="card-image">
                         <a href="https://www.youtube.com/embed/dJsm3rVa_Nk" target="player" onclick="openPlayer()">
-                            <img src="media/lessons/grade1/Science/days_grade1.png" alt="Days of the weel">
+                            <img src="media/lessons/grade1/English/days_grade1.png" alt="Days of the week">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play"></i>
                                 <p>1:07</p>
@@ -290,7 +290,7 @@ if ($user_data == "") {
                 <div class="card">
                     <div class="card-image">
                         <a href="https://www.youtube.com/embed/dJsm3rVa_Nk" target="player" onclick="openPlayer()">
-                            <img src="media/lessons/grade1/Science/days_grade1.png" alt="Days of the weel">
+                            <img src="media/lessons/grade1/English/days_grade1.png" alt="Days of the week">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play"></i>
                                 <p>1:07</p>
@@ -392,7 +392,7 @@ if ($user_data == "") {
                 <div class="card">
                     <div class="card-image">
                         <a href="https://www.youtube.com/embed/dJsm3rVa_Nk" target="player" onclick="openPlayer()">
-                            <img src="media/lessons/grade1/Science/days_grade1.png" alt="Days of the weel">
+                            <img src="media/lessons/grade1/English/days_grade1.png" alt="Days of the week">
                             <div class="overlayVideo">
                                 <i class="fa-regular fa-circle-play"></i>
                                 <p>1:07</p>
